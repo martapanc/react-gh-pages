@@ -1,10 +1,10 @@
 import React from 'react';
-import '../../assets/css/main.scss';
+import Intro from './Intro';
 
 function Home() {
     return (
         <div>
-            Home
+            <Intro />
         </div>
     );
 }
