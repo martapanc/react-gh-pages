@@ -119,25 +119,25 @@ function Sidebar() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/cv">
+                            <a className="nav-link" href={'/cv'}>
                                 <i className="fas fa-file-alt fa-fw mr-2" />
                                 CV
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/projects">
+                            <a className="nav-link" href={'/projects'}>
                                 <i className="fas fa-code fa-fw mr-2" />
                                 Projects
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/photos">
+                            <a className="nav-link" href={'/photos'}>
                                 <i className="fas fa-globe fa-fw mr-2" />
                                 Travel photos
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href="/blog">
+                            <a className="nav-link" href={'/blog'}>
                                 <i className="fas fa-blog fa-fw mr-2" />
                                 Blog
                             </a>
