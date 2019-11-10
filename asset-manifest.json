@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/react-gh-pages/static/css/main.44d51356.chunk.css",
-    "main.js": "/react-gh-pages/static/js/main.1e4f6da1.chunk.js",
-    "main.js.map": "/react-gh-pages/static/js/main.1e4f6da1.chunk.js.map",
+    "main.js": "/react-gh-pages/static/js/main.95daa1f1.chunk.js",
+    "main.js.map": "/react-gh-pages/static/js/main.95daa1f1.chunk.js.map",
     "runtime-main.js": "/react-gh-pages/static/js/runtime-main.392e532c.js",
     "runtime-main.js.map": "/react-gh-pages/static/js/runtime-main.392e532c.js.map",
     "static/js/2.17991d76.chunk.js": "/react-gh-pages/static/js/2.17991d76.chunk.js",
     "static/js/2.17991d76.chunk.js.map": "/react-gh-pages/static/js/2.17991d76.chunk.js.map",
     "index.html": "/react-gh-pages/index.html",
-    "precache-manifest.7a8ecb0b2d5751297bdcc17bd5c1a698.js": "/react-gh-pages/precache-manifest.7a8ecb0b2d5751297bdcc17bd5c1a698.js",
+    "precache-manifest.6be0acf0b95c0ac95fb3fc575a593b95.js": "/react-gh-pages/precache-manifest.6be0acf0b95c0ac95fb3fc575a593b95.js",
     "service-worker.js": "/react-gh-pages/service-worker.js",
     "static/css/main.44d51356.chunk.css.map": "/react-gh-pages/static/css/main.44d51356.chunk.css.map",
     "static/media/angular.svg": "/react-gh-pages/static/media/angular.db12f97b.svg",
@@ -38,6 +38,6 @@
     "static/js/runtime-main.392e532c.js",
     "static/js/2.17991d76.chunk.js",
     "static/css/main.44d51356.chunk.css",
-    "static/js/main.1e4f6da1.chunk.js"
+    "static/js/main.95daa1f1.chunk.js"
   ]
 }
