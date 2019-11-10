@@ -1,0 +1,23 @@
+.popover{
+  max-width: 25%;
+}
+
+.project-picture {
+  width: 100%;
+  max-height: 160px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.project-section .item {
+  margin-bottom: 1.3rem;
+}
+
+.filter-btn {
+  height: 30px;
+  padding: 0.2rem 0.7rem;
+}
+
+.hide-project {
+  display: none;
+}

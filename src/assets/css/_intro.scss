@@ -1,0 +1,57 @@
+.school-title-container {
+  display: flex;
+  align-items:center;
+}
+
+.school-icon {
+  width: 55px;
+  float: left;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 7.5%;
+}
+
+.school-title h5 {
+  margin-bottom: 0.2rem;
+  @media (min-width: 1050px) {
+    width: 670px;
+  }
+  @media (min-width: 992px) and (max-width: 1049px) {
+    width: 600px;
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    width: 670px;
+  }
+}
+
+h5 span {
+  float:right;
+}
+
+.item-inner {
+  max-width: 750px;
+}
+
+.responsive-adjust {
+  @media (max-width: 767px) {
+    margin-bottom: 20px;
+  }
+}
+
+img.responsive-hide {
+  margin-left: 10px;
+}
+
+.responsive-hide {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}
+
+.read-more-hide {
+  display: none;
+}
+
+.github-calendar {
+  margin-bottom: 40px;
+}
