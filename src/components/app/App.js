@@ -11,7 +11,7 @@ import NotFound from '../404/NotFound';
 
 function App() {
     return (
-        <Router basename="/react-gh-pages/">
+        <Router basename="react-gh-pages">
             <div className="App">
                 <div className="main-wrapper">
                     <Sidebar />
