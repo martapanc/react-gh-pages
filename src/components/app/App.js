@@ -11,7 +11,7 @@ import NotFound from '../404/NotFound';
 
 function App() {
     return (
-        <Router>
+        <Router basename="/">
             <div className="App">
                 <div className="main-wrapper">
                     <Sidebar />
