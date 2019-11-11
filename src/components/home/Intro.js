@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../assets/css/main.scss';
+import {Link} from "react-router-dom";
 
 function Intro() {
     return (
@@ -36,10 +37,7 @@ function Intro() {
                                 oboist
                             </a>{' '}
                             and&nbsp;
-                            <a className="link-on-bg" href="/photos">
-                                travel photographer
-                            </a>{' '}
-                            in my free time.
+                            <Link className="link-on-bg" to="/photos">travel photographer</Link> in my free time.
                             <br />
                         </div>
 
@@ -47,7 +45,7 @@ function Intro() {
                         <div className="mb-4">
                             <a
                                 className="btn btn-primary mr-2 mb-3"
-                                href="/projects"
+                                href="/#/projects"
                             >
                                 <span className="d-none d-md-inline">
                                     <i className="fas fa-code fa-fw mr-2"></i>
@@ -55,7 +53,7 @@ function Intro() {
                                 </span>{' '}
                                 Projects
                             </a>
-                            <a className="btn btn-secondary mb-3" href="/cv">
+                            <a className="btn btn-secondary mb-3" href="/#/cv">
                                 <span className="d-none d-md-inline">
                                     <i className="fas fa-file-alt fa-fw mr-2"></i>
                                     View
