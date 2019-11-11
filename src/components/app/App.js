@@ -11,7 +11,7 @@ import NotFound from '../404/NotFound';
 
 function App() {
     return (
-        <Router basename="/react-gh-pages">
+        <Router basename="/">
             <div className="App">
                 <div className="main-wrapper">
                     <Sidebar />
@@ -21,7 +21,7 @@ function App() {
                             <Route exact path="/">
                                 <Home/>
                             </Route>
-                            <Route path={'/photos'}>
+                            <Route path='/photos'>
                                 <Photos/>
                             </Route>
                             <Route path="/projects">

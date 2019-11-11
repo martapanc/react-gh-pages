@@ -37,7 +37,7 @@ function Intro() {
                                 oboist
                             </a>{' '}
                             and&nbsp;
-                            <Link className="link-on-bg" to="/photos">travel photographer</Link> in my free time.
+                            <a className="link-on-bg" rel="noopener noreferrer" href={'/#/photos'}>travel photographer</a> in my free time.
                             <br />
                         </div>
 
