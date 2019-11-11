@@ -1,13 +1,17 @@
 import React from 'react';
 import '../../assets/css/main.scss';
 import SectionTitle from '../sectionTitle/SectionTitle';
-import Wip from '../404/Wip';
+import PhotoGallery from './PhotoGallery';
+import WorldMap from './WorldMap';
+import Section from '../app/Section';
 
 function Photos() {
     return (
         <div>
             <SectionTitle props={'Pictures from around the world'} />
-            <Wip />
+            <PhotoGallery />
+            <WorldMap />
+            <Section />
         </div>
     );
 }
