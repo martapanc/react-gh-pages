@@ -14,6 +14,7 @@ import {
 } from '@fortawesome/free-brands-svg-icons';
 import profile from '../../assets/images/profile.png';
 import './styles.scss';
+import {Link} from "react-router-dom";
 
 library.add(
     faLinkedin,
