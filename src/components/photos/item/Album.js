@@ -3,7 +3,6 @@ import React, { Component } from 'react';
 class Album extends Component {
     constructor(props) {
         super(props);
-
         this.data = this.props.props;
     }
 
@@ -19,7 +18,7 @@ class Album extends Component {
                     <img
                         src={this.data.photo}
                         className="img-fluid"
-                        alt="Photo Album"
+                        alt="Album"
                     />
                     <div className="photo-title middle text">
                         {this.data.title}
