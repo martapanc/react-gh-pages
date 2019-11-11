@@ -16,7 +16,6 @@ class ProgrammingLanguage extends Component {
                     (this.data.show ? '' : 'read-more-hide')
                 }
             >
-                {console.log(this.data.title)}
                 <div className="item-inner">
                     {this.data.icons.map((lang, key) => {
                         return (

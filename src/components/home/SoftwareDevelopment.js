@@ -1,7 +1,7 @@
 import React from 'react';
 import $ from 'jquery';
-import Languages from './Languages';
-import ProgrammingLanguage from './ProgrammingLanguage';
+import Languages from './data/LanguageData';
+import ProgrammingLanguage from './items/ProgrammingLanguage';
 
 function SoftwareDevelopment() {
     {
@@ -23,9 +23,7 @@ function SoftwareDevelopment() {
                 </div>
                 <div className="row">
                     <ProgrammingLanguage props={Languages.java} />
-
                     <ProgrammingLanguage props={Languages.python} />
-
                     <ProgrammingLanguage props={Languages.js} />
 
                     <div className="item col-12 col-md-12 col-lg-12 text-right">
@@ -39,15 +37,10 @@ function SoftwareDevelopment() {
                     </div>
 
                     <ProgrammingLanguage props={Languages.cs} />
-
                     <ProgrammingLanguage props={Languages.web} />
-
                     <ProgrammingLanguage props={Languages.sql} />
-
                     <ProgrammingLanguage props={Languages.php} />
-
                     <ProgrammingLanguage props={Languages.os} />
-
                     <ProgrammingLanguage props={Languages.ide} />
                 </div>
             </div>
