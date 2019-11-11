@@ -3,13 +3,13 @@ import '../../assets/css/main.scss';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import Wip from '../404/Wip';
 
-function Photos() {
+function CV() {
     return (
         <div>
-            <SectionTitle props={'Pictures from around the world'} />
+            <SectionTitle props={'My CV'} />
             <Wip />
         </div>
     );
 }
 
-export default Photos;
+export default CV;
