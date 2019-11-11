@@ -39,7 +39,11 @@ class Work extends Component {
                         {this.data.items.length > 1 ? (
                             <ul>
                                 {this.data.items.map((text, key) => {
-                                    return <li key={key}><Markdown>{text}</Markdown></li>;
+                                    return (
+                                        <li key={key}>
+                                            <Markdown>{text}</Markdown>
+                                        </li>
+                                    );
                                 })}
                             </ul>
                         ) : (

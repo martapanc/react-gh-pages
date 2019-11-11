@@ -3,6 +3,7 @@ import Intro from './Intro';
 import SoftwareDevelopment from './SoftwareDevelopment';
 import Section from '../app/Section';
 import WorkExperience from './WorkExperience';
+import Education from './Education';
 
 function Home() {
     return (
@@ -10,6 +11,7 @@ function Home() {
             <Intro />
             <SoftwareDevelopment />
             <WorkExperience />
+            <Education />
             <Section />
         </div>
     );
