@@ -5,7 +5,6 @@ import SectionTitle from '../sectionTitle/SectionTitle';
 import ProjectCard from './ProjectCard';
 import ProjectData from './data/ProjectData';
 import './styles.scss';
-import { Card } from 'react-materialize';
 import Section from '../app/Section';
 
 function Projects() {

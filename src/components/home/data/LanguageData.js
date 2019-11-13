@@ -77,7 +77,7 @@ export const LanguageData = {
         show: false,
     },
     sql: {
-        title: 'JS, Angular, React',
+        title: 'SQL',
         icons: [
             { object: mysql, name: 'MySQL' },
             { object: postgres, name: 'PostgreSQL' },
