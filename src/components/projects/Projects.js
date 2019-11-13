@@ -2,9 +2,11 @@ import React from 'react';
 import '../../assets/css/main.scss';
 import $ from 'jquery';
 import SectionTitle from '../sectionTitle/SectionTitle';
-import ProjectCard from "./ProjectCard";
-import ProjectData from "./data/ProjectData";
+import ProjectCard from './ProjectCard';
+import ProjectData from './data/ProjectData';
 import './styles.scss';
+import { Card } from 'react-materialize';
+import Section from '../app/Section';
 
 function Projects() {
     return (
@@ -15,18 +17,51 @@ function Projects() {
                 <div className="container">
                     <div className="row">
                         <div className="item col-12">
-                            <span><b>Filter by: &emsp;</b></span>
-                            <button id="java-filter-btn" className="btn btn-danger btn-sm filter-btn">Java</button>
-                            <button id="python-filter-btn"
-                                    className="btn btn-primary btn-primary2 btn-sm filter-btn">Python
+                            <span>
+                                <b>Filter by: &emsp;</b>
+                            </span>
+                            <button
+                                id="java-filter-btn"
+                                className="btn btn-danger btn-sm filter-btn"
+                            >
+                                Java
                             </button>
-                            <button id="web-filter-btn" className="btn btn-warning btn-sm filter-btn">Web</button>
-                            <button id="uni-filter-btn" className="btn btn-light btn-sm filter-btn">University</button>
-                            <button id="work-filter-btn" className="btn btn-primary btn-sm filter-btn">Work</button>
-                            <button id="hack-filter-btn"
-                                    className="btn btn-info btn-info2 btn-sm filter-btn">Hackathon
+                            <button
+                                id="python-filter-btn"
+                                className="btn btn-primary btn-primary2 btn-sm filter-btn"
+                            >
+                                Python
                             </button>
-                            <button id="all-filter-btn" className="btn btn-success btn-sm filter-btn">Show all</button>
+                            <button
+                                id="web-filter-btn"
+                                className="btn btn-warning btn-sm filter-btn"
+                            >
+                                Web
+                            </button>
+                            <button
+                                id="uni-filter-btn"
+                                className="btn btn-light btn-sm filter-btn"
+                            >
+                                University
+                            </button>
+                            <button
+                                id="work-filter-btn"
+                                className="btn btn-primary btn-sm filter-btn"
+                            >
+                                Work
+                            </button>
+                            <button
+                                id="hack-filter-btn"
+                                className="btn btn-info btn-info2 btn-sm filter-btn"
+                            >
+                                Hackathon
+                            </button>
+                            <button
+                                id="all-filter-btn"
+                                className="btn btn-success btn-sm filter-btn"
+                            >
+                                Show all
+                            </button>
                         </div>
                     </div>
                     <div className="row">
@@ -36,19 +71,53 @@ function Projects() {
                     </div>
                 </div>
             </section>
+
+            <Section />
         </div>
     );
 }
 
-$(function(){
+$(function() {
+    ProjectData.forEach(function(project) {
+        const id = project.id;
+        const expandBtnClass = '.' + id + '-expand-btn';
+        const cardRevealClass = '.' + id + '-card-reveal';
 
-    $('#show').on('click',function(){
-        $('.card-reveal').slideToggle('slow');
+        $(expandBtnClass).on('click', function() {
+            $(cardRevealClass).slideToggle('slow');
+        });
+
+        $(cardRevealClass + ' .close').on('click', function() {
+            $(cardRevealClass).slideToggle('slow');
+        });
     });
 
-    $('.card-reveal .close').on('click',function(){
-        $('.card-reveal').slideToggle('slow');
-    });
+    const filterButtonList = [
+        'java',
+        'python',
+        'web',
+        'uni',
+        'work',
+        'hack',
+        'all',
+    ];
+    filterButtonList.forEach(filterOnClick);
+
+    function filterOnClick(item, index) {
+        $('#' + item + '-filter-btn').click(function() {
+            $('.project-card').each(function() {
+                $(this).show();
+                if (item !== 'all') {
+                    let tags = $(this)
+                        .attr('data-tags')
+                        .split(',');
+                    if (!tags.includes(item)) {
+                        $(this).hide();
+                    }
+                }
+            });
+        });
+    }
 });
 
 export default Projects;
