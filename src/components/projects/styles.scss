@@ -52,7 +52,7 @@
   font-size: 15px;
   color: #fbfffd;
   text-transform:uppercase;
-  margin-right: 20px;
+  margin-right: 7px;
   -webkit-transition: color 0.3s ease;
   -moz-transition: color 0.3s ease;
   -o-transition: color 0.3s ease;
@@ -103,5 +103,12 @@
 .site-btn {
   padding: 10px;
   background-color: #5474ff;
+  border-radius: 5px;
+}
+
+
+.video-btn {
+  padding: 10px;
+  background-color: #780031;
   border-radius: 5px;
 }
