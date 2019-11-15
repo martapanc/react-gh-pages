@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import '../../assets/css/main.scss';
 import './styles.scss';
 import Markdown from 'markdown-to-jsx';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faNewspaper } from '@fortawesome/free-regular-svg-icons';
+import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 class ProjectCard extends Component {
     constructor(props) {
@@ -10,9 +14,11 @@ class ProjectCard extends Component {
     }
 
     render() {
-        const hasRepo = this.data.repo !== '';
-        const hasSite = this.data.site !== '';
-        const hasReport = this.data.report !== '';
+        const hasRepo = this.data.repo != null;
+        const hasSite = this.data.site != null;
+        const hasReport = this.data.report != null;
+        const hasArticle = this.data.article != null;
+        const hasVideo = this.data.video != null;
         return (
             <div
                 className="col-12 col-md-4 col-lg-4 project-card"
@@ -22,7 +28,9 @@ class ProjectCard extends Component {
                     <img className="img-responsive" src={this.data.photo} />
 
                     <div className="card-content">
-                        <span className="card-title">{this.data.title}</span>
+                        <span className="card-title">
+                            <Markdown>{this.data.title}</Markdown>
+                        </span>
                         <button
                             type="button"
                             className={`btn btn-custom pull-right ${this.data.id}-expand-btn`}
@@ -58,13 +66,35 @@ class ProjectCard extends Component {
                                 href={this.data.report}
                                 target="new_blank"
                             >
-                                <i className="fa fa-file fa-fw" />
-                                &nbsp; Check Report
+                                <FontAwesomeIcon icon={faFileAlt} />
+                                &nbsp; Report
+                            </a>
+                        )}
+                        {hasArticle && (
+                            <a
+                                className="report-btn"
+                                href={this.data.article}
+                                target="new_blank"
+                            >
+                                <FontAwesomeIcon icon={faNewspaper} />
+                                &nbsp; See article
+                            </a>
+                        )}
+                        {hasVideo && (
+                            <a
+                                className="video-btn"
+                                href={this.data.video}
+                                target="new_blank"
+                            >
+                                <FontAwesomeIcon icon={faYoutube} />
+                                &nbsp; Video
                             </a>
                         )}
                     </div>
                     <div className={`${this.data.id}-card-reveal card-reveal`}>
-                        <span className="card-title">{this.data.title}</span>
+                        <span className="card-title">
+                            <Markdown>{this.data.title}</Markdown>
+                        </span>
                         <button
                             type="button"
                             className="close"
