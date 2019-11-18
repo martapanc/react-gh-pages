@@ -170,7 +170,7 @@ export const ProjectData = [
         repo: 'https://github.com/martapanc/react-gh-pages',
         tags: ['web'],
         text:
-            'This very website :) <br/> Built with ReactJS, it\' also a chance to play around with my web ' +
+            "This very website :) <br/> Built with ReactJS, it' also a chance to play around with my web " +
             'development skills and experiment with front-end technologies.',
     },
 ];

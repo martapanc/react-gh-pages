@@ -14,11 +14,13 @@ function Ict() {
             <div className="item-content">
                 <ul>
                     <li>
-                        300-hours curricular internship followed by a 5-months part-time contract.
+                        300-hours curricular internship followed by a 5-months
+                        part-time contract.
                     </li>
                     <li>
-                        Development of a web application to manage employees’ requests of absence, permit or business trip
-                        and handle any errors in working time records.
+                        Development of a web application to manage employees’
+                        requests of absence, permit or business trip and handle
+                        any errors in working time records.
                     </li>
                 </ul>
                 <div className="text-right">

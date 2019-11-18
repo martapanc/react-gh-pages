@@ -12,11 +12,17 @@ function Ieee() {
                 </div>
             </div>
             <div className="item-content">
-                Collaboration in writing an <a href="https://www.computer.org/csdl/magazine/cd/2018/06/mcd2018060058/17D45XwUAKp">
-                article</a> for IEEE about contracts and policies of cloud services, following
-                the changes introduced by the new European law on data protection (GDPR).
+                Collaboration in writing an{' '}
+                <a href="https://www.computer.org/csdl/magazine/cd/2018/06/mcd2018060058/17D45XwUAKp">
+                    article
+                </a>{' '}
+                for IEEE about contracts and policies of cloud services,
+                following the changes introduced by the new European law on data
+                protection (GDPR).
                 <div className="text-right">
-                    <span className="badge badge-primary">Cloud Technologies</span>
+                    <span className="badge badge-primary">
+                        Cloud Technologies
+                    </span>
                     <span className="badge badge-primary">SaaS</span>
                     <span className="badge badge-primary">GDPR</span>
                 </div>

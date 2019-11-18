@@ -12,34 +12,37 @@ function BookingGo() {
                 </div>
             </div>
             <div className="item-content">
-                <p>
-                    Team rotation every six months
-                </p>
+                <p>Team rotation every six months</p>
                 <p>
                     Past teams:
                     <ul>
                         <li>
-                            Maintenance of the Payment page of Rentalcars.com and related user experience;
+                            Maintenance of the Payment page of Rentalcars.com
+                            and related user experience;
                         </li>
                         <li>
-                            Development and scaling of the new "Premium" insurance product;
+                            Development and scaling of the new "Premium"
+                            insurance product;
                         </li>
                         <li>
-                            Web-replatforming: design of various filters for the RC.com results page and the
-                            "Premium" upsell banners, using React and integrating the components into the main webapp.
+                            Web-replatforming: design of various filters for the
+                            RC.com results page and the "Premium" upsell
+                            banners, using React and integrating the components
+                            into the main webapp.
                         </li>
                     </ul>
                 </p>
-                <p>
-                    Current team: supplier integrations platform
-                </p>
+                <p>Current team: supplier integrations platform</p>
                 <ul>
                     <li>
-                        Everyday development follows the Agile principles, in particular the Kanban approach, including
-                        activities like pair programming and testing, code reviews, stand-ups an retros.
+                        Everyday development follows the Agile principles, in
+                        particular the Kanban approach, including activities
+                        like pair programming and testing, code reviews,
+                        stand-ups an retros.
                     </li>
                     <li>
-                        Recently involved in interviewing students who applied for the BookingGo grad scheme.
+                        Recently involved in interviewing students who applied
+                        for the BookingGo grad scheme.
                     </li>
                 </ul>
 

@@ -3,15 +3,15 @@ import '../../assets/css/main.scss';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import Section from '../app/Section';
 import './styles.scss';
-import BookingGo from "./sections/BookingGo";
-import Ieee from "./sections/Ieee";
-import Ict from "./sections/Ict";
-import Projects from "./sections/Projects";
+import BookingGo from './sections/BookingGo';
+import Ieee from './sections/Ieee';
+import Ict from './sections/Ict';
+import Projects from './sections/Projects';
 
 function CV() {
     return (
         <div>
-            <SectionTitle props={'My CV'}/>
+            <SectionTitle props={'My CV'} />
 
             <div>
                 <div className="container px-3 px-lg-5">
@@ -50,22 +50,26 @@ function CV() {
                                 </div>
                             </div>
                         </div>
-                        <hr/>
+                        <hr />
                         <div className="resume-intro py-2">
                             <div className="media flex-column flex-md-row align-items-center">
                                 <div className="media-body text-left">
                                     <p className="mb-0">
-                                        I'm a software engineer looking for opportunities to improve my technical skills
-                                        and gain experience in the IT world.
-                                        <br/>
-                                        Optimistic, hard-working and eager to learn.
-                                        <br/>
-                                        Fiction writer, oboist and travel photographer in my free time.
+                                        I'm a software engineer looking for
+                                        opportunities to improve my technical
+                                        skills and gain experience in the IT
+                                        world.
+                                        <br />
+                                        Optimistic, hard-working and eager to
+                                        learn.
+                                        <br />
+                                        Fiction writer, oboist and travel
+                                        photographer in my free time.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <hr/>
+                        <hr />
                         <div className="resume-body">
                             <div className="row">
                                 <div className="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-4">
@@ -73,12 +77,12 @@ function CV() {
                                         <h3 className="text-uppercase resume-section-heading mb-3">
                                             Work Experience
                                         </h3>
-                                        <BookingGo/>
-                                        <Ieee/>
-                                        <Ict/>
+                                        <BookingGo />
+                                        <Ieee />
+                                        <Ict />
                                     </section>
 
-                                    <Projects/>
+                                    <Projects />
                                 </div>
                                 <aside className="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-3">
                                     <section className="education-section py-3">
@@ -182,7 +186,9 @@ function CV() {
                                         <ul className="list-unstyled resume-awards-list">
                                             <li className="mb-3">
                                                 <div className="font-weight-bold">
-                                                    Scholarship for Special Merits & Academic Performance (2017)
+                                                    Scholarship for Special
+                                                    Merits & Academic
+                                                    Performance (2017)
                                                 </div>
                                                 <div className="text-muted">
                                                     Province of Bolzano
@@ -190,7 +196,9 @@ function CV() {
                                             </li>
                                             <li>
                                                 <div className="font-weight-bold">
-                                                    Erasmus+ & Bilateral Agreements Scholarship (2015)
+                                                    Erasmus+ & Bilateral
+                                                    Agreements Scholarship
+                                                    (2015)
                                                 </div>
                                                 <div className="text-muted">
                                                     Free University of Bolzano
@@ -241,7 +249,7 @@ function CV() {
                                 </aside>
                             </div>
                         </div>
-                        <hr/>
+                        <hr />
                         <div className="resume-footer text-center">
                             <ul className="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
                                 <li className="list-inline-item mb-lg-0 mr-3">
@@ -305,7 +313,7 @@ function CV() {
                     </small>
                 </footer>
             </div>
-            <Section/>
+            <Section />
         </div>
     );
 }
