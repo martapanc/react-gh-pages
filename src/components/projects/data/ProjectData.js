@@ -12,6 +12,7 @@ import library from '../../../assets/images/projects/library.webp';
 import glurns from '../../../assets/images/projects/glurns.webp';
 import gdpr from '../../../assets/images/projects/gdpr.webp';
 import emma from '../../../assets/images/projects/emma.webp';
+import website from '../../../assets/images/projects/website.webp';
 
 export const ProjectData = [
     {
@@ -161,6 +162,16 @@ export const ProjectData = [
             'a LED matrix and a **Raspberry Pi** to build a wall panel that displays scrolling messages and pictures. ' +
             'The software was a simple bash script that converted images and text into a suitable format and displayed ' +
             'it on the matrix.',
+    },
+    {
+        title: 'mpancaldi.com',
+        id: 'site',
+        photo: website,
+        repo: 'https://github.com/martapanc/react-gh-pages',
+        tags: ['web'],
+        text:
+            'This very website :) <br/> Built with ReactJS, it\' also a chance to play around with my web ' +
+            'development skills and experiment with front-end technologies.',
     },
 ];
 
