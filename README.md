@@ -1,3 +1,15 @@
+# Personal Website
+
+### [mpancaldi.netlify.com](https://mpancaldi.netlify.com)
+
+![Netlify Status](https://img.shields.io/netlify/556f64f1-c7a4-489f-9b01-7ca7e0951cc1)
+![GitHub last commit](https://img.shields.io/github/last-commit/martapanc/react-gh-pages)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0ebd3d2a46db40adbed4872266190573)](https://www.codacy.com/manual/martapanc/martapanc.github.io?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=martapanc/martapanc.github.io&amp;utm_campaign=Badge_Grade)
+![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fmpancaldi.netlify.com)
+![Code size](https://img.shields.io/github/languages/code-size/martapanc/react-gh-pages)
+![Repo Size](https://img.shields.io/github/repo-size/martapanc/react-gh-pages)
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
