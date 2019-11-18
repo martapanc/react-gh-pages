@@ -3,11 +3,15 @@ import '../../assets/css/main.scss';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import Section from '../app/Section';
 import './styles.scss';
+import BookingGo from "./sections/BookingGo";
+import Ieee from "./sections/Ieee";
+import Ict from "./sections/Ict";
+import Projects from "./sections/Projects";
 
 function CV() {
     return (
         <div>
-            <SectionTitle props={'My CV'} />
+            <SectionTitle props={'My CV'}/>
 
             <div>
                 <div className="container px-3 px-lg-5">
@@ -46,223 +50,43 @@ function CV() {
                                 </div>
                             </div>
                         </div>
-                        <hr />
-                        <div className="resume-intro py-3">
+                        <hr/>
+                        <div className="resume-intro py-2">
                             <div className="media flex-column flex-md-row align-items-center">
                                 <div className="media-body text-left">
                                     <p className="mb-0">
-                                        I'm a software engineer looking for
-                                        opportunities to improve my technical
-                                        skills and gain experience in the IT
-                                        world.
-                                        <br />
-                                        Optimistic, hard-working and eager to
-                                        learn.
-                                        <br />
-                                        Fiction writer, oboist and travel
-                                        photographer in my free time.
+                                        I'm a software engineer looking for opportunities to improve my technical skills
+                                        and gain experience in the IT world.
+                                        <br/>
+                                        Optimistic, hard-working and eager to learn.
+                                        <br/>
+                                        Fiction writer, oboist and travel photographer in my free time.
                                     </p>
                                 </div>
                             </div>
                         </div>
-                        <hr />
+                        <hr/>
                         <div className="resume-body">
                             <div className="row">
-                                <div className="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-5">
-                                    <section className="work-section py-3">
-                                        <h3 className="text-uppercase resume-section-heading mb-4">
+                                <div className="resume-main col-12 col-lg-8 col-xl-9 pr-0 pr-lg-4">
+                                    <section className="work-section py-2">
+                                        <h3 className="text-uppercase resume-section-heading mb-3">
                                             Work Experience
                                         </h3>
-                                        <div className="item mb-3">
-                                            <div className="item-heading row align-items-center mb-2">
-                                                <h4 className="item-title col-12 col-md-7">
-                                                    Graduate Software Engineer
-                                                </h4>
-                                                <div className="item-meta col-12 col-md-5 text-muted text-left text-md-right">
-                                                    BookingGo | 2018 - Present
-                                                </div>
-                                            </div>
-                                            <div className="item-content">
-                                                <p>
-                                                    Team rotation every six
-                                                    months
-                                                </p>
-                                                <p>
-                                                    Past teams:
-                                                    <ul>
-                                                        <li>
-                                                            Maintenance of the
-                                                            Payment page of
-                                                            Rentalcars.com and
-                                                            related user
-                                                            experience;
-                                                        </li>
-                                                        <li>
-                                                            Development of the
-                                                            Sanction Screening
-                                                            process tool;
-                                                        </li>
-                                                        <li>
-                                                            Development and
-                                                            scaling of the new
-                                                            "Premium" insurance
-                                                            product;
-                                                        </li>
-                                                        <li>
-                                                            Web-replatforming:
-                                                            development of
-                                                            various filters for
-                                                            the RC.com results
-                                                            page and of the
-                                                            "Premium" and "Full
-                                                            Insurance" upsell
-                                                            banners, using React
-                                                            and integrating the
-                                                            said components into
-                                                            the main webapp.
-                                                        </li>
-                                                    </ul>
-                                                </p>
-                                                <p>
-                                                    Current team: supplier
-                                                    integrations platform
-                                                </p>
-                                                <ul>
-                                                    <li>
-                                                        Everyday development
-                                                        follows the Agile
-                                                        principles, in
-                                                        particular the Kanban
-                                                        approach, including
-                                                        activities like pair
-                                                        programming and testing,
-                                                        code reviews, stand-ups
-                                                        an retros.
-                                                    </li>
-                                                    <li>
-                                                        Recently involved in
-                                                        interviewing students
-                                                        who applied for the
-                                                        BookingGo grad scheme.
-                                                    </li>
-                                                </ul>
-
-                                                <span className="badge badge-primary">
-                                                    Java
-                                                </span>
-                                                <span className="badge badge-primary">
-                                                    JavaScript
-                                                </span>
-                                                <span className="badge badge-primary">
-                                                    React
-                                                </span>
-                                                <span className="badge badge-primary">
-                                                    PHP
-                                                </span>
-                                                <span className="badge badge-primary">
-                                                    MySQL
-                                                </span>
-                                                <span className="badge badge-primary">
-                                                    Docker
-                                                </span>
-                                                <span className="badge badge-primary">
-                                                    Jira
-                                                </span>
-                                                <span className="badge badge-primary">
-                                                    Bamboo
-                                                </span>
-                                            </div>
-                                        </div>
+                                        <BookingGo/>
+                                        <Ieee/>
+                                        <Ict/>
                                     </section>
 
-                                    <section className="project-section py-3">
-                                        <h3 className="text-uppercase resume-section-heading mb-4">
-                                            Projects
-                                        </h3>
-                                        <div className="item mb-3">
-                                            <div className="item-heading row align-items-center mb-2">
-                                                <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                                                    Project Lorem Ipsum
-                                                </h4>
-                                                <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                                                    Open Source
-                                                </div>
-                                            </div>
-                                            <div className="item-content">
-                                                <p>
-                                                    You can use this section for
-                                                    your side projects. You can{' '}
-                                                    <a
-                                                        href="#"
-                                                        className="theme-link"
-                                                    >
-                                                        provide a project link
-                                                        here
-                                                    </a>{' '}
-                                                    as well. Lorem ipsum dolor
-                                                    sit amet, consectetuer
-                                                    adipiscing elit. Aenean
-                                                    commodo ligula eget dolor.
-                                                    Aenean massa. Cum sociis
-                                                    natoque penatibus et magnis
-                                                    dis parturient montes,
-                                                    nascetur ridiculus mus.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="item-heading row align-items-center mb-2">
-                                                <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                                                    Project Sed Fringilla
-                                                </h4>
-                                                <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                                                    Open Source
-                                                </div>
-                                            </div>
-                                            <div className="item-content">
-                                                <p>
-                                                    You can use this section for
-                                                    your side projects. Cras
-                                                    dapibus. Vivamus elementum
-                                                    semper nisi. Aenean
-                                                    vulputate eleifend tellus.
-                                                    Aenean leo ligula, porttitor
-                                                    eu, consequat vitae,
-                                                    eleifend ac, enim.
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <div className="item">
-                                            <div className="item-heading row align-items-center mb-2">
-                                                <h4 className="item-title col-12 col-md-6 col-lg-8 mb-2 mb-md-0">
-                                                    Project Praesent{' '}
-                                                </h4>
-                                                <div className="item-meta col-12 col-md-6 col-lg-4 text-muted text-left text-md-right">
-                                                    Open Source
-                                                </div>
-                                            </div>
-                                            <div className="item-content">
-                                                <p>
-                                                    You can use this section for
-                                                    your side projects. Cras
-                                                    dapibus. Vivamus elementum
-                                                    semper nisi. Aenean
-                                                    vulputate eleifend tellus.
-                                                    Aenean leo ligula, porttitor
-                                                    eu, consequat vitae,
-                                                    eleifend ac, enim.
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </section>
+                                    <Projects/>
                                 </div>
-                                <aside className="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-4">
+                                <aside className="resume-aside col-12 col-lg-4 col-xl-3 px-lg-4 pb-lg-3">
                                     <section className="education-section py-3">
-                                        <h3 className="text-uppercase resume-section-heading mb-4">
+                                        <h3 className="text-uppercase resume-section-heading mb-3">
                                             Education
                                         </h3>
                                         <ul className="list-unstyled resume-education-list">
-                                            <li className="mb-3">
+                                            <li className="mb-2">
                                                 <div className="resume-degree font-weight-bold">
                                                     MSc in Advanced Computer
                                                     Science
@@ -274,7 +98,7 @@ function CV() {
                                                     2017 - 2018
                                                 </div>
                                             </li>
-                                            <li>
+                                            <li className="mb-2">
                                                 <div className="resume-degree font-weight-bold">
                                                     BSc in Computer Science
                                                 </div>
@@ -285,11 +109,22 @@ function CV() {
                                                     2014 - 2017
                                                 </div>
                                             </li>
+                                            <li>
+                                                <div className="resume-degree font-weight-bold">
+                                                    Exchange Semester
+                                                </div>
+                                                <div className="resume-degree-org text-muted">
+                                                    College of Charleston
+                                                </div>
+                                                <div className="resume-degree-time text-muted">
+                                                    2015 - 2016
+                                                </div>
+                                            </li>
                                         </ul>
                                     </section>
 
                                     <section className="skills-section py-3">
-                                        <h3 className="text-uppercase resume-section-heading mb-4">
+                                        <h3 className="text-uppercase resume-section-heading mb-3">
                                             Skills
                                         </h3>
                                         <div className="item">
@@ -347,18 +182,18 @@ function CV() {
                                         <ul className="list-unstyled resume-awards-list">
                                             <li className="mb-3">
                                                 <div className="font-weight-bold">
-                                                    Award Lorem Ipsum
+                                                    Scholarship for Special Merits & Academic Performance (2017)
                                                 </div>
                                                 <div className="text-muted">
-                                                    Microsoft lorem ipsum (2019)
+                                                    Province of Bolzano
                                                 </div>
                                             </li>
                                             <li>
                                                 <div className="font-weight-bold">
-                                                    Award Donec Sodales
+                                                    Erasmus+ & Bilateral Agreements Scholarship (2015)
                                                 </div>
                                                 <div className="text-muted">
-                                                    Oracle Aenean (2017)
+                                                    Free University of Bolzano
                                                 </div>
                                             </li>
                                         </ul>
@@ -406,7 +241,7 @@ function CV() {
                                 </aside>
                             </div>
                         </div>
-                        <hr />
+                        <hr/>
                         <div className="resume-footer text-center">
                             <ul className="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
                                 <li className="list-inline-item mb-lg-0 mr-3">
@@ -470,7 +305,7 @@ function CV() {
                     </small>
                 </footer>
             </div>
-            <Section />
+            <Section/>
         </div>
     );
 }
