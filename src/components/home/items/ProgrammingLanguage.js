@@ -20,6 +20,7 @@ class ProgrammingLanguage extends Component {
                     {this.data.icons.map((lang, key) => {
                         return (
                             <img
+                                className="programming-language-icon"
                                 src={lang.object}
                                 alt={lang.name}
                                 width="35"
