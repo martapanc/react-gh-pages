@@ -20,7 +20,7 @@ import redhat from '../../../assets/images/languages/redhat.svg';
 import intellij from '../../../assets/images/languages/intellij.png';
 import netbeans from '../../../assets/images/languages/netbeans.png';
 import vsc from '../../../assets/images/languages/vsc.svg';
-import eclipse from '../../../assets/images/languages/eclipse.png';
+import eclipse from '../../../assets/images/languages/eclipse.webp';
 import atom from '../../../assets/images/languages/atom.jpeg';
 
 export const LanguageData = {
