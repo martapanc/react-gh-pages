@@ -4,7 +4,7 @@ import './styles.scss';
 import Markdown from 'markdown-to-jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faNewspaper } from '@fortawesome/free-regular-svg-icons';
-import { faFileAlt } from '@fortawesome/free-solid-svg-icons';
+import { faFileAlt, faImages } from '@fortawesome/free-solid-svg-icons';
 import { faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 class ProjectCard extends Component {
@@ -19,6 +19,7 @@ class ProjectCard extends Component {
         const hasReport = this.data.report != null;
         const hasArticle = this.data.article != null;
         const hasVideo = this.data.video != null;
+        const hasPics = this.data.pics != null;
         return (
             <div
                 className="col-12 col-md-4 col-lg-4 project-card"
@@ -88,6 +89,16 @@ class ProjectCard extends Component {
                             >
                                 <FontAwesomeIcon icon={faYoutube} />
                                 &nbsp; Video
+                            </a>
+                        )}
+                        {hasPics && (
+                            <a
+                                className="screenshot-btn"
+                                href={this.data.pics}
+                                target="new_blank"
+                            >
+                                <FontAwesomeIcon icon={faImages} />
+                                &nbsp; Screenshots
                             </a>
                         )}
                     </div>

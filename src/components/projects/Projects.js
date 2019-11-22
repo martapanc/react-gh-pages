@@ -38,6 +38,12 @@ function Projects() {
                                 Web
                             </button>
                             <button
+                                id="self-filter-btn"
+                                className="btn btn-orange btn-sm filter-btn"
+                            >
+                                Personal
+                            </button>
+                            <button
                                 id="uni-filter-btn"
                                 className="btn btn-light btn-sm filter-btn"
                             >
@@ -95,6 +101,7 @@ $(function() {
         'java',
         'python',
         'web',
+        'self',
         'uni',
         'work',
         'hack',
