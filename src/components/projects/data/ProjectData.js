@@ -13,6 +13,27 @@ import glurns from '../../../assets/images/projects/glurns.webp';
 import gdpr from '../../../assets/images/projects/gdpr.webp';
 import emma from '../../../assets/images/projects/emma.webp';
 import website from '../../../assets/images/projects/website.webp';
+import noodle1 from '../../../assets/images/projects/noodle1.webp';
+import noodlePics from '../../../assets/images/projects/noodle-pics.pdf';
+import zebra from '../../../assets/images/projects/zebra.webp';
+import programming from '../../../assets/images/projects/programming.webp';
+
+function shuffle(array) {
+    var currentIndex = array.length,
+        temporaryValue,
+        randomIndex;
+
+    while (0 !== currentIndex) {
+        randomIndex = Math.floor(Math.random() * currentIndex);
+        currentIndex -= 1;
+
+        temporaryValue = array[currentIndex];
+        array[currentIndex] = array[randomIndex];
+        array[randomIndex] = temporaryValue;
+    }
+
+    return array;
+}
 
 export const ProjectData = [
     {
@@ -168,11 +189,49 @@ export const ProjectData = [
         id: 'site',
         photo: website,
         repo: 'https://github.com/martapanc/react-gh-pages',
-        tags: ['web'],
+        tags: ['web', 'self'],
         text:
             "This very website :) <br/> Built with ReactJS, it' also a chance to play around with my web " +
             'development skills and experiment with front-end technologies.',
     },
+    {
+        title: 'Rentalcars.com Premium',
+        id: 'premium',
+        photo: noodle1,
+        pics: noodlePics,
+        tags: ['web', 'work'],
+        text:
+            'As a part of the Graduate Scheme at BookingGo, I joined the team that develops the **"Premium" insurance product**, ' +
+            'which offers exclusive benefits to the customer such as skipping the line at the car pickup counter, low deposit ' +
+            'and a dedicated helpline to deal with claims. We built the UI in **React**, developing various components (a comparison ' +
+            'of the available insurance options for the car details page, a few upsell banners and information sections) that we then ' +
+            'integrated in the main webapp.',
+    },
+    {
+        title: 'Web Scraper',
+        id: 'scraper',
+        photo: zebra,
+        repo: 'https://github.com/martapanc/Zebra-Scraper',
+        tags: ['python', 'self'],
+        text:
+            'What to do when your energy supplier offers a live balance of the energy usage in your account and you wish to monitor it ' +
+            "to know how much you're spending, but at the same time you don't want to login every few hours? For me it was the perfect " +
+            "chance to learn **web scraping** with Python. The result is a script that logs in to my account, calls the supplier's API " +
+            'at the desired time intervals and saves the results. A simple task, but a meaningful achievement and a fun way to apply coding ' +
+            'skills to a real-life problem.',
+    },
+    {
+        title: 'Daily Programming',
+        id: 'daily',
+        photo: programming,
+        repo: 'https://github.com/martapanc/dailyProgramming',
+        tags: ['java', 'self'],
+        text:
+            'They say "Practice makes perfect", and that\'s why a good programmer should write code every day. The way I like to practice, when I don\'t ' +
+            'have more complex projects to work on, is to pick a coding challenge (e.g. from [r/dailyProgrammer](https://www.reddit.com/r/dailyprogrammer/), ' +
+            '[CodeWars](https://www.codewars.com/dashboard), [Project Euler](https://projecteuler.net/), [Advent of Code](https://adventofcode.com/)...), ' +
+            'or simply to think of a problem I want to tackle, and write my solution for it. This repository is a collection of all such challenges.',
+    },
 ];
 
-export default ProjectData;
+export default shuffle(ProjectData);

@@ -15,3 +15,14 @@
     border-color: transparent;
   }
 }
+
+.btn-orange {
+  background-color: #b86e00;
+  color: white;
+
+  &:hover {
+    background: #b85700;
+    border-color: transparent;
+    color: white;
+  }
+}
