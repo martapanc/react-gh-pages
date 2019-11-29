@@ -306,6 +306,7 @@ function CV() {
                             className="theme-link"
                             href="http://themes.3rdwavemedia.com"
                             target="_blank"
+                            rel="noopener noreferrer"
                         >
                             Xiaoying Riley
                         </a>{' '}

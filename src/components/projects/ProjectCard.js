@@ -26,7 +26,7 @@ class ProjectCard extends Component {
                 data-tags={this.data.tags}
             >
                 <div className="card">
-                    <img className="img-responsive" src={this.data.photo} />
+                    <img className="img-responsive" src={this.data.photo} alt="Project"/>
 
                     <div className="card-content">
                         <span className="card-title">

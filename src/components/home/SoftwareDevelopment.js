@@ -4,9 +4,6 @@ import Languages from './data/LanguageData';
 import ProgrammingLanguage from './items/ProgrammingLanguage';
 
 function SoftwareDevelopment() {
-    {
-        /* TODO: adjust squared icons */
-    }
     return (
         <section className="overview-section p-3 p-lg-3">
             <div className="container">
