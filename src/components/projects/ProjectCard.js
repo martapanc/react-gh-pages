@@ -104,7 +104,7 @@ class ProjectCard extends Component {
                     </div>
                     <div className={`${this.data.id}-card-reveal card-reveal`}>
                         <span className="card-title">
-                            <Markdown>{this.data.title}</Markdown>
+                            <strong><Markdown>{this.data.title}</Markdown></strong>
                         </span>
                         <button
                             type="button"

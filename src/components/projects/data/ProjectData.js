@@ -39,19 +39,23 @@ export const ProjectData = [
     {
         title: "Werner's Burgers & Panini",
         id: 'werners',
+        year: '2017',
         photo: werner,
         repo: 'https://github.com/martapanc/restaurantManager',
+        site: 'https://werners-restaurant.herokuapp.com/',
         tags: ['java', 'js', 'db', 'web', 'uni'],
         text:
             'A full **Restaurant Manager webapp** in **Java** is the final project my team developed for ' +
             'the Internet & Mobile Services course: it allows customers to reserve a table or to book a ' +
             'takeaway order, and the restaurant managers to verify the status of the reservations and orders, ' +
             "add and remove takeaway meals and check other employees' accounts, mostly in the form of CRUD " +
-            'tables.',
+            'tables. <br/>I\'ve recently made a v2 in Spring and deployed it on Heroku - ' +
+            '<a href="https://werners-restaurant.herokuapp.com/" target="_blank">check it out</a>!',
     },
     {
         title: 'Cloud computing & GDPR',
         id: 'gdpr',
+        year: '2018',
         photo: gdpr,
         article:
             'https://www.computer.org/csdl/magazine/cd/2018/06/mcd2018060058/17D45XwUAKp',
@@ -66,11 +70,12 @@ export const ProjectData = [
     {
         title: 'Holiday request manager',
         id: 'timesheet',
+        year: '2016',
         photo: ict,
         report: ictReport,
         tags: ['js', 'web', 'work'],
         text:
-            'I interned for three months at the [ICT-Group](https://www.ict-group.it/en/) ' +
+            'I interned for three months at the <a href=\"https://www.ict-group.it/en/\" target=\"_blank\">ICT-Group</a> ' +
             'as a web developer, and my task was to build an additional feature to the company’s **HR ' +
             'management software**: a portal for the request and approval of the employee vacations, ' +
             'work permits, transfers and bank hours. The UI I developed consists of customisable calendars ' +
@@ -80,6 +85,7 @@ export const ProjectData = [
     {
         title: 'Food Saver (GESS 2017)',
         id: 'gess',
+        year: '2018',
         photo: gess,
         site: 'https://globalsummerschool.org/shanghai/',
         tags: ['hack'],
@@ -96,6 +102,7 @@ export const ProjectData = [
     {
         title: 'wc clone (Unix)',
         id: 'wc',
+        year: '2017',
         photo: wc,
         repo: 'https://github.com/martapanc/comp61511',
         tags: ['python', 'uni'],
@@ -108,6 +115,7 @@ export const ProjectData = [
     {
         title: 'MSc Dissertation -<br/>Automated Grading',
         id: 'msc',
+        year: '2018',
         photo: mscBook,
         report: mscDiss,
         tags: ['python', 'uni', 'public'],
@@ -120,6 +128,7 @@ export const ProjectData = [
     {
         title: 'BSc Dissertation -<br/>Technical Debt',
         id: 'bsc',
+        year: '2017',
         photo: satd,
         repo: 'https://github.com/martapanc/SATD-replication-package',
         report: bscThesis,
@@ -134,6 +143,7 @@ export const ProjectData = [
     {
         title: 'Library Manager',
         id: 'library',
+        year: '2015',
         photo: library,
         repo: 'https://github.com/martapanc/LibraryManagementApp',
         tags: ['java', 'uni', 'db'],
@@ -146,20 +156,21 @@ export const ProjectData = [
     {
         title: 'Fiscal Code Calculator',
         id: 'fiscalcode',
+        year: '2015',
         photo: fc,
         repo: 'https://github.com/martapanc/ItalianFiscalCodeCalculator',
         tags: ['java', 'uni'],
         text:
-            'Another **Java** app developed for my uni programming course. It allows the user to ' +
-            "calculate their Italian tax code ('[Codice Fiscale](https://en.wikipedia.org/wiki/Italian_fiscal_code)') " +
-            'by entering their personal data.<br/>' +
-            'The app was designed to exploit various advanced features of the Java language, ' +
+            'Another **Java** app developed for my uni programming course. It allows the user to calculate their Italian tax code ' +
+            '(<a href=\"https://en.wikipedia.org/wiki/Italian_fiscal_code\" target=\"_blank\">Codice Fiscale</a>) by ' +
+            'entering their personal data.<br/>The app was designed to exploit various advanced features of the Java language, ' +
             'such Exception handling, Multithreading, Generics, Reflection, RegEx and Streams. Also, JUnit tests ' +
             'cover edge cases for user input.',
     },
     {
         title: 'Hack-my-town',
         id: 'glurns',
+        year: '2014',
         photo: glurns,
         site: 'http://hackmytown.unibz.it/',
         tags: ['hack', 'uni'],
@@ -174,6 +185,7 @@ export const ProjectData = [
     {
         title: 'Project "EMMA"',
         id: 'emma',
+        year: '2014',
         photo: emma,
         video: 'https://www.youtube.com/watch?v=5dLfFvGAIjQ',
         tags: ['raspi', 'hack', 'uni'],
@@ -187,6 +199,7 @@ export const ProjectData = [
     {
         title: 'mpancaldi.com',
         id: 'site',
+        year: '2019',
         photo: website,
         repo: 'https://github.com/martapanc/react-gh-pages',
         tags: ['web', 'self'],
@@ -197,6 +210,7 @@ export const ProjectData = [
     {
         title: 'Rentalcars.com Premium',
         id: 'premium',
+        year: '2019',
         photo: noodle1,
         pics: noodlePics,
         tags: ['web', 'work'],
@@ -210,6 +224,7 @@ export const ProjectData = [
     {
         title: 'Web Scraper',
         id: 'scraper',
+        year: '2019',
         photo: zebra,
         repo: 'https://github.com/martapanc/Zebra-Scraper',
         tags: ['python', 'self'],
@@ -223,14 +238,18 @@ export const ProjectData = [
     {
         title: 'Daily Programming',
         id: 'daily',
+        year: '2019',
         photo: programming,
         repo: 'https://github.com/martapanc/dailyProgramming',
         tags: ['java', 'self'],
         text:
-            'They say "Practice makes perfect", and that\'s why a good programmer should write code every day. The way I like to practice, when I don\'t ' +
-            'have more complex projects to work on, is to pick a coding challenge (e.g. from [r/dailyProgrammer](https://www.reddit.com/r/dailyprogrammer/), ' +
-            '[CodeWars](https://www.codewars.com/dashboard), [Project Euler](https://projecteuler.net/), [Advent of Code](https://adventofcode.com/)...), ' +
-            'or simply to think of a problem I want to tackle, and write my solution for it. This repository is a collection of all such challenges.',
+            'They say "Practice makes perfect", and that\'s why a good programmer should write code every day. <br/>The way I like to practice, when I don\'t ' +
+            'have more complex projects to work on, is to pick a coding challenge (e.g. from ' +
+            '<a href=\"https://www.reddit.com/r/dailyprogrammer/\" target=\"_blank\">r/dailyProgrammer</a>, ' +
+            '<a href=\"https://www.codewars.com/dashboard/\" target=\"_blank\">CodeWars</a>, ' +
+            '<a href=\"https://projecteuler.net/\" target=\"_blank\">Project Euler</a>, ' +
+            '<a href=\"https://adventofcode.com/\" target=\"_blank\">Advent of Code</a>, ' +
+            '...), or simply to think of a problem I want to tackle, and write my solution for it. This repository is a collection of all such challenges.',
     },
 ];
 
