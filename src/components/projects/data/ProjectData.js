@@ -49,7 +49,7 @@ export const ProjectData = [
             'the Internet & Mobile Services course: it allows customers to reserve a table or to book a ' +
             'takeaway order, and the restaurant managers to verify the status of the reservations and orders, ' +
             "add and remove takeaway meals and check other employees' accounts, mostly in the form of CRUD " +
-            'tables. <br/>I\'ve recently made a v2 in Spring and deployed it on Heroku - ' +
+            "tables. <br/>I've recently made a v2 in Spring and deployed it on Heroku - " +
             '<a href="https://werners-restaurant.herokuapp.com/" target="_blank">check it out</a>!',
     },
     {
@@ -75,7 +75,7 @@ export const ProjectData = [
         report: ictReport,
         tags: ['js', 'web', 'work'],
         text:
-            'I interned for three months at the <a href=\"https://www.ict-group.it/en/\" target=\"_blank\">ICT-Group</a> ' +
+            'I interned for three months at the <a href="https://www.ict-group.it/en/" target="_blank">ICT-Group</a> ' +
             'as a web developer, and my task was to build an additional feature to the company’s **HR ' +
             'management software**: a portal for the request and approval of the employee vacations, ' +
             'work permits, transfers and bank hours. The UI I developed consists of customisable calendars ' +
@@ -162,7 +162,7 @@ export const ProjectData = [
         tags: ['java', 'uni'],
         text:
             'Another **Java** app developed for my uni programming course. It allows the user to calculate their Italian tax code ' +
-            '(<a href=\"https://en.wikipedia.org/wiki/Italian_fiscal_code\" target=\"_blank\">Codice Fiscale</a>) by ' +
+            '(<a href="https://en.wikipedia.org/wiki/Italian_fiscal_code" target="_blank">Codice Fiscale</a>) by ' +
             'entering their personal data.<br/>The app was designed to exploit various advanced features of the Java language, ' +
             'such Exception handling, Multithreading, Generics, Reflection, RegEx and Streams. Also, JUnit tests ' +
             'cover edge cases for user input.',
@@ -245,10 +245,10 @@ export const ProjectData = [
         text:
             'They say "Practice makes perfect", and that\'s why a good programmer should write code every day. <br/>The way I like to practice, when I don\'t ' +
             'have more complex projects to work on, is to pick a coding challenge (e.g. from ' +
-            '<a href=\"https://www.reddit.com/r/dailyprogrammer/\" target=\"_blank\">r/dailyProgrammer</a>, ' +
-            '<a href=\"https://www.codewars.com/dashboard/\" target=\"_blank\">CodeWars</a>, ' +
-            '<a href=\"https://projecteuler.net/\" target=\"_blank\">Project Euler</a>, ' +
-            '<a href=\"https://adventofcode.com/\" target=\"_blank\">Advent of Code</a>, ' +
+            '<a href="https://www.reddit.com/r/dailyprogrammer/" target="_blank">r/dailyProgrammer</a>, ' +
+            '<a href="https://www.codewars.com/dashboard/" target="_blank">CodeWars</a>, ' +
+            '<a href="https://projecteuler.net/" target="_blank">Project Euler</a>, ' +
+            '<a href="https://adventofcode.com/" target="_blank">Advent of Code</a>, ' +
             '...), or simply to think of a problem I want to tackle, and write my solution for it. This repository is a collection of all such challenges.',
     },
 ];

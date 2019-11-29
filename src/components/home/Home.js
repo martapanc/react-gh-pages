@@ -6,6 +6,7 @@ import WorkExperience from './WorkExperience';
 import Education from './Education';
 import Languages from './Languages';
 import Github from './Github';
+import Publications from './Publications';
 
 function Home() {
     return (
@@ -15,6 +16,7 @@ function Home() {
             <WorkExperience />
             <Education />
             <Languages />
+            <Publications />
             <Github />
             <Section />
         </div>
