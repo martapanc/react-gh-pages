@@ -5,3 +5,20 @@ img[alt=smallflag] {
 .programming-language-icon {
   margin-right: 2px;
 }
+
+.pub-title {
+  font-family: "PT Serif", "serif";
+  font-weight: bold;
+}
+
+.pub-content {
+  position: absolute;
+  bottom: 0;
+  padding: 10px 0;
+  width: 90%;
+}
+
+.pub-card-content {
+  min-height: 150px;
+  background-color: rgba(24, 100, 226, 0.04);
+}

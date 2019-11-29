@@ -7,8 +7,11 @@ class Footer extends Component {
         return (
             <footer className="footer text-center py-2 theme-bg-dark">
                 <small className="copyright">
-                    Copyright ©{currYear} by <a href="/" rel="noopener noreferrer"><strong>Marta Pancaldi</strong></a>.&emsp;
-                    Theme based on{' '}
+                    Copyright ©{currYear} by{' '}
+                    <a href="/" rel="noopener noreferrer">
+                        <strong>Marta Pancaldi</strong>
+                    </a>
+                    .&emsp; Theme based on{' '}
                     <a
                         href="https://github.com/xriley/DevBlog-Theme"
                         target="_blank"
