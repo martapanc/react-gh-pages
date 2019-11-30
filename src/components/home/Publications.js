@@ -11,7 +11,7 @@ function Publications() {
                     Publications
                 </h2>
                 <div className="row">
-                    <div className="col-4 col-sm-4 col-lg-4">
+                    <div className="col-12 col-sm-12 col-lg-4">
                         <div className="card">
                             <div className="card-content pub-card-content">
                                 <span className="pub-title">
@@ -38,7 +38,7 @@ function Publications() {
                         </div>
                     </div>
 
-                    <div className="col-4 col-sm-4 col-lg-4">
+                    <div className="col-12 col-sm-12 col-lg-4">
                         <div className="card">
                             <div className="card-content pub-card-content">
                                 <span className="pub-title">
@@ -65,7 +65,7 @@ function Publications() {
                         </div>
                     </div>
 
-                    <div className="col-4 col-sm-4 col-lg-4">
+                    <div className="col-12 col-sm-12 col-lg-4">
                         <div className="card">
                             <div className="card-content pub-card-content">
                                 <span className="pub-title">
