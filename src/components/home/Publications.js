@@ -51,7 +51,7 @@ function Publications() {
                                     <span>University of Manchester, 2018</span>
                                     <a
                                         target="_blank"
-                                        href="http://localhost:3000/static/media/comp61511_dissertation.387a9fec.pdf"
+                                        href="/static/media/comp61511_dissertation.387a9fec.pdf"
                                         rel="noopener noreferrer"
                                     >
                                         <FontAwesomeIcon
@@ -80,7 +80,7 @@ function Publications() {
                                     </span>
                                     <a
                                         target="_blank"
-                                        href="http://localhost:3000/static/media/SATD_Thesis.4ad8fbc1.pdf"
+                                        href="/static/media/SATD_Thesis.4ad8fbc1.pdf"
                                         rel="noopener noreferrer"
                                     >
                                         <FontAwesomeIcon
