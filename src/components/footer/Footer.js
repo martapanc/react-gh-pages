@@ -11,22 +11,24 @@ class Footer extends Component {
                     <a href="/" rel="noopener noreferrer">
                         <strong>Marta Pancaldi</strong>
                     </a>
-                    .&emsp; Theme based on{' '}
-                    <a
-                        href="https://github.com/xriley/DevBlog-Theme"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                    <span className="responsive-hide">
+                        .&emsp; Theme based on{' '}
+                        <a
+                            href="https://github.com/xriley/DevBlog-Theme"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                         <strong>DevBlog</strong>
                     </a>{' '}
-                    by{' '}
-                    <a
-                        href="http://themes.3rdwavemedia.com"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
+                        by{' '}
+                        <a
+                            href="http://themes.3rdwavemedia.com"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
                         Xiaoying Riley
                     </a>
+                    </span>
                 </small>
             </footer>
         );

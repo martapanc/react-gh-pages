@@ -62,7 +62,7 @@ class ProjectCard extends Component {
                                 target="new_blank"
                             >
                                 <i className="fa fa-code fa-fw" />
-                                &nbsp; See website
+                                &nbsp; Website
                             </a>
                         )}
                         {hasReport && (
