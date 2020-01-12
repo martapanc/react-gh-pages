@@ -48,6 +48,12 @@ img.responsive-hide {
   }
 }
 
+.responsive-show {
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
+
 .read-more-hide {
   display: none;
 }

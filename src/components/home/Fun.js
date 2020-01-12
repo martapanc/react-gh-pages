@@ -17,10 +17,32 @@ function Fun() {
                         <img src={book} width="50px" />
                         &nbsp;
                         <img src={gamepad} width="50px" />
-                        &nbsp; <span>The fun bit</span>&nbsp;&nbsp;
-                        <img src={camera} width="50px" />
                         &nbsp;
-                        <img src={music} width="50px" />
+                        <img
+                            src={camera}
+                            width="50px"
+                            className="responsive-show"
+                        />
+                        &nbsp;
+                        <img
+                            src={music}
+                            width="50px"
+                            className="responsive-show"
+                        />
+                        &nbsp;
+                        <br className="responsive-show" />
+                        <span>The fun bit</span>&nbsp;&nbsp;
+                        <img
+                            src={camera}
+                            width="50px"
+                            className="responsive-hide"
+                        />
+                        &nbsp;
+                        <img
+                            src={music}
+                            width="50px"
+                            className="responsive-hide"
+                        />
                         &nbsp;
                     </h2>
                 </div>
