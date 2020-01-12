@@ -8,7 +8,7 @@ function BookingGo() {
                     Graduate Software Engineer
                 </h4>
                 <div className="item-meta col-12 col-md-5 text-muted text-left text-md-right">
-                    BookingGo | 2018 - Present
+                    Booking.com | 2018 - Present
                 </div>
             </div>
             <div className="item-content">
@@ -42,7 +42,7 @@ function BookingGo() {
                     </li>
                     <li>
                         Recently involved in interviewing students who applied
-                        for the BookingGo grad scheme.
+                        for the Booking.com grad scheme.
                     </li>
                 </ul>
 

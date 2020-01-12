@@ -23,7 +23,7 @@ class ProgrammingLanguage extends Component {
                                 className="programming-language-icon"
                                 src={lang.object}
                                 alt={lang.name}
-                                width="35"
+                                height="35"
                                 key={key}
                             />
                         );

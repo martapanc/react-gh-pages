@@ -215,7 +215,7 @@ export const ProjectData = [
         pics: noodlePics,
         tags: ['web', 'work'],
         text:
-            'As a part of the Graduate Scheme at BookingGo, I joined the team that develops the **"Premium" insurance product**, ' +
+            'As a part of the Graduate Scheme at Booking.com, I joined the team that develops the **"Premium" insurance product**, ' +
             'which offers exclusive benefits to the customer such as skipping the line at the car pickup counter, low deposit ' +
             'and a dedicated helpline to deal with claims. We built the UI in **React**, developing various components (a comparison ' +
             'of the available insurance options for the car details page, a few upsell banners and information sections) that we then ' +

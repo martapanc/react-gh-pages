@@ -13,7 +13,7 @@ function Intro() {
                         <div className="tagline mb-3">Software Engineer</div>
                         <div className="bio mb-4">
                             I'm a junior software engineer based in Manchester
-                            (UK), currently working at BookingGo, specialised in
+                            (UK), currently working at <strong><span style={{color: '#21457E'}}>Booking</span><span style={{color: '#4A9EDA'}}>.com</span></strong>, specialised in
                             Java and web development.
                             <br />I recently graduated from the University of
                             Manchester with a MSc in Advanced Computer Science.

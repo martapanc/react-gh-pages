@@ -4,14 +4,14 @@ import unibz from '../../../assets/images/work/unibz.jpeg';
 
 export const WorkData = {
     bookinggo: {
-        title: 'BookingGo (Rentalcars.com) ~ Manchester',
+        title: 'Booking.com Transport Unit ~ Manchester',
         subtitle: 'Graduate Software Engineer',
         begin: '2018',
         end: 'present',
         items: [
             'Main technologies used: Java, JavaScript, React, PHP, MySQL, Docker',
             'Everyday development follows the Agile principles, in particular the Kanban approach, including activities like pair programming and testing, code reviews, daily stand-ups an retros',
-            'Recently involved in interviewing students who applied for the BookingGo grad scheme',
+            'Recently involved in interviewing students who applied for the Booking.com grad scheme',
         ],
         icon: bookinggo,
     },

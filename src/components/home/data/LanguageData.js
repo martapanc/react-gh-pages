@@ -1,17 +1,24 @@
 import java from '../../../assets/images/languages/java.svg';
+import spring from '../../../assets/images/languages/spring-3.svg';
+import thymeleaf from '../../../assets/images/languages/thymeleaf.png';
+import hibernate from '../../../assets/images/languages/hibernate.svg';
+import jsp from '../../../assets/images/languages/jsp.png';
 import python from '../../../assets/images/languages/python.svg';
+import django from '../../../assets/images/languages/django.png';
 import js from '../../../assets/images/languages/js.svg';
+import ts from '../../../assets/images/languages/ts.png';
 import angular from '../../../assets/images/languages/angular.svg';
 import react from '../../../assets/images/languages/react.svg';
 import jquery from '../../../assets/images/languages/jquery.svg';
 import cs from '../../../assets/images/languages/cs.svg';
+import aspnet from '../../../assets/images/languages/asp-net.png';
 import html from '../../../assets/images/languages/html.svg';
 import css from '../../../assets/images/languages/css.svg';
 import sass from '../../../assets/images/languages/sass.svg';
 import bootstrap from '../../../assets/images/languages/bootstrap.svg';
 import mysql from '../../../assets/images/languages/mysql.svg';
 import postgres from '../../../assets/images/languages/postgres.svg';
-import php from '../../../assets/images/languages/php-plain.svg';
+import php from '../../../assets/images/languages/php-logo.png';
 import win from '../../../assets/images/languages/win8.svg';
 import mac from '../../../assets/images/languages/apple.svg';
 import ubuntu from '../../../assets/images/languages/ubuntu.svg';
@@ -22,11 +29,19 @@ import netbeans from '../../../assets/images/languages/netbeans.png';
 import vsc from '../../../assets/images/languages/vsc.svg';
 import eclipse from '../../../assets/images/languages/eclipse.webp';
 import atom from '../../../assets/images/languages/atom.jpeg';
+import android from '../../../assets/images/languages/android-happy.png';
+import kotlin from '../../../assets/images/languages/kotlin.png';
 
 export const LanguageData = {
     java: {
         title: 'Java',
-        icons: [{ object: java, name: 'Java' }],
+        icons: [
+            { object: java, name: 'Java' },
+            { object: hibernate, name: 'Hibernate' },
+            { object: spring, name: 'Spring' },
+            { object: jsp, name: 'JSP' },
+            { object: thymeleaf, name: 'Thymeleaf' }
+        ],
         text:
             "I've worked with Java for 5 years and I developed various projects for university and personal development, " +
             'including a Library Management software and a Restaurant reservations and take-away webapp in JSP.' +
@@ -35,7 +50,10 @@ export const LanguageData = {
     },
     python: {
         title: 'Python',
-        icons: [{ object: python, name: 'Python' }],
+        icons: [
+            { object: python, name: 'Python' },
+            { object: django, name: 'Django' }
+        ],
         text:
             'I taught myself Python and it quickly became one of my favourite languages. I mainly used it to develop an ' +
             'automated assessment tool for programming assignments, which was the subject of my MSc Dissertation.',
@@ -45,6 +63,7 @@ export const LanguageData = {
         title: 'JS, Angular, React',
         icons: [
             { object: js, name: 'JavaScript' },
+            { object: ts, name: 'TypeScript' },
             { object: jquery, name: 'JQuery' },
             { object: angular, name: 'Angular' },
             { object: react, name: 'React' },
@@ -54,14 +73,6 @@ export const LanguageData = {
             "with Angular, and I've learnt React in my current job, building components for the " +
             '[Rentalcars.com](https://www.rentalcars.com/) website.',
         show: true,
-    },
-    cs: {
-        title: 'C#',
-        icons: [{ object: cs, name: 'C#' }],
-        text:
-            '*Medicus*, a medical products online store, was a group project I worked on for the Information Security ' +
-            'course of my BSc. It used ASP.NET and focused on security and privacy for customers.',
-        show: false,
     },
     web: {
         title: 'Web development',
@@ -74,6 +85,29 @@ export const LanguageData = {
         text:
             'Working on the front-end is always good fun and gives me the chance to explore frameworks and design ' +
             "techniques. I've worked with Bootstrap on various uni and personal projects - [check them out](/projects).",
+        show: false,
+    },
+    android: {
+        title: 'Mobile development',
+        icons: [
+            { object: android, name: 'Android' },
+            { object: kotlin, name: 'Kotlin' }
+        ],
+        text:
+            "I've started learning Kotlin last year, as I'm intrigued by its features and possibilities for mobile development. " +
+            "For now I'm following Google's tutorials for developing Android applications, " +
+            "and I can't wait to apply what I've learned to create complex apps. Stay tuned ;)",
+        show: false,
+    },
+    cs: {
+        title: 'C#',
+        icons: [
+            { object: cs, name: 'C#' },
+            { object: aspnet, name: 'C#' }
+        ],
+        text:
+            '*Medicus*, a medical products online store, was a group project I worked on for the Information Security ' +
+            'course of my BSc. It used ASP.NET and focused on security and privacy for customers.',
         show: false,
     },
     sql: {
