@@ -22,3 +22,28 @@ img[alt=smallflag] {
   min-height: 150px;
   background-color: rgba(24, 100, 226, 0.04);
 }
+
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 39px;
+  height: 60px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+
+.gr_grid_branding {
+  font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both
+}
+
+.title {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both
+}
