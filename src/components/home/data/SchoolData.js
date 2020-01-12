@@ -54,7 +54,7 @@ export const WorkData = {
         items: [
             'Funded by the UniBZ "Erasmus+/Overseas" scholarship for international studies',
             'Main courses: Software Engineering, Networks, Statistical Methods, Discrete Maths and Calculus',
-            'Part of the College orchestra',
+            'Principal Oboe of the College orchestra',
         ],
     },
     peri: {
