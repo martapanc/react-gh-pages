@@ -79,8 +79,7 @@ $(function() {
                     .replace("Transport Unit", "")
                     .replace(" ~ Manchester", "")
                     .replace("UniBZ - Faculty of Computer Science", "Faculty of C. Science")
-                    .replace("ICT Group ~ Reggio Emilia", "ICT Group ~ Reggio E.")
-                    .replace("ICT Group ~ Reggio Emilia", "ICT Group ~ Reggio E.")
+                    .replace("Intern - Software Developer", "Web development intern")
                     .replace("Advanced", "");
             });
         }

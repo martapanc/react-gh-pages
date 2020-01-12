@@ -74,8 +74,8 @@ $(function() {
         if ($(window).width() < 600) {
             $(".item-title").text(function () {
                 return $(this).text()
-                    .replace("University of Manchester", "U. of Manchester")
-                    .replace("Free University of Bolzano", "University of Bolzano");
+                    .replace("University of Manchester", "Univ of Manchester")
+                    .replace("Free University of Bolzano", "Univ of Bolzano");
             });
         }
     }
