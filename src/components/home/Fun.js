@@ -33,15 +33,15 @@ function Fun() {
                         <h5>Music</h5>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 ">
-                        Books
+                        <h5>Books</h5>
                     </div>
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-6 ">
-                        Gaming
+                        <h5>Gaming</h5>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 ">
-                        Travels & Photos
+                        <h5>Travels & Photos</h5>
                     </div>
                 </div>
             </div>

@@ -1,12 +1,19 @@
 import React from 'react';
 import WorkData from './data/WorkData';
 import Work from './items/Work';
+import bag from '../../assets/images/intro/business-and-finance.svg';
 
 function WorkExperience() {
     return (
         <section className="overview-section p-3 p-lg-3">
-            <div className="container">
-                <h2 className="section-title font-weight-bold mb-3">
+            <div className="container" id="experience">
+                <h2 className="section-title font-weight-bold mb-2">
+                    <img
+                        className="school-icon responsive-hide"
+                        src={bag}
+                        alt="Booking.com"
+                        height="42"
+                    />
                     Work Experience
                 </h2>
                 <div className="row">

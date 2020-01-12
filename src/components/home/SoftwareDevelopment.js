@@ -2,12 +2,19 @@ import React from 'react';
 import $ from 'jquery';
 import Languages from './data/LanguageData';
 import ProgrammingLanguage from './items/ProgrammingLanguage';
+import laptop from '../../assets/images/intro/laptop.svg';
 
 function SoftwareDevelopment() {
     return (
         <section className="overview-section p-3 p-lg-3">
-            <div className="container">
+            <div className="container" id="software-development">
                 <h2 className="section-title font-weight-bold mb-3">
+                    <img
+                        className="school-icon responsive-hide"
+                        src={laptop}
+                        alt="Work laptop"
+                        height="42"
+                    />
                     Software Development
                 </h2>
                 <div className="section-intro mb-4">

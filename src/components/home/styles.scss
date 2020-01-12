@@ -47,3 +47,23 @@ img[alt=smallflag] {
 .clear {
   clear: both
 }
+
+#software-development .card-content .row,
+#education .card-content .row,
+#experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+//#software-development .card {
+//  padding-right: 10px;
+//  padding-left: 10px;
+//  margin-left: 10px;
+//}
+
+.card {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
