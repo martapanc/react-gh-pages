@@ -10,45 +10,51 @@ class Work extends Component {
 
     render() {
         return (
-            <div className="item col-12 col-sm-12">
-                <div className="item-inner">
-                    <div className="school-title-container">
-                        <img
-                            className="school-icon"
-                            src={this.data.icon}
-                            alt="Booking.com"
-                        />
-                        <div className="school-title">
+            <div className="item col-md-10 col-sm-12 card">
+                <div className="item-inner card-content">
+                    <div className="school-title-container row">
+                        <div className="col-lg-1 col-md-1 col-sm-1">
+                            <img
+                                className="school-icon"
+                                src={this.data.icon}
+                                alt="Booking.com"
+                            />
+                        </div>
+                        <div className="school-title col-lg-8 col-md-8 col-sm-4">
                             <h5 className="item-title">
                                 {this.data.title}
-                                <span className="responsive-hide">
-                                    {this.data.begin} &ndash; {this.data.end}
-                                </span>
                             </h5>
                             <h6 className="item-title">{this.data.subtitle}</h6>
                         </div>
+                        <div className="col-lg-3 col-md-3 col-sm-3">
+                            <span className="responsive-hide" style={{float: 'right'}}>
+                                <h5>{this.data.begin} &ndash; {this.data.end}</h5>
+                            </span>
+                        </div>
                     </div>
-                    <div
-                        className="item-desc"
-                        style={{
-                            marginBottom:
-                                (this.data.items.length === 1 ? 1 : 0.5) +
-                                'rem',
-                        }}
-                    >
-                        {this.data.items.length > 1 ? (
-                            <ul>
-                                {this.data.items.map((text, key) => {
-                                    return (
-                                        <li key={key}>
-                                            <Markdown>{text}</Markdown>
-                                        </li>
-                                    );
-                                })}
-                            </ul>
-                        ) : (
-                            this.data.items
-                        )}
+                    <div>
+                        <div
+                            className="item-desc"
+                            style={{
+                                marginBottom:
+                                    (this.data.items.length === 1 ? 1 : 0.5) +
+                                    'rem',
+                            }}
+                        >
+                            {this.data.items.length > 1 ? (
+                                <ul>
+                                    {this.data.items.map((text, key) => {
+                                        return (
+                                            <li key={key}>
+                                                <Markdown>{text}</Markdown>
+                                            </li>
+                                        );
+                                    })}
+                                </ul>
+                            ) : (
+                                this.data.items
+                            )}
+                        </div>
                     </div>
                 </div>
             </div>

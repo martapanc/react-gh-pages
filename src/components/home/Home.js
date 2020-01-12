@@ -7,6 +7,7 @@ import Education from './Education';
 import Languages from './Languages';
 import Github from './Github';
 import Publications from './Publications';
+import Fun from './Fun';
 
 function Home() {
     return (
@@ -18,6 +19,7 @@ function Home() {
             <Languages />
             <Publications />
             <Github />
+            <Fun />
             <Section />
         </div>
     );

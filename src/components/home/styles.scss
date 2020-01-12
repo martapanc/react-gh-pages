@@ -22,3 +22,48 @@ img[alt=smallflag] {
   min-height: 150px;
   background-color: rgba(24, 100, 226, 0.04);
 }
+
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 39px;
+  height: 60px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+
+.gr_grid_branding {
+  font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both
+}
+
+.title {
+  text-decoration: none;
+}
+
+.clear {
+  clear: both
+}
+
+#software-development .card-content .row,
+#education .card-content .row,
+#experience .card-content .row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+//#software-development .card {
+//  padding-right: 10px;
+//  padding-left: 10px;
+//  margin-left: 10px;
+//}
+
+.card {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}

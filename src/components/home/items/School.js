@@ -10,29 +10,37 @@ class ProgrammingLanguage extends Component {
 
     render() {
         return (
-            <div className="item col-12 col-sm-12">
-                <div className="item-inner">
-                    <div className="school-title-container">
-                        <img
-                            className="school-icon"
-                            src={this.data.icon}
-                            alt={this.data.title}
-                        />
-                        <div className="school-title">
-                            <h5 className="item-title">
-                                {this.data.title}
-                                <img
-                                    className="responsive-hide"
-                                    src={this.data.flag}
-                                    alt={'flag'}
-                                    width="30"
-                                />
-                                <span className="responsive-hide">
+            <div className="item col-md-10 col-sm-12 card">
+                <div className="item-inner card-content">
+                    <div className="school-title-container row">
+                        <div className="col-lg-1 col-md-1 col-sm-1">
+                            <img
+                                className="school-icon"
+                                src={this.data.icon}
+                                alt={this.data.title}
+                            />
+                        </div>
+                        <div className="school-title col-lg-7 col-md-7 col-sm-4">
+                            <div className="school-title">
+                                <h5 className="item-title">
+                                    {this.data.title}
+                                    <img
+                                        className="responsive-hide"
+                                        src={this.data.flag}
+                                        alt={'flag'}
+                                        width="30"
+                                    />
+                                </h5>
+                                <h6 className="item-title">{this.data.subtitle}</h6>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-4 col-sm-4">
+                            <span className="responsive-hide" style={{float: 'right'}}>
+                                <h5>
                                     {this.data.grade} &emsp; {this.data.begin}{' '}
                                     &ndash; {this.data.end}
-                                </span>
-                            </h5>
-                            <h6 className="item-title">{this.data.subtitle}</h6>
+                                </h5>
+                            </span>
                         </div>
                     </div>
                     <div className="item-desc">

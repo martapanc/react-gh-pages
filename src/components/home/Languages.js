@@ -4,12 +4,19 @@ import it from '../../assets/images/flags/ita.svg';
 import de from '../../assets/images/flags/deu.svg';
 import fr from '../../assets/images/flags/fra.svg';
 import './styles.scss';
+import world from "../../assets/images/intro/internet.svg";
 
 function Languages() {
     return (
         <section className="overview-section p-3 p-lg-3 responsive-adjust">
             <div className="container">
                 <h2 className="section-title font-weight-bold mb-3">
+                    <img
+                        className="school-icon responsive-hide"
+                        src={world}
+                        alt="Languages"
+                        height="42"
+                    />
                     Languages
                 </h2>
                 <div className="row">

@@ -2,12 +2,19 @@ import React from 'react';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import './styles.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import news from '../../assets/images/intro/newspaper.svg';
 
 function Publications() {
     return (
         <section className="overview-section p-3 p-lg-3 responsive-adjust">
             <div className="container">
                 <h2 className="section-title font-weight-bold mb-3">
+                    <img
+                        className="school-icon responsive-hide"
+                        src={news}
+                        alt="Publications"
+                        height="42"
+                    />
                     Publications
                 </h2>
                 <div className="row">
