@@ -30,11 +30,11 @@ function SoftwareDevelopment() {
                     <ProgrammingLanguage props={Languages.python} />
                     <ProgrammingLanguage props={Languages.js} />
 
-                    <div className="item col-12 col-md-12 col-lg-12 text-right">
+                    <div id="read-more-btn"
+                         className="item col-12 col-md-12 col-lg-12 text-right">
                         <button
                             className="btn btn-info"
                             onClick={readMore}
-                            id="read-more-btn"
                         >
                             Read more
                         </button>

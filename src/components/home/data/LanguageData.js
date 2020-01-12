@@ -39,8 +39,8 @@ export const LanguageData = {
             { object: java, name: 'Java' },
             { object: hibernate, name: 'Hibernate' },
             { object: spring, name: 'Spring' },
-            { object: jsp, name: 'JSP' },
-            { object: thymeleaf, name: 'Thymeleaf' }
+            { object: thymeleaf, name: 'Thymeleaf' },
+            { object: jsp, name: 'JSP' }
         ],
         text:
             "I've worked with Java for 5 years and I developed various projects for university and personal development, " +
