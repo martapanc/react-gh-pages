@@ -18,16 +18,16 @@ class Footer extends Component {
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                        <strong>DevBlog</strong>
-                    </a>{' '}
+                            <strong>DevBlog</strong>
+                        </a>{' '}
                         by{' '}
                         <a
                             href="http://themes.3rdwavemedia.com"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
-                        Xiaoying Riley
-                    </a>
+                            Xiaoying Riley
+                        </a>
                     </span>
                 </small>
             </footer>

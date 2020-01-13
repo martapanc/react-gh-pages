@@ -40,7 +40,7 @@ export const LanguageData = {
             { object: hibernate, name: 'Hibernate' },
             { object: spring, name: 'Spring' },
             { object: thymeleaf, name: 'Thymeleaf' },
-            { object: jsp, name: 'JSP' }
+            { object: jsp, name: 'JSP' },
         ],
         text:
             "I've worked with Java for 5 years and I developed various projects for university and personal development, " +
@@ -52,7 +52,7 @@ export const LanguageData = {
         title: 'Python',
         icons: [
             { object: python, name: 'Python' },
-            { object: django, name: 'Django' }
+            { object: django, name: 'Django' },
         ],
         text:
             'I taught myself Python and it quickly became one of my favourite languages. I mainly used it to develop an ' +
@@ -91,7 +91,7 @@ export const LanguageData = {
         title: 'Mobile development',
         icons: [
             { object: android, name: 'Android' },
-            { object: kotlin, name: 'Kotlin' }
+            { object: kotlin, name: 'Kotlin' },
         ],
         text:
             "I've started learning Kotlin last year, as I'm intrigued by its features and possibilities for mobile development. " +
@@ -103,7 +103,7 @@ export const LanguageData = {
         title: 'C#',
         icons: [
             { object: cs, name: 'C#' },
-            { object: aspnet, name: 'C#' }
+            { object: aspnet, name: 'C#' },
         ],
         text:
             '*Medicus*, a medical products online store, was a group project I worked on for the Information Security ' +

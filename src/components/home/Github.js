@@ -3,7 +3,7 @@ import './styles.scss';
 import $ from 'jquery';
 import 'github-calendar/dist/github-calendar-responsive.css';
 import GitHubCalendar from 'github-calendar';
-import github from "../../assets/images/intro/github.svg";
+import github from '../../assets/images/intro/github.svg';
 
 function Github() {
     return (
