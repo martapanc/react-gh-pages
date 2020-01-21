@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Markdown from 'markdown-to-jsx';
-import $ from "jquery";
+import $ from 'jquery';
 
 class Work extends Component {
     constructor(props) {
@@ -22,14 +22,17 @@ class Work extends Component {
                             />
                         </div>
                         <div className="school-title col-lg-8 col-md-8 col-sm-1">
-                            <h5 className="item-title">
-                                {this.data.title}
-                            </h5>
+                            <h5 className="item-title">{this.data.title}</h5>
                             <h6 className="item-title">{this.data.subtitle}</h6>
                         </div>
                         <div className="col-lg-3 col-md-3 col-sm-1">
-                            <span className="responsive-hide" style={{float: 'right'}}>
-                                <h5>{this.data.begin} &ndash; {this.data.end}</h5>
+                            <span
+                                className="responsive-hide"
+                                style={{ float: 'right' }}
+                            >
+                                <h5>
+                                    {this.data.begin} &ndash; {this.data.end}
+                                </h5>
                             </span>
                         </div>
                     </div>
@@ -72,10 +75,11 @@ $(function() {
             .toggleClass('school-title-container', $(window).width() > 600);
 
         if ($(window).width() < 600) {
-            $(".item-title").text(function () {
-                return $(this).text()
-                    .replace("University of Manchester", "Univ of Manchester")
-                    .replace("Free University of Bolzano", "Univ of Bolzano");
+            $('.item-title').text(function() {
+                return $(this)
+                    .text()
+                    .replace('University of Manchester', 'Univ of Manchester')
+                    .replace('Free University of Bolzano', 'Univ of Bolzano');
             });
         }
     }

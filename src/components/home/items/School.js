@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Markdown from 'markdown-to-jsx';
-import $ from "jquery";
+import $ from 'jquery';
 
 class ProgrammingLanguage extends Component {
     constructor(props) {
@@ -32,11 +32,16 @@ class ProgrammingLanguage extends Component {
                                         width="30"
                                     />
                                 </h5>
-                                <h6 className="item-title">{this.data.subtitle}</h6>
+                                <h6 className="item-title">
+                                    {this.data.subtitle}
+                                </h6>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-4 col-sm-4">
-                            <span className="responsive-hide" style={{float: 'right'}}>
+                            <span
+                                className="responsive-hide"
+                                style={{ float: 'right' }}
+                            >
                                 <h5>
                                     {this.data.grade} &emsp; {this.data.begin}{' '}
                                     &ndash; {this.data.end}
@@ -74,13 +79,20 @@ $(function() {
             .toggleClass('school-title-container', $(window).width() > 600);
 
         if ($(window).width() < 600) {
-            $(".item-title").text(function () {
-                return $(this).text()
-                    .replace("Transport Unit", "")
-                    .replace(" ~ Manchester", "")
-                    .replace("UniBZ - Faculty of Computer Science", "Faculty of C. Science")
-                    .replace("Intern - Software Developer", "Web development intern")
-                    .replace("Advanced", "");
+            $('.item-title').text(function() {
+                return $(this)
+                    .text()
+                    .replace('Transport Unit', '')
+                    .replace(' ~ Manchester', '')
+                    .replace(
+                        'UniBZ - Faculty of Computer Science',
+                        'Faculty of C. Science'
+                    )
+                    .replace(
+                        'Intern - Software Developer',
+                        'Web development intern'
+                    )
+                    .replace('Advanced', '');
             });
         }
     }
