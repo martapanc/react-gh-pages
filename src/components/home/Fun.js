@@ -6,7 +6,7 @@ import gamepad from '../../assets/images/fun/game-console.svg';
 import music from '../../assets/images/fun/headphones.svg';
 import BookSection from '../fun/BookSection';
 import games from '../../assets/images/games/games.webp';
-import ig from '../../assets/images/insta.png';
+import ig from '../../assets/images/insta.webp';
 
 function Fun() {
     return (

@@ -12,7 +12,7 @@ import {
     faInstagram,
     faBlogger,
 } from '@fortawesome/free-brands-svg-icons';
-import profile from '../../assets/images/profile.png';
+import profile from '../../assets/images/profile.webp';
 import './styles.scss';
 
 library.add(
