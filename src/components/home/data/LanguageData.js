@@ -1,36 +1,37 @@
 import java from '../../../assets/images/languages/java.svg';
 import spring from '../../../assets/images/languages/spring-3.svg';
-import thymeleaf from '../../../assets/images/languages/thymeleaf.png';
+import thymeleaf from '../../../assets/images/languages/thymeleaf.webp';
 import hibernate from '../../../assets/images/languages/hibernate.svg';
-import jsp from '../../../assets/images/languages/jsp.png';
+import jsp from '../../../assets/images/languages/jsp.webp';
 import python from '../../../assets/images/languages/python.svg';
-import django from '../../../assets/images/languages/django.png';
+import django from '../../../assets/images/languages/django.webp';
 import js from '../../../assets/images/languages/js.svg';
-import ts from '../../../assets/images/languages/ts.png';
+import node from '../../../assets/images/languages/node.webp';
+import ts from '../../../assets/images/languages/ts.webp';
 import angular from '../../../assets/images/languages/angular.svg';
 import react from '../../../assets/images/languages/react.svg';
 import jquery from '../../../assets/images/languages/jquery.svg';
 import cs from '../../../assets/images/languages/cs.svg';
-import aspnet from '../../../assets/images/languages/asp-net.png';
+import aspnet from '../../../assets/images/languages/asp-net.webp';
 import html from '../../../assets/images/languages/html.svg';
 import css from '../../../assets/images/languages/css.svg';
 import sass from '../../../assets/images/languages/sass.svg';
 import bootstrap from '../../../assets/images/languages/bootstrap.svg';
 import mysql from '../../../assets/images/languages/mysql.svg';
 import postgres from '../../../assets/images/languages/postgres.svg';
-import php from '../../../assets/images/languages/php-logo.png';
+import php from '../../../assets/images/languages/php-logo.webp';
 import win from '../../../assets/images/languages/win8.svg';
 import mac from '../../../assets/images/languages/apple.svg';
 import ubuntu from '../../../assets/images/languages/ubuntu.svg';
 import debian from '../../../assets/images/languages/debian.svg';
 import redhat from '../../../assets/images/languages/redhat.svg';
-import intellij from '../../../assets/images/languages/intellij.png';
-import netbeans from '../../../assets/images/languages/netbeans.png';
+import intellij from '../../../assets/images/languages/intellij.webp';
+import netbeans from '../../../assets/images/languages/netbeans.webp';
 import vsc from '../../../assets/images/languages/vsc.svg';
 import eclipse from '../../../assets/images/languages/eclipse.webp';
-import atom from '../../../assets/images/languages/atom.jpeg';
-import android from '../../../assets/images/languages/android-happy.png';
-import kotlin from '../../../assets/images/languages/kotlin.png';
+import atom from '../../../assets/images/languages/atom.webp';
+import android from '../../../assets/images/languages/android-happy.webp';
+import kotlin from '../../../assets/images/languages/kotlin.webp';
 
 export const LanguageData = {
     java: {
@@ -64,6 +65,7 @@ export const LanguageData = {
         icons: [
             { object: js, name: 'JavaScript' },
             { object: ts, name: 'TypeScript' },
+            { object: node, name: 'Node' },
             { object: jquery, name: 'JQuery' },
             { object: angular, name: 'Angular' },
             { object: react, name: 'React' },

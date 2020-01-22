@@ -5,7 +5,7 @@ import camera from '../../assets/images/fun/photo-camera.svg';
 import gamepad from '../../assets/images/fun/game-console.svg';
 import music from '../../assets/images/fun/headphones.svg';
 import BookSection from '../fun/BookSection';
-import games from '../../assets/images/games/gameShowcase.webp';
+import games from '../../assets/images/games/games.webp';
 import ig from '../../assets/images/insta.png';
 
 function Fun() {
@@ -87,7 +87,7 @@ function Fun() {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
-                                    presentation{' '}
+                                    presentation
                                 </a>{' '}
                                 I prepared for a uni course! Also,{' '}
                                 <a

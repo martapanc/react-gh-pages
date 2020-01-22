@@ -1,33 +1,33 @@
-import lotr from '../../../assets/images/books/lotr.jpg';
-import dahl from '../../../assets/images/books/matilda.jpg';
-import pennac from '../../../assets/images/books/pennac.jpg';
-import code2 from '../../../assets/images/books/code2.jpg';
-import polissena from '../../../assets/images/books/polissena.jpg';
-import christie from '../../../assets/images/books/christie.jpg';
-import hyperv from '../../../assets/images/books/hyperv.jpg';
-import fahren from '../../../assets/images/books/fahren.jpg';
-import inkheart from '../../../assets/images/books/inkheart.jpg';
-import jp from '../../../assets/images/books/Jurassicpark.jpg';
-import orwell from '../../../assets/images/books/1984.jpg';
-import adams from '../../../assets/images/books/adams.jpg';
-import asimov from '../../../assets/images/books/asimov.jpg';
-import asoiaf from '../../../assets/images/books/asoiaf.jpg';
-import calvino from '../../../assets/images/books/calvino.jpg';
-import compass from '../../../assets/images/books/compass.jpg';
-import dante from '../../../assets/images/books/dante.jpg';
-import dawkins from '../../../assets/images/books/dawkins.jpg';
-import dickens from '../../../assets/images/books/dickens.jpg';
-import ende from '../../../assets/images/books/ende.jpg';
-import hp from '../../../assets/images/books/hp.jpg';
-import hugo from '../../../assets/images/books/hugo.jpg';
-import it from '../../../assets/images/books/it.jpg';
-import livingston from '../../../assets/images/books/livingston.jpg';
-import moers from '../../../assets/images/books/moers.jpg';
-import pragmatic from '../../../assets/images/books/pragmatic.jpg';
-import salinger from '../../../assets/images/books/salinger.jpg';
-import sh from '../../../assets/images/books/sh.jpg';
-import shakespeare from '../../../assets/images/books/shakespeare.jpg';
-import stroud from '../../../assets/images/books/stroud.png';
+import lotr from '../../../assets/images/books/lotr.webp';
+import dahl from '../../../assets/images/books/matilda.webp';
+import pennac from '../../../assets/images/books/pennac.webp';
+import code2 from '../../../assets/images/books/code2.webp';
+import polissena from '../../../assets/images/books/polissena.webp';
+import christie from '../../../assets/images/books/christie.webp';
+import hyperv from '../../../assets/images/books/hyperv.webp';
+import fahren from '../../../assets/images/books/fahren.webp';
+import inkheart from '../../../assets/images/books/inkheart.webp';
+import jp from '../../../assets/images/books/Jurassicpark.webp';
+import orwell from '../../../assets/images/books/1984.webp';
+import adams from '../../../assets/images/books/adams.webp';
+import asimov from '../../../assets/images/books/asimov.webp';
+import asoiaf from '../../../assets/images/books/asoiaf.webp';
+import calvino from '../../../assets/images/books/calvino.webp';
+import compass from '../../../assets/images/books/compass.webp';
+import dante from '../../../assets/images/books/dante.webp';
+import dawkins from '../../../assets/images/books/dawkins.webp';
+import dickens from '../../../assets/images/books/dickens.webp';
+import ende from '../../../assets/images/books/ende.webp';
+import hp from '../../../assets/images/books/hp.webp';
+import hugo from '../../../assets/images/books/hugo.webp';
+import it from '../../../assets/images/books/it.webp';
+import livingston from '../../../assets/images/books/livingston.webp';
+import moers from '../../../assets/images/books/moers.webp';
+import pragmatic from '../../../assets/images/books/pragmatic.webp';
+import salinger from '../../../assets/images/books/salinger.webp';
+import sh from '../../../assets/images/books/sh.webp';
+import shakespeare from '../../../assets/images/books/shakespeare.webp';
+import stroud from '../../../assets/images/books/stroud.webp';
 
 export const BookData = [
     {
@@ -90,7 +90,8 @@ export const BookData = [
     {
         title: 'The Hitchhiker',
         cover: adams,
-        link: 'https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy',
+        link:
+            'https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy',
     },
     {
         title: 'Asimov',
@@ -105,7 +106,8 @@ export const BookData = [
     {
         title: 'Calvino',
         cover: calvino,
-        link: 'https://www.goodreads.com/book/show/71608.Se_una_notte_d_inverno_un_viaggiatore',
+        link:
+            'https://www.goodreads.com/book/show/71608.Se_una_notte_d_inverno_un_viaggiatore',
     },
     {
         title: 'His Dark Materials',
@@ -140,48 +142,57 @@ export const BookData = [
     {
         title: 'Jonathan Livingston',
         cover: livingston,
-        link: 'https://www.goodreads.com/book/show/71728.Jonathan_Livingston_Seagull',
+        link:
+            'https://www.goodreads.com/book/show/71728.Jonathan_Livingston_Seagull',
     },
     {
         title: 'Moers',
         cover: moers,
-        link: 'https://www.goodreads.com/book/show/62031.The_City_of_Dreaming_Books',
+        link:
+            'https://www.goodreads.com/book/show/62031.The_City_of_Dreaming_Books',
     },
     {
         title: 'Pragmatic Programmer',
         cover: pragmatic,
-        link: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
+        link:
+            'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
     },
     {
         title: 'Salinger',
         cover: salinger,
-        link: 'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
+        link:
+            'https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer',
     },
     {
         title: 'SH',
         cover: sh,
-        link: 'https://www.goodreads.com/book/show/188572.The_Complete_Sherlock_Holmes',
+        link:
+            'https://www.goodreads.com/book/show/188572.The_Complete_Sherlock_Holmes',
     },
     {
         title: 'Shakespeare',
         cover: shakespeare,
-        link: 'https://www.goodreads.com/book/show/188572.The_Complete_Sherlock_Holmes',
+        link:
+            'https://www.goodreads.com/book/show/188572.The_Complete_Sherlock_Holmes',
     },
     {
         title: 'Stroud',
         cover: stroud,
-        link: 'https://www.goodreads.com/book/show/334123.The_Amulet_of_Samarkand',
+        link:
+            'https://www.goodreads.com/book/show/334123.The_Amulet_of_Samarkand',
     },
     {
         title: 'Hugo',
         cover: hugo,
-        link: 'https://www.goodreads.com/book/show/30597.The_Hunchback_of_Notre_Dame',
+        link:
+            'https://www.goodreads.com/book/show/30597.The_Hunchback_of_Notre_Dame',
     },
     {
         title: 'HP',
         cover: hp,
-        link: 'https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone',
-    }
+        link:
+            'https://www.goodreads.com/book/show/3.Harry_Potter_and_the_Sorcerer_s_Stone',
+    },
 ];
 
 export default BookData;
