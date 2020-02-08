@@ -2,6 +2,8 @@ import es from '../../../assets/images/flags/es.svg';
 import de from '../../../assets/images/flags/deu.svg';
 import sk from '../../../assets/images/flags/sk.svg';
 import nl from '../../../assets/images/flags/nl.svg';
+import eng from '../../../assets/images/flags/england.svg';
+import scot from '../../../assets/images/flags/scotland.svg';
 import us from '../../../assets/images/flags/usa.svg';
 import is from '../../../assets/images/flags/is.svg';
 import ie from '../../../assets/images/flags/ie.svg';
@@ -31,6 +33,7 @@ import sanfrancisco from '../../../assets/images/photos/san-francisco.webp';
 import shanghai from '../../../assets/images/photos/shanghai.webp';
 import bolzano from '../../../assets/images/photos/south-tyrol.webp';
 import vienna from '../../../assets/images/photos/vienna.webp';
+import en from "@amcharts/amcharts4/lang/en";
 
 export const PhotoData = [
     {
@@ -70,7 +73,7 @@ export const PhotoData = [
     },
     {
         title: 'Edinburgh',
-        flag: uk,
+        flag: scot,
         photo: edinburgh,
         link:
             'https://www.flickr.com/photos/185365090@N08/albums/72157713025457677',
@@ -104,7 +107,7 @@ export const PhotoData = [
     },
     {
         title: 'Manchester',
-        flag: uk,
+        flag: eng,
         photo: jrl,
         link:
             'https://www.flickr.com/photos/185365090@N08/albums/72157711600468561',
@@ -137,7 +140,7 @@ export const PhotoData = [
     },
     {
         title: 'Oxford',
-        flag: uk,
+        flag: eng,
         photo: oxford,
         link:
             'https://www.flickr.com/photos/185365090@N08/albums/72157711602308838',
