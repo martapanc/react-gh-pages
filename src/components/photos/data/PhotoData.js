@@ -1,6 +1,7 @@
 import es from '../../../assets/images/flags/es.svg';
 import de from '../../../assets/images/flags/deu.svg';
 import sk from '../../../assets/images/flags/sk.svg';
+import nl from '../../../assets/images/flags/nl.svg';
 import us from '../../../assets/images/flags/usa.svg';
 import is from '../../../assets/images/flags/is.svg';
 import ie from '../../../assets/images/flags/ie.svg';
@@ -10,10 +11,12 @@ import it from '../../../assets/images/flags/ita.svg';
 import zh from '../../../assets/images/flags/zh.svg';
 import at from '../../../assets/images/flags/at.svg';
 
+import ams from '../../../assets/images/photos/amsterdam.webp';
 import barcelona from '../../../assets/images/photos/barcelona.webp';
 import berlin from '../../../assets/images/photos/berlin.webp';
 import bratislava from '../../../assets/images/photos/bratislava.webp';
 import charleston from '../../../assets/images/photos/charleston.webp';
+import edinburgh from '../../../assets/images/photos/edinburgh.webp';
 import fuertev from '../../../assets/images/photos/fuerteventura.webp';
 import iceland from '../../../assets/images/photos/iceland.webp';
 import ireland from '../../../assets/images/photos/ireland.webp';
@@ -30,6 +33,13 @@ import bolzano from '../../../assets/images/photos/south-tyrol.webp';
 import vienna from '../../../assets/images/photos/vienna.webp';
 
 export const PhotoData = [
+    {
+        title: 'Amsterdam',
+        flag: nl,
+        photo: ams,
+        link:
+            'https://www.flickr.com/photos/185365090@N08/albums/72157713025220096',
+    },
     {
         title: 'Spain',
         flag: es,
@@ -52,6 +62,27 @@ export const PhotoData = [
             'https://www.flickr.com/photos/185365090@N08/albums/72157711610738666',
     },
     {
+        title: 'Iceland',
+        flag: is,
+        photo: iceland,
+        link:
+            'https://www.flickr.com/photos/185365090@N08/albums/72157711600820401',
+    },
+    {
+        title: 'Edinburgh',
+        flag: uk,
+        photo: edinburgh,
+        link:
+            'https://www.flickr.com/photos/185365090@N08/albums/72157713025457677',
+    },
+    {
+        title: 'Vienna',
+        flag: at,
+        photo: vienna,
+        link:
+            'https://www.flickr.com/photos/185365090@N08/albums/72157711612756003',
+    },
+    {
         title: 'South Carolina',
         flag: us,
         photo: charleston,
@@ -64,13 +95,6 @@ export const PhotoData = [
         photo: fuertev,
         link:
             'https://www.flickr.com/photos/185365090@N08/albums/72157711611624007',
-    },
-    {
-        title: 'Iceland',
-        flag: is,
-        photo: iceland,
-        link:
-            'https://www.flickr.com/photos/185365090@N08/albums/72157711600820401',
     },
     {
         title: 'Ireland',
@@ -142,13 +166,6 @@ export const PhotoData = [
         flag: it,
         photo: bolzano,
         link: 'https://www.flickr.com/photos/185365090@N08/albums/',
-    },
-    {
-        title: 'Vienna',
-        flag: at,
-        photo: vienna,
-        link:
-            'https://www.flickr.com/photos/185365090@N08/albums/72157711612756003',
     },
 ];
 
