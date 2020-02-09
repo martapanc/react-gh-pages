@@ -33,7 +33,6 @@ import sanfrancisco from '../../../assets/images/photos/san-francisco.webp';
 import shanghai from '../../../assets/images/photos/shanghai.webp';
 import bolzano from '../../../assets/images/photos/south-tyrol.webp';
 import vienna from '../../../assets/images/photos/vienna.webp';
-import en from "@amcharts/amcharts4/lang/en";
 
 export const PhotoData = [
     {
