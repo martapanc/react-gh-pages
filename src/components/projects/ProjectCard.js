@@ -52,7 +52,15 @@ class ProjectCard extends Component {
                                 target="new_blank"
                             >
                                 <i className="fab fa-github fa-fw" />
-                                &nbsp; Check it out
+                                <span
+                                    className={
+                                        hasReport || hasSite
+                                            ? 'responsive-hide'
+                                            : ''
+                                    }
+                                >
+                                    &nbsp; Check it out
+                                </span>
                             </a>
                         )}
                         {hasSite && (
