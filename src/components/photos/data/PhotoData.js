@@ -12,6 +12,7 @@ import pt from '../../../assets/images/flags/pt.svg';
 import it from '../../../assets/images/flags/ita.svg';
 import zh from '../../../assets/images/flags/zh.svg';
 import at from '../../../assets/images/flags/at.svg';
+import mt from '../../../assets/images/flags/mt.svg';
 
 import ams from '../../../assets/images/photos/amsterdam.webp';
 import barcelona from '../../../assets/images/photos/barcelona.webp';
@@ -26,6 +27,7 @@ import jrl from '../../../assets/images/photos/jrl.webp';
 import lisbon from '../../../assets/images/photos/lisbon.webp';
 import london from '../../../assets/images/photos/london.webp';
 import madeira from '../../../assets/images/photos/madeira.webp';
+import malta from '../../../assets/images/photos/malta.webp';
 import nyc from '../../../assets/images/photos/new-york.webp';
 import oxford from '../../../assets/images/photos/oxford.webp';
 import rome from '../../../assets/images/photos/rome.webp';
@@ -35,6 +37,13 @@ import bolzano from '../../../assets/images/photos/south-tyrol.webp';
 import vienna from '../../../assets/images/photos/vienna.webp';
 
 export const PhotoData = [
+    {
+        title: 'Malta',
+        flag: mt,
+        photo: malta,
+        link:
+            'https://www.flickr.com/photos/185365090@N08/albums/72157713304244683',
+    },
     {
         title: 'Amsterdam',
         flag: nl,

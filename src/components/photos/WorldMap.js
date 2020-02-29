@@ -121,6 +121,10 @@ class WorldMap extends Component {
                         title: 'China',
                         id: 'CN',
                     },
+                    {
+                        title: 'Malta',
+                        id: 'MT',
+                    },
                 ],
             },
         ];
