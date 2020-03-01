@@ -17,6 +17,7 @@ import noodle1 from '../../../assets/images/projects/noodle1.webp';
 import noodlePics from '../../../assets/images/projects/noodle-pics.pdf';
 import zebra from '../../../assets/images/projects/zebra.webp';
 import programming from '../../../assets/images/projects/programming.webp';
+import bitbar from '../../../assets/images/projects/Bitbar.webp';
 
 function shuffle(array) {
     var currentIndex = array.length,
@@ -36,6 +37,22 @@ function shuffle(array) {
 }
 
 export const ProjectData = [
+    {
+        title: "Team toolbar plugin",
+        id: 'bitbar',
+        year: '2020',
+        photo: bitbar,
+        repo: 'https://github.com/martapanc/BitBar-distrib',
+        tags: ['python', 'work'],
+        text:
+            'Many teams have a considerable number of processes and metrics to monitor and links to web resources, which ' +
+            'often end up all over the place in the browser. To gather all of those I created a plugin for ' +
+            '<a href="https://getbitbar.com/" target="_blank">BitBar</a>, a useful app that lets you put the output ' +
+            'from any script in the MacOS toolbar. Connecting to the company\'s servers, the toolbar shows Bamboo build ' +
+            'and deployment processes, pull requests, release statuses and such. Now my team uses the toolbar on a daily ' +
+            'basis and I\'m currently working on extending its functionality, e.g. to allow other teams to easily add their ' +
+            'own configuration.',
+    },
     {
         title: "Werner's Burgers & Panini",
         id: 'werners',
