@@ -78,7 +78,7 @@ function Fun() {
                             <li>
                                 I studied the oboe for 12+ years, and although
                                 I've never planned to become a professional
-                                musician, I still practice it whenever I can.
+                                musician, I still practise it whenever I can.
                                 <br />
                                 Wait - you don't know what an oboe is? Check out
                                 this cool{' '}
