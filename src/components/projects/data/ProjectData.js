@@ -260,7 +260,7 @@ export const ProjectData = [
         repo: 'https://github.com/martapanc/dailyProgramming',
         tags: ['java', 'self'],
         text:
-            'They say "Practice makes perfect", and that\'s why a good programmer should write code every day. <br/>The way I like to practice, when I don\'t ' +
+            'They say "Practice makes perfect", and that\'s why a good programmer should write code every day. <br/>The way I like to practise, when I don\'t ' +
             'have more complex projects to work on, is to pick a coding challenge (e.g. from ' +
             '<a href="https://www.reddit.com/r/dailyprogrammer/" target="_blank">r/dailyProgrammer</a>, ' +
             '<a href="https://www.codewars.com/dashboard/" target="_blank">CodeWars</a>, ' +
