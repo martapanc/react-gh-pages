@@ -142,7 +142,7 @@ export const LanguageData = {
         ],
         text:
             "I'm confident working with all the common operating systems, MacOS and Windows in particular. Linux " +
-            'distribution I have experience with are Ubuntu, Raspbian/Debian and RedHat.',
+            'distributions I have experience with are Ubuntu, Raspbian/Debian and RedHat.',
         show: false,
     },
     ide: {
