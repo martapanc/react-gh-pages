@@ -1,6 +1,6 @@
 # Personal Website
 
-### [mpancaldi.netlify.com](https://mpancaldi.netlify.com)
+### [mpancaldi.netlify.app](https://mpancaldi.netlify.app)
 
 ![Netlify Status](https://img.shields.io/netlify/556f64f1-c7a4-489f-9b01-7ca7e0951cc1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/martapanc/react-gh-pages)
