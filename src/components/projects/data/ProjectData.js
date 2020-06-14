@@ -54,7 +54,7 @@ export const ProjectData = [
             'own configuration.',
     },
     {
-        title: "Werner's Burgers & Panini",
+        title: "Werner's Restaurant",
         id: 'werners',
         year: '2017',
         photo: werner,
@@ -70,7 +70,7 @@ export const ProjectData = [
             '<a href="https://werners-restaurant.herokuapp.com/" target="_blank">check it out</a>!',
     },
     {
-        title: 'Cloud computing & GDPR',
+        title: 'Cloud computing and GDPR',
         id: 'gdpr',
         year: '2018',
         photo: gdpr,
