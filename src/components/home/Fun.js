@@ -14,34 +14,38 @@ function Fun() {
             <div className="container">
                 <div>
                     <h2 className="section-title font-weight-bold mb-3">
-                        <img src={book} width="50px" />
+                        <img src={book} width="50px" alt="Book icon"/>
                         &nbsp;
-                        <img src={gamepad} width="50px" />
+                        <img src={gamepad} width="50px" alt="Gamepad icon"/>
                         &nbsp;
                         <img
                             src={camera}
                             width="50px"
                             className="responsive-show"
+                            alt="Camera icon"
                         />
                         &nbsp;
                         <img
                             src={music}
                             width="50px"
                             className="responsive-show"
+                            alt="Music icon"
                         />
                         &nbsp;
-                        <br className="responsive-show" />
+                        <br className="responsive-show"/>
                         <span>The fun bit</span>&nbsp;&nbsp;
                         <img
                             src={camera}
                             width="50px"
                             className="responsive-hide"
+                            alt="Camera icon"
                         />
                         &nbsp;
                         <img
                             src={music}
                             width="50px"
                             className="responsive-hide"
+                            alt="Music icon"
                         />
                         &nbsp;
                     </h2>
@@ -49,7 +53,7 @@ function Fun() {
                 <div className="section-intro mb-4">
                     Programming means great fun for me, but it's not the only
                     activity I enjoy.
-                    <br />
+                    <br/>
                     Here's a quick overview of non-computer related things I
                     love doing in my free time :)
                 </div>
@@ -63,7 +67,7 @@ function Fun() {
                         >
                             Books
                         </h3>
-                        <BookSection />
+                        <BookSection/>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 ">
                         <h3
@@ -79,7 +83,7 @@ function Fun() {
                                 I studied the oboe for 12+ years, and although
                                 I've never planned to become a professional
                                 musician, I still practise it whenever I can.
-                                <br />
+                                <br/>
                                 Wait - you don't know what an oboe is? Check out
                                 this cool{' '}
                                 <a
@@ -134,11 +138,12 @@ function Fun() {
                             <li>
                                 I often find wrong notes or rhythmic errors when
                                 I listen to music... not sure if people around
-                                me are more impressed or annoyed by that 😛
+                                me are more impressed or annoyed by that <span role="img"
+                                                                               aria-label="Emoji with tongue">😛</span>
                             </li>
                             <li>
                                 Anyway, I love music, in fact I'm constantly
-                                listening to some. <br />
+                                listening to some. <br/>
                                 Classical composers are a favourite, but my iPod
                                 contains all sort of genres. Shuffle mode
                                 usually gives me interesting combinations, such
@@ -159,29 +164,29 @@ function Fun() {
                             Travels & Photos
                         </h3>
                         I <u>never</u> go anywhere without my trusty Nikon
-                        camera. <br />
+                        camera. <br/>
                         If money and time weren't an issue, I think I'd be
                         constantly on the road exploring the world.
-                        <br />
+                        <br/>
                         You may want to check out a few pictures I took so far,
                         in the{' '}
                         <a href="/photos" rel="noopener noreferrer">
                             dedicated section
                         </a>
-                        . <br />
+                        . <br/>
                         I'm also active on &nbsp;
                         <a
                             href="https://www.instagram.com/pancakemarta/"
                             rel="noopener noreferrer"
                         >
-                            <img src={ig} height="40" />
+                            <img src={ig} height="40" alt="Instagram"/>
                         </a>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 ">
-                        <h3 style={{ fontFamily: 'Impact', color: '#226d10' }}>
+                        <h3 style={{fontFamily: 'Impact', color: '#226d10'}}>
                             Gaming
                         </h3>
-                        <img src={games} alt="Favourite games" />
+                        <img src={games} alt="Favourite games"/>
                     </div>
                 </div>
             </div>
