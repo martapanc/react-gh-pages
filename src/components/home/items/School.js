@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import Markdown from 'markdown-to-jsx';
 import $ from 'jquery';
 
@@ -24,7 +24,9 @@ class ProgrammingLanguage extends Component {
                         <div className="school-title col-lg-7 col-md-7 col-sm-4">
                             <div className="school-title">
                                 <h5 className="item-title">
-                                    {this.data.title}
+                                    <a className="url-title" href={this.data.url} target="_blank"
+                                       rel="noopener noreferrer">{this.data.title}
+                                    </a>
                                     <img
                                         className="responsive-hide"
                                         src={this.data.flag}
@@ -40,7 +42,7 @@ class ProgrammingLanguage extends Component {
                         <div className="col-lg-4 col-md-4 col-sm-4">
                             <span
                                 className="responsive-hide"
-                                style={{ float: 'right' }}
+                                style={{float: 'right'}}
                             >
                                 <h5>
                                     {this.data.grade} &emsp; {this.data.begin}{' '}
@@ -66,7 +68,7 @@ class ProgrammingLanguage extends Component {
     }
 }
 
-$(function() {
+$(function () {
     // $(window).on('resize', function () {
     //     resizeOps();
     // });
@@ -79,7 +81,7 @@ $(function() {
             .toggleClass('school-title-container', $(window).width() > 600);
 
         if ($(window).width() < 600) {
-            $('.item-title').text(function() {
+            $('.item-title').text(function () {
                 return $(this)
                     .text()
                     .replace('Transport Unit', '')

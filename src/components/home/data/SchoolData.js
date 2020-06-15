@@ -11,6 +11,7 @@ export const WorkData = {
     uom: {
         icon: uom,
         title: 'University of Manchester',
+        url: 'https://www.cs.manchester.ac.uk/',
         subtitle: 'MSc in Advanced Computer Science',
         flag: uk,
         grade: 'Distinction',
@@ -25,6 +26,7 @@ export const WorkData = {
     unibz: {
         icon: unibz,
         title: 'Free University of Bolzano',
+        url: 'https://www.unibz.it/en/faculties/computer-science/',
         subtitle: 'BSc in Computer Science',
         flag: ita,
         grade: '106 / 110',
@@ -46,6 +48,7 @@ export const WorkData = {
     cofc: {
         icon: cofc,
         title: 'College of Charleston',
+        url: 'http://compsci.cofc.edu/',
         subtitle: 'Exchange Semester',
         flag: usa,
         grade: 'GPA 4.0',
@@ -60,6 +63,7 @@ export const WorkData = {
     peri: {
         icon: peri,
         title: '"A. Peri" Music School',
+        url: 'https://peri-merulo.it/',
         subtitle: 'Diploma in Oboe',
         flag: ita,
         grade: '',
