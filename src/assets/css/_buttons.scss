@@ -26,3 +26,14 @@
     color: white;
   }
 }
+
+.btn-green {
+  background-color: #2c693e;
+  color: white;
+
+  &:hover {
+    background: #1f411f;
+    border-color: transparent;
+    color: white;
+  }
+}

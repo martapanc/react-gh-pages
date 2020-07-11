@@ -18,6 +18,7 @@ import noodlePics from '../../../assets/images/projects/noodle-pics.pdf';
 import zebra from '../../../assets/images/projects/zebra.webp';
 import programming from '../../../assets/images/projects/programming.webp';
 import bitbar from '../../../assets/images/projects/Bitbar.webp';
+import twitch from '../../../assets/images/projects/twitch.webp';
 
 function shuffle(array) {
     var currentIndex = array.length,
@@ -267,6 +268,20 @@ export const ProjectData = [
             '<a href="https://projecteuler.net/" target="_blank">Project Euler</a>, ' +
             '<a href="https://adventofcode.com/" target="_blank">Advent of Code</a>, ' +
             '...), or simply to think of a problem I want to tackle, and write my solution for it. This repository is a collection of all such challenges.',
+    },
+    {
+        title: 'Twitch-to-Slack notifier',
+        id: 'twitch',
+        year: '2020',
+        photo: twitch,
+        repo: 'https://github.com/martapanc/Twitch-notifier',
+        tags: ['python', 'self'],
+        text:
+            'I never want to miss a live show from my favourite Twitch streamers, and I\'m used to grouping notifications ' +
+            'on Slack channels as a way to organise them. After testing services like Zapier and IFTTT and getting quite dissatisfied ' +
+            'with the licence limitations or the lack of customisation, I decided to write my own **cron job in Python**: it ' +
+            'queries the **Twitch API** to find which of the streamers I follow goes live and then connects to a **Slack webhook**, ' +
+            'displaying a nice-looking message. <br/>Never gonna miss a show again!',
     },
 ];
 

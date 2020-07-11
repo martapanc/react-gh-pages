@@ -56,6 +56,12 @@ function Projects() {
                                 Work
                             </button>
                             <button
+                                id="public-filter-btn"
+                                className="btn btn-green btn-sm filter-btn"
+                            >
+                                Publications
+                            </button>
+                            <button
                                 id="hack-filter-btn"
                                 className="btn btn-info btn-info2 btn-sm filter-btn"
                             >
@@ -105,6 +111,7 @@ $(function() {
         'uni',
         'work',
         'hack',
+        'public',
         'all',
     ];
     filterButtonList.forEach(filterOnClick);
