@@ -10,6 +10,7 @@ import CV from '../cv/CV';
 import Blog from '../blog/Blog';
 import Projects from '../projects/Projects';
 import NotFound from '../404/NotFound';
+import FiscalCode from "../apps/FiscalCode";
 
 function App() {
     return (
@@ -25,6 +26,7 @@ function App() {
                             <Route path="/projects" component={Projects} />
                             <Route path="/photos" component={Photos} />
                             <Route path="/blog" component={Blog} />
+                            <Route path="/apps/fiscal-code" component={FiscalCode} />
                             <Route component={NotFound} />
                         </Switch>
                     </div>
