@@ -5,7 +5,7 @@ import Markdown from 'markdown-to-jsx';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faNewspaper } from '@fortawesome/free-regular-svg-icons';
 import { faFileAlt, faImages } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube } from '@fortawesome/free-brands-svg-icons';
+import { faYoutube, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
 
 class ProjectCard extends Component {
     constructor(props) {
@@ -20,6 +20,7 @@ class ProjectCard extends Component {
         const hasArticle = this.data.article != null;
         const hasVideo = this.data.video != null;
         const hasPics = this.data.pics != null;
+        const hasLink = this.data.link != null;
         return (
             <div
                 className="col-12 col-md-4 col-lg-4 project-card"
@@ -54,7 +55,7 @@ class ProjectCard extends Component {
                                 <i className="fab fa-github fa-fw" />
                                 <span
                                     className={
-                                        hasReport || hasSite
+                                        hasReport || hasSite || hasLink
                                             ? 'responsive-hide'
                                             : ''
                                     }
@@ -111,6 +112,16 @@ class ProjectCard extends Component {
                             >
                                 <FontAwesomeIcon icon={faImages} />
                                 &nbsp; Screenshots
+                            </a>
+                        )}
+                        {hasLink && (
+                            <a
+                                className="play-link-btn"
+                                href={this.data.link}
+                                target="new_blank"
+                            >
+                                <FontAwesomeIcon icon={faGooglePlay} />
+                                &nbsp; Download
                             </a>
                         )}
                     </div>

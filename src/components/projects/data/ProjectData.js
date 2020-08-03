@@ -1,4 +1,5 @@
 import fc from '../../../assets/images/projects/fiscalcode.webp';
+import fc_app from '../../../assets/images/projects/fc_app.webp';
 import werner from '../../../assets/images/projects/werners.webp';
 import ict from '../../../assets/images/projects/ict.webp';
 import ictReport from '../../../assets/images/projects/Internship_Final_Report.pdf';
@@ -172,7 +173,7 @@ export const ProjectData = [
             'and librarian account used to insert new titles into the database and to register book loans and returns.',
     },
     {
-        title: 'Fiscal Code Calculator',
+        title: 'Fiscal Code Calculator (Desktop app)',
         id: 'fiscalcode',
         year: '2015',
         photo: fc,
@@ -182,8 +183,22 @@ export const ProjectData = [
             'Another **Java** app developed for my uni programming course. It allows the user to calculate their Italian tax code ' +
             '(<a href="https://en.wikipedia.org/wiki/Italian_fiscal_code" target="_blank">Codice Fiscale</a>) by ' +
             'entering their personal data.<br/>The app was designed to exploit various advanced features of the Java language, ' +
-            'such Exception handling, Multithreading, Generics, Reflection, RegEx and Streams. Also, JUnit tests ' +
-            'cover edge cases for user input.',
+            'such Exception handling, Multithreading, Generics, Reflection, RegEx and Streams. Also, ' +
+            'I recently reused the code and built an Android app.',
+    },
+    {
+        title: 'Fiscal Code App (Android)',
+        id: 'fiscalcode_app',
+        year: '2020',
+        photo: fc_app,
+        link: 'https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app',
+        repo: 'https://github.com/martapanc/ItalianFiscalCodeCalculatorApp',
+        tags: ['java', 'kotlin', 'uni', 'android'],
+        text:
+            'I started learning Android development recently and, in order to focus on the feature of the mobile world,' +
+            'as well as on practising with Kotlin, I\'ve been reusing the Java backend of the Fiscal Code calculator ' +
+            'I built in uni. Check out the result on the ' +
+            '<a href="https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app">Play Store</a>!',
     },
     {
         title: 'Hack-my-town',
@@ -217,7 +232,7 @@ export const ProjectData = [
     {
         title: 'mpancaldi.com',
         id: 'site',
-        year: '2019',
+        year: '2020',
         photo: website,
         repo: 'https://github.com/martapanc/react-gh-pages',
         tags: ['web', 'self'],
