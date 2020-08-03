@@ -37,3 +37,25 @@
     color: white;
   }
 }
+
+.btn-android {
+  background-color: #7FB800;
+  color: white;
+
+  &:hover {
+    background: #639f00;
+    border-color: transparent;
+    color: white;
+  }
+}
+
+.btn-white {
+  background-color: #e2dfd9;
+  color: black;
+
+  &:hover {
+    background: #363636;
+    color: white;
+    border-color: transparent;
+  }
+}

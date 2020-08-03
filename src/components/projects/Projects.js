@@ -32,6 +32,12 @@ function Projects() {
                                 Python
                             </button>
                             <button
+                                id="android-filter-btn"
+                                className="btn btn-android btn-sm filter-btn"
+                            >
+                                Android
+                            </button>
+                            <button
                                 id="web-filter-btn"
                                 className="btn btn-warning btn-sm filter-btn"
                             >
@@ -69,7 +75,7 @@ function Projects() {
                             </button>
                             <button
                                 id="all-filter-btn"
-                                className="btn btn-success btn-sm filter-btn"
+                                className="btn btn-white btn-sm filter-btn"
                             >
                                 Show all
                             </button>
@@ -106,6 +112,7 @@ $(function() {
     const filterButtonList = [
         'java',
         'python',
+        'android',
         'web',
         'self',
         'uni',
