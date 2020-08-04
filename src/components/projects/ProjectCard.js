@@ -121,7 +121,7 @@ class ProjectCard extends Component {
                                 target="new_blank"
                             >
                                 <FontAwesomeIcon icon={faGooglePlay} />
-                                &nbsp; Download
+                                &nbsp; Try app
                             </a>
                         )}
                     </div>
