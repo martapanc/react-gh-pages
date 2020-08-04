@@ -187,7 +187,7 @@ export const ProjectData = [
             'I recently reused the code and built an Android app.',
     },
     {
-        title: 'Fiscal Code App (Android)',
+        title: 'Fiscal Code (Android)',
         id: 'fiscalcode_app',
         year: '2020',
         photo: fc_app,
