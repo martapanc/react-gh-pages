@@ -47,7 +47,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettier": "prettier --single-quote --trailing-comma es5 --write --tab-width 4 \"**/*.js\""
+    "prettier": "prettier --single-quote --trailing-comma es5 --write --tab-width 4 \"**/*.js\"",
+    "fb_serve": "npm run build && firebase serve --only hosting\n",
+    "fb_deploy": "npm run build && firebase deploy --only hosting:mpancaldi"
   },
   "eslintConfig": {
     "extends": "react-app"
