@@ -32,6 +32,13 @@ import eclipse from '../../../assets/images/languages/eclipse.webp';
 import atom from '../../../assets/images/languages/atom.webp';
 import android from '../../../assets/images/languages/android-happy.webp';
 import kotlin from '../../../assets/images/languages/kotlin.webp';
+import firebase from '../../../assets/images/languages/icons8-firebase.svg';
+import mongodb from '../../../assets/images/languages/mongodb-original.svg';
+import flask from '../../../assets/images/languages/flask.webp';
+import aws from '../../../assets/images/languages/aws.svg';
+import gcp from '../../../assets/images/languages/gcp.webp';
+import heroku from '../../../assets/images/languages/heroku.webp';
+import docker from '../../../assets/images/languages/docker.svg';
 
 export const LanguageData = {
     java: {
@@ -54,6 +61,7 @@ export const LanguageData = {
         icons: [
             { object: python, name: 'Python' },
             { object: django, name: 'Django' },
+            { object: flask, name: 'Flask' },
         ],
         text:
             'I taught myself Python and it quickly became one of my favourite languages. I mainly used it to develop an ' +
@@ -85,8 +93,8 @@ export const LanguageData = {
             { object: bootstrap, name: 'Bootstrap' },
         ],
         text:
-            'Working on the front-end is always good fun and gives me the chance to explore frameworks and design ' +
-            "techniques. I've worked with Bootstrap on various uni and personal projects - [check them out](/projects).",
+            'Working on the front-end is always good fun and gives me the chance to explore frameworks like Bootstrap and design ' +
+            "techniques. I've built web apps for various uni and personal projects - [check them out](/projects).",
         show: false,
     },
     android: {
@@ -113,14 +121,17 @@ export const LanguageData = {
         show: false,
     },
     sql: {
-        title: 'SQL',
+        title: 'Databases',
         icons: [
             { object: mysql, name: 'MySQL' },
             { object: postgres, name: 'PostgreSQL' },
+            { object: mongodb, name: 'MongoDB' },
+            { object: firebase, name: 'Firestore' },
         ],
         text:
-            'A Library Management app was the project that introduced me to complex Database architectures. ' +
-            'Since then I designed several systems for both personal and work projects, mostly with Postgres and MySQL.',
+            'A Library Manager was the project that introduced me to complex relational db architectures. ' +
+            'Since then I designed several systems for personal and work projects, mostly with Postgres and MySQL, ' +
+            'as well as MongoDB and Firestore in the NoSQL world.',
         show: false,
     },
     php: {
@@ -128,7 +139,7 @@ export const LanguageData = {
         icons: [{ object: php, name: 'PHP' }],
         text:
             'The booking management service of my current company is written in PHP, which was a good chance to learn ' +
-            'about this language. I still have a lot to learn and explore - but I like being challenged.',
+            'about this language. I still have a lot to learn and explore - but I like challenges.',
         show: false,
     },
     os: {
@@ -143,6 +154,20 @@ export const LanguageData = {
         text:
             "I'm confident working with all the common operating systems, MacOS and Windows in particular. Linux " +
             'distributions I have experience with are Ubuntu, Raspbian/Debian and RedHat.',
+        show: false,
+    },
+    cloud: {
+        title: 'Cloud platforms',
+        icons: [
+            { object: aws, name: 'Amazon Web Services' },
+            { object: gcp, name: 'Google Cloud Platform' },
+            { object: heroku, name: 'Heroku' },
+            { object: docker, name: 'Docker' }
+        ],
+        text:
+            "After spending the first years in uni relying on my <i>localhost</i>, I made an effort to " +
+            "learn how to deploy servers on the cloud. I still have <b>loads</b> to learn, especially about the huge " +
+            "worlds of AWS and GCP, but for now, Heroku is a favourite for its simplicity (and the free tier).",
         show: false,
     },
     ide: {
