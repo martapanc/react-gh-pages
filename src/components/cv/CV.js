@@ -3,26 +3,29 @@ import '../../assets/css/main.scss';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import Section from '../app/Section';
 import './styles.scss';
-import BookingGo from './sections/BookingGo';
-import Ieee from './sections/Ieee';
-import Ict from './sections/Ict';
-import Projects from './sections/Projects';
-import cv from '../../assets/images/MARTA PANCALDI - Resume_Aug20.jpg';
+import cv from '../../assets/images/cv/MARTA-PANCALDI-Resume_Sep20.webp';
+import cv_pdf from '../../assets/images/cv/MARTA PANCALDI - Resume_Sep20.pdf';
 
 function CV() {
     return (
         <div>
-            <SectionTitle props={'My CV'} />
+            <SectionTitle props={'My CV'}/>
 
             <div>
                 <div className="container px-3 px-lg-5">
-                    <div className="resume-wrapper mx-auto theme-bg-light p-4 mb-4 my-4 shadow-lg">
-                        <img src={cv} alt="CV" />
+                    <div style={{marginTop: '15px'}}>
+                        <a href={cv_pdf} className="btn btn-primary2 mr-2 mb-3" target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-download fa-fw mr-2"/>
+                            Download PDF
+                        </a>
+                    </div>
+                    <div className="resume-wrapper mx-auto p-4 mb-4 my-2 shadow-lg">
+                        <img src={cv} alt="CV"/>
                     </div>
                 </div>
             </div>
 
-            <Section />
+            <Section/>
         </div>
     );
 }
