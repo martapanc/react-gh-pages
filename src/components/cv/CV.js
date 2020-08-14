@@ -3,8 +3,8 @@ import '../../assets/css/main.scss';
 import SectionTitle from '../sectionTitle/SectionTitle';
 import Section from '../app/Section';
 import './styles.scss';
-import cv from '../../assets/images/cv/MARTA-PANCALDI-Resume_Sep20.webp';
-import cv_pdf from '../../assets/images/cv/MARTA-PANCALDI-Resume_Sep20.pdf';
+import cv from '../../assets/images/cv/cv.webp';
+import cv_pdf from '../../assets/images/cv/MARTA PANCALDI - CV.pdf';
 
 function CV() {
     return (
