@@ -13,7 +13,7 @@ function CV() {
 
             <div>
                 <div className="container px-3 px-lg-5">
-                    <div style={{marginTop: '15px'}}>
+                    <div style={{marginTop: '15px', textAlign: "center"}}>
                         <a href={cv_pdf} className="btn btn-primary2 mr-2 mb-3" target="_blank" rel="noopener noreferrer">
                             <i className="fas fa-download fa-fw mr-2"/>
                             Download PDF
