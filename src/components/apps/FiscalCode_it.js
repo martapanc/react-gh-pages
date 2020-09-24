@@ -10,7 +10,7 @@ function CodiceFiscale() {
             <section className="blog-list px-3 py-5 p-md-5">
                 <div className="container">
                     <div>
-                        <h3>Termini &amp; Condizioni</h3> <p>
+                        <h3 id="tcs">Termini &amp; Condizioni</h3> <p>
                         Scaricando o utilizzando l'applicazione, queste condizioni d'uso sono da considerarsi
                         automaticamente accettate. Assicuratevi di leggerle attentamente prima dell'utilizzo.
                         Non è permesso copiare, o modificare, qualsiasi parte dell'applicazione, o
@@ -115,7 +115,7 @@ function CodiceFiscale() {
                         <br/>
                         <hr/>
 
-                        <h3>Informativa sulla Privacy</h3>
+                        <h3 id="privacy">Informativa sulla Privacy</h3>
                         <p>
                             Marta Pancaldi ha sviluppato l'applicazione <i>Calcolo del Codice Fiscale</i> per essere
                             supportata da avvisi pubblicitari.

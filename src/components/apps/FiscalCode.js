@@ -11,7 +11,7 @@ function FiscalCode() {
             <section className="blog-list px-3 py-5 p-md-5">
                 <div className="container">
                     <div>
-                        <h3>Terms &amp; Conditions</h3> <p>
+                        <h3 id="tcs">Terms &amp; Conditions</h3> <p>
                         By downloading or using the app, these terms will
                         automatically apply to you – you should make sure therefore
                         that you read them carefully before using the app. You’re not
@@ -141,7 +141,7 @@ function FiscalCode() {
                         <br/>
                         <hr/>
 
-                        <h3>Privacy Policy</h3> <p>
+                        <h3 id="privacy">Privacy Policy</h3> <p>
                         Marta Pancaldi built the Fiscal Code Calculator app as an Ad Supported app. This SERVICE is
                         provided by
                         Marta Pancaldi at no cost and is intended for use as is.
