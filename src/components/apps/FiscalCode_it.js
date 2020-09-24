@@ -15,10 +15,10 @@ function CodiceFiscale() {
                         automaticamente accettate. Assicuratevi di leggerle attentamente prima dell'utilizzo.
                         Non è permesso copiare, o modificare, qualsiasi parte dell'applicazione, o
                         i marchi in qualsiasi modo. Non è consentito tentare di
-                        estrarre il codice sorgente dell'applicazione, o tradurre l'applicazione in altre lingu,
+                        estrarre il codice sorgente dell'applicazione, o tradurre l'applicazione in altre lingue,
                         o svilupparne una versione derivata, senza il permesso dello sviluppatore.
                         L'applicazione stessa, e tutti i marchi, copyright, diritti su database e altri diritti
-                        di proprietà intellettuale inerente ad esso, appartengono a Marta Pancaldi.
+                        di proprietà intellettuale inerente a esso, appartengono a Marta Pancaldi.
                     </p> <p>
                         Marta Pancaldi si impegna a garantire che l'app sia
                         il più utile ed efficiente possibile. Per questo motivo,
@@ -27,8 +27,8 @@ function CodiceFiscale() {
                         servizi
                         verrà addebitato senza permesso o senza rendere molto chiare le ragioni del pagamento.
                     </p> <p>
-                        L'applicazione <i>Calcolo del Codice Fiscale</i> utilizza ed elabora i dati personali che
-                        che avete fornito, con il solo scopo di fornire il servizio.
+                        L'applicazione <i>Calcolo del Codice Fiscale</i> utilizza ed elabora i dati personali che avete
+                        fornito, con il solo scopo di fornire il servizio.
                         È vostra responsabilità tenere il vostro telefono e
                         accesso sicuro all'applicazione. Vi raccomandiamo quindi di non effettuare jailbreak o altre
                         operazioni
@@ -56,31 +56,18 @@ function CodiceFiscale() {
                             Marta Pancaldi non si assume responsabilità per le funzioni dell'app che richiedano una
                             connessione internet attiva. La connessione può essere Wi-Fi, oppure fornita
                             dal vostro provider di telefonia mobile. L'applicazione potrebbe non funzionare a pieno
-                            regime
-                            senza l'accesso a internet..
+                            regime senza l'accesso a internet.
                         </p>
                         <p>
-                            If you’re using the app outside of an area with Wi-Fi, you
-                            should remember that your terms of the agreement with your
-                            mobile network provider will still apply. As a result, you may
-                            be charged by your mobile provider for the cost of data for
-                            the duration of the connection while accessing the app, or
-                            other third party charges. In using the app, you’re accepting
-                            responsibility for any such charges, including roaming data
-                            charges if you use the app outside of your home territory
-                            (i.e. region or country) without turning off data roaming. If
-                            you are not the bill payer for the device on which you’re
-                            using the app, please be aware that we assume that you have
-                            received permission from the bill payer for using the app.
-                        </p>  <p>
-                        Per quanto riguarda la responsabilità di Marta Pancaldi per l'utilizzo dell'applicazione,
-                        è importante tenete presente che, sebbene ci sia lo sforzo di garantire che essa sia
-                        aggiornata e operi in modo corretto in ogni momento, la funzionalità dipende in parte da
-                        servizi di terze parti (Google Play). Marta Pancaldi non si assume alcuna responsabilità per
-                        qualsiasi
-                        perdita, diretta o indiretta, di dati si verifichi come risultato di un mancato funzionamento
-                        di tali servizi.
-                    </p> <p>
+                            Per quanto riguarda la responsabilità di Marta Pancaldi per l'utilizzo dell'applicazione,
+                            è importante tenete presente che, sebbene ci sia lo sforzo di garantire che essa sia
+                            aggiornata e operi in modo corretto in ogni momento, la funzionalità dipende in parte da
+                            servizi di terze parti (Google Play). Marta Pancaldi non si assume alcuna responsabilità per
+                            qualsiasi
+                            perdita, diretta o indiretta, di dati si verifichi come risultato di un mancato
+                            funzionamento
+                            di tali servizi.
+                        </p> <p>
                         L'applicazione verrà aggiornata di tanto in tanto a discrezione del programmatore.
                         L'app è attualmente disponibile su Android: i requisiti per
                         sistema (e per eventuali sistemi aggiuntivi a cui verrà estesa la funzionalità) potranno
@@ -197,7 +184,7 @@ function CodiceFiscale() {
                         <p>
                             I cookie sono file contenenti dati che vengono comunemente utilizzati come
                             identificatori unici e anonimi. Questi vengono inviati al browser dai siti web visitati
-                            e sono memorizzati sulla memoria interna del vostro dispositivo..
+                            e sono memorizzati sulla memoria interna del vostro dispositivo.
                         </p> <p>
                         Questo Servizio non utilizza cookies in modo esplicito. Tuttavia, l'applicazione può
                         utilizzare codice di terze parti e librerie software che possono fare uso di cookies per
@@ -216,14 +203,7 @@ function CodiceFiscale() {
                             <li>eseguire servizi connessi ai servizi; oppure</li>
                             <li>per assisterci nell'analisi dell'utilizzo del nostro servizio.</li>
                         </ul>
-                        <p>
-                            Voglio informare gli utenti di questo Servizio che questi terzi hanno accesso a
-                            al tuo personale
-                            Informazioni. Il motivo è quello di svolgere i compiti loro assegnati sul nostro
-                            a nome. Tuttavia,
-                            sono obbligati a non
-                            divulgare o utilizzare le informazioni per qualsiasi altro scopo.
-                        </p> <p><strong>Sicurezza</strong></p>
+                        <p><strong>Sicurezza</strong></p>
 
                         <p>
                             Tutti i mezzi a disposizione verranno impiegati per proteggere le informazioni
