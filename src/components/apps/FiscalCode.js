@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../assets/css/main.scss';
 import SectionTitle from '../sectionTitle/SectionTitle';
+import './styles.scss';
 
 function FiscalCode() {
     return (
@@ -45,7 +46,7 @@ function FiscalCode() {
                             Terms and Conditions.
                         </p> <p>
                             Link to Terms and Conditions of third party service
-                            providers used by the app
+                            providers used by the app:
                         </p>
                             <ul>
                                 <li><a href="https://policies.google.com/terms" target="_blank"
@@ -113,7 +114,7 @@ function FiscalCode() {
                         notify you of any changes by posting the new Terms and
                         Conditions on this page.
                     </p> <p>
-                        These terms and conditions are effective as of 2020-07-30
+                        These terms and conditions are effective as of 2020-09-24
                     </p> <p><strong>Contact Us</strong></p> <p>
                         If you have any questions or suggestions about my
                         Terms and Conditions, do not hesitate to contact me
@@ -249,7 +250,7 @@ function FiscalCode() {
                         I may update our Privacy Policy from time to time. Thus, you are advised to review this page
                         periodically for any changes. I will notify you of any changes by posting the new Privacy Policy
                         on this page.
-                    </p> <p>This policy is effective as of 2020-07-30</p> <p><strong>Contact Us</strong></p> <p>
+                    </p> <p>This policy is effective as of 2020-09-24</p> <p><strong>Contact Us</strong></p> <p>
                         If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me
                         at marta.panc AT gmail.com.
                     </p>
