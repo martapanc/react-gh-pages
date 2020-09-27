@@ -1,8 +1,8 @@
-import React from 'react';
-import $ from 'jquery';
-import Languages from './data/LanguageData';
-import ProgrammingLanguage from './items/ProgrammingLanguage';
-import laptop from '../../assets/images/intro/laptop.svg';
+import React from "react";
+import $ from "jquery";
+import Languages from "./data/LanguageData";
+import ProgrammingLanguage from "./items/ProgrammingLanguage";
+import laptop from "../../assets/images/intro/laptop.svg";
 
 function SoftwareDevelopment() {
     return (
@@ -21,9 +21,9 @@ function SoftwareDevelopment() {
                     Software development has been both my passion and my work
                     for 5 years. Below is a quick overview of my main technical
                     skill sets and technologies I use. Want to find out more
-                    about my experience? Check out my{' '}
-                    <a href={'/cv'}>online CV</a> and{' '}
-                    <a href={'/projects'}>project portfolio</a>.
+                    about my experience? Check out my{" "}
+                    <a href={"/cv"}>online CV</a> and{" "}
+                    <a href={"/projects"}>project portfolio</a>.
                 </div>
                 <div className="row">
                     <ProgrammingLanguage props={Languages.java} />
@@ -54,8 +54,8 @@ function SoftwareDevelopment() {
 }
 
 function readMore() {
-    const hideElements = $('.read-more-hide');
-    const showMoreBtn = $('#read-more-btn');
+    const hideElements = $(".read-more-hide");
+    const showMoreBtn = $("#read-more-btn");
 
     $(hideElements).each(function() {
         $(this).show();

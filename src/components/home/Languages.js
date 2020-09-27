@@ -1,10 +1,10 @@
-import React from 'react';
-import uk from '../../assets/images/flags/uk.svg';
-import it from '../../assets/images/flags/ita.svg';
-import de from '../../assets/images/flags/deu.svg';
-import fr from '../../assets/images/flags/fra.svg';
-import './styles.scss';
-import world from '../../assets/images/intro/internet.svg';
+import React from "react";
+import uk from "../../assets/images/flags/uk.svg";
+import it from "../../assets/images/flags/ita.svg";
+import de from "../../assets/images/flags/deu.svg";
+import fr from "../../assets/images/flags/fra.svg";
+import "./styles.scss";
+import world from "../../assets/images/intro/internet.svg";
 
 function Languages() {
     return (

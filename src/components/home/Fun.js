@@ -1,12 +1,12 @@
-import React from 'react';
-import './styles.scss';
-import book from '../../assets/images/fun/openBook.svg';
-import camera from '../../assets/images/fun/photo-camera.svg';
-import gamepad from '../../assets/images/fun/game-console.svg';
-import music from '../../assets/images/fun/headphones.svg';
-import BookSection from '../fun/BookSection';
-import games from '../../assets/images/games/games.webp';
-import ig from '../../assets/images/insta.webp';
+import React from "react";
+import "./styles.scss";
+import book from "../../assets/images/fun/openBook.svg";
+import camera from "../../assets/images/fun/photo-camera.svg";
+import gamepad from "../../assets/images/fun/game-console.svg";
+import music from "../../assets/images/fun/headphones.svg";
+import BookSection from "../fun/BookSection";
+import games from "../../assets/images/games/games.webp";
+import ig from "../../assets/images/insta.webp";
 
 function Fun() {
     return (
