@@ -1,8 +1,8 @@
-import React from 'react';
-import SchoolData from './data/SchoolData';
-import School from './items/School';
-import './styles.scss';
-import edu from '../../assets/images/intro/mortarboard.svg';
+import React from "react";
+import SchoolData from "./data/SchoolData";
+import School from "./items/School";
+import "./styles.scss";
+import edu from "../../assets/images/intro/mortarboard.svg";
 
 function Education() {
     return (
@@ -18,10 +18,10 @@ function Education() {
                     Education
                 </h2>
                 <div className="row">
-                    <School props={SchoolData.uom} />
-                    <School props={SchoolData.unibz} />
-                    <School props={SchoolData.cofc} />
-                    <School props={SchoolData.peri} />
+                    <School props={SchoolData.uom}/>
+                    <School props={SchoolData.unibz}/>
+                    <School props={SchoolData.cofc}/>
+                    <School props={SchoolData.peri}/>
                 </div>
             </div>
         </section>

@@ -1,5 +1,5 @@
-import React from 'react';
-import '../../assets/css/main.scss';
+import React from "react";
+import "../../assets/css/main.scss";
 
 function Intro() {
     return (
@@ -15,10 +15,10 @@ function Intro() {
                             I'm a junior software engineer based in Manchester
                             (UK), currently working at{' '}
                             <strong>
-                                <span style={{ color: '#21457E' }}>
+                                <span style={{ color: "#21457E" }}>
                                     Booking
                                 </span>
-                                <span style={{ color: '#4A9EDA' }}>.com</span>
+                                <span style={{ color: "#4A9EDA" }}>.com</span>
                             </strong>
                             , specialised in Java and web development.
                             <br />I recently graduated from the University of

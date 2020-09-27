@@ -1,8 +1,8 @@
-import React from 'react';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import './styles.scss';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import news from '../../assets/images/intro/newspaper.svg';
+import React from "react";
+import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
+import "./styles.scss";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import news from "../../assets/images/intro/newspaper.svg";
 
 function Publications() {
     return (
@@ -27,7 +27,7 @@ function Publications() {
                                 </span>
                                 <div className="pub-content">
                                     <span>Research project</span>
-                                    <br />
+                                    <br/>
                                     <span>IEEE Cloud Computing, 2018</span>
                                     <a
                                         target="_blank"
@@ -54,7 +54,7 @@ function Publications() {
                                 </span>
                                 <div className="pub-content">
                                     <span>MSc Dissertation</span>
-                                    <br />
+                                    <br/>
                                     <span>University of Manchester, 2018</span>
                                     <a
                                         target="_blank"
@@ -81,7 +81,7 @@ function Publications() {
                                 </span>
                                 <div className="pub-content">
                                     <span>BSc Dissertation</span>
-                                    <br />
+                                    <br/>
                                     <span>
                                         University of Bozen-Bolzano, 2017
                                     </span>

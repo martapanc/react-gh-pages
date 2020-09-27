@@ -1,6 +1,6 @@
-import React from 'react';
-import BookData from './data/BookData';
-import Book from './items/Book';
+import React from "react";
+import BookData from "./data/BookData";
+import Book from "./items/Book";
 
 function BookSection() {
     return (

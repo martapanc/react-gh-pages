@@ -1,11 +1,11 @@
-import React from 'react';
-import '../../assets/css/main.scss';
-import SectionTitle from '../sectionTitle/SectionTitle';
+import React from "react";
+import "../../assets/css/main.scss";
+import SectionTitle from "../sectionTitle/SectionTitle";
 
 function CodiceFiscale() {
     return (
         <div>
-            <SectionTitle props={'Calcolo del Codice Fiscale'}/>
+            <SectionTitle props={"Calcolo del Codice Fiscale"}/>
 
             <section className="blog-list px-3 py-5 p-md-5">
                 <div className="container">

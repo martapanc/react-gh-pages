@@ -1,15 +1,15 @@
-import React from 'react';
-import '../../assets/css/main.scss';
-import '../sidebar/Sidebar';
-import Sidebar from '../sidebar/Sidebar';
-import Footer from '../footer/Footer';
-import { Switch, Route, BrowserRouter as Router } from 'react-router-dom';
-import Home from '../home/Home';
-import Photos from '../photos/Photos';
-import CV from '../cv/CV';
-import Blog from '../blog/Blog';
-import Projects from '../projects/Projects';
-import NotFound from '../404/NotFound';
+import React from "react";
+import "../../assets/css/main.scss";
+import "../sidebar/Sidebar";
+import Sidebar from "../sidebar/Sidebar";
+import Footer from "../footer/Footer";
+import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import Home from "../home/Home";
+import Photos from "../photos/Photos";
+import CV from "../cv/CV";
+import Blog from "../blog/Blog";
+import Projects from "../projects/Projects";
+import NotFound from "../404/NotFound";
 import FiscalCode from "../apps/FiscalCode";
 import CodiceFiscale from "../apps/FiscalCode_it";
 
