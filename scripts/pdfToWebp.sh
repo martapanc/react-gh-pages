@@ -1,3 +1,5 @@
+#!/bin/bash
+
 source ~/.bash_profile
 
 cd ~/Workspace/react-gh-pages/src/assets/images/cv || exit

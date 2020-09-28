@@ -13,7 +13,7 @@ function Intro() {
                         <div className="tagline mb-3">Software Engineer</div>
                         <div className="bio mb-4">
                             I'm a junior software engineer based in Manchester
-                            (UK), currently working at{' '}
+                            (UK), currently working at{" "}
                             <strong>
                                 <span style={{ color: "#21457E" }}>
                                     Booking
@@ -40,11 +40,11 @@ function Intro() {
                                 href="https://www.youtube.com/watch?v=F_VM95pANBk"
                             >
                                 oboist
-                            </a>{' '}
+                            </a>{" "}
                             and&nbsp;
                             <a className="link-on-bg" href="/photos">
                                 travel photographer
-                            </a>{' '}
+                            </a>{" "}
                             in my free time.
                             <br />
                         </div>
@@ -58,14 +58,14 @@ function Intro() {
                                 <span className="d-none d-md-inline">
                                     <i className="fas fa-code fa-fw mr-2"></i>
                                     View
-                                </span>{' '}
+                                </span>{" "}
                                 Projects
                             </a>
                             <a className="btn btn-secondary mb-3" href="/cv">
                                 <span className="d-none d-md-inline">
                                     <i className="fas fa-file-alt fa-fw mr-2"></i>
                                     View
-                                </span>{' '}
+                                </span>{" "}
                                 CV
                             </a>
                         </div>

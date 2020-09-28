@@ -100,29 +100,29 @@
 }
 
 .left.text-muted {
-    float: left;
-    margin-left: 9px;
-    color: #767676;
+  float: left;
+  margin-left: 9px;
+  color: #767676;
 }
 
 .left.text-muted a {
-    color: #4078c0;
-    text-decoration: none;
+  color: #4078c0;
+  text-decoration: none;
 }
 
 .left.text-muted a:hover,
 .monospace a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h2.f4.text-normal.mb-3 {
-    display: none;
+  display: none;
 }
 
 .float-left.text-gray {
-    float: left;
+  float: left;
 }
 
 #user-activity-overview {
-    display: none;
+  display: none;
 }

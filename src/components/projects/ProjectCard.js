@@ -14,13 +14,13 @@ class ProjectCard extends Component {
     }
 
     render() {
-        const hasRepo = this.data.repo != null;
-        const hasSite = this.data.site != null;
-        const hasReport = this.data.report != null;
-        const hasArticle = this.data.article != null;
-        const hasVideo = this.data.video != null;
-        const hasPics = this.data.pics != null;
-        const hasLink = this.data.link != null;
+        const hasRepo = this.data.repo !== null;
+        const hasSite = this.data.site !== null;
+        const hasReport = this.data.report !== null;
+        const hasArticle = this.data.article !== null;
+        const hasVideo = this.data.video !== null;
+        const hasPics = this.data.pics !== null;
+        const hasLink = this.data.link !== null;
         return (
             <div
                 className="col-12 col-md-4 col-lg-4 project-card"
@@ -56,8 +56,8 @@ class ProjectCard extends Component {
                                 <span
                                     className={
                                         hasReport || hasSite || hasLink
-                                            ? 'responsive-hide'
-                                            : ''
+                                            ? "responsive-hide"
+                                            : ""
                                     }
                                 >
                                     &nbsp; Check it out

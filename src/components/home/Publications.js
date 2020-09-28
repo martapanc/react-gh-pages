@@ -50,7 +50,7 @@ function Publications() {
                             <div className="card-content pub-card-content">
                                 <span className="pub-title">
                                     Automated assessment tools for COMP61511:
-                                    Software Engineering Concepts in Practice{' '}
+                                    Software Engineering Concepts in Practice{" "}
                                 </span>
                                 <div className="pub-content">
                                     <span>MSc Dissertation</span>

@@ -1,3 +1,5 @@
+#!/bin/bash
+
 source ~/.bash_profile
 
 for FILE in "$@"

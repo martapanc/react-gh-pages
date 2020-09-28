@@ -29,9 +29,9 @@ function Github() {
 }
 
 $(function() {
-    GitHubCalendar('.calendar', 'martapanc', {
+    GitHubCalendar(".calendar", "martapanc", {
         responsive: true,
-        summary_text: '',
+        summary_text: "",
         global_stats: true,
     });
 });
