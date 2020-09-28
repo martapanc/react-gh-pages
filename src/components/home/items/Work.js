@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import Markdown from 'markdown-to-jsx';
-import $ from 'jquery';
+import React, { Component } from "react";
+import Markdown from "markdown-to-jsx";
+import $ from "jquery";
 
 class Work extends Component {
     constructor(props) {
@@ -28,7 +28,7 @@ class Work extends Component {
                         <div className="col-lg-3 col-md-3 col-sm-1">
                             <span
                                 className="responsive-hide"
-                                style={{ float: 'right' }}
+                                style={{ float: "right" }}
                             >
                                 <h5>
                                     {this.data.begin} &ndash; {this.data.end}
@@ -42,7 +42,7 @@ class Work extends Component {
                             style={{
                                 marginBottom:
                                     (this.data.items.length === 1 ? 1 : 0.5) +
-                                    'rem',
+                                    "rem",
                             }}
                         >
                             {this.data.items.length > 1 ? (
@@ -70,16 +70,16 @@ $(function() {
     resizeOps();
 
     function resizeOps() {
-        $('.title-container')
-            .toggleClass('row', $(window).width() > 600)
-            .toggleClass('school-title-container', $(window).width() > 600);
+        $(".title-container")
+            .toggleClass("row", $(window).width() > 600)
+            .toggleClass("school-title-container", $(window).width() > 600);
 
         if ($(window).width() < 600) {
             $('.item-title').text(function() {
                 return $(this)
                     .text()
-                    .replace('University of Manchester', 'Univ of Manchester')
-                    .replace('Free University of Bolzano', 'Univ of Bolzano');
+                    .replace("University of Manchester", "Univ of Manchester")
+                    .replace("Free University of Bolzano", "Univ of Bolzano");
             });
         }
     }
