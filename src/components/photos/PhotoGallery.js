@@ -1,7 +1,7 @@
-import React from 'react';
-import '../../assets/css/main.scss';
-import PhotoData from './data/PhotoData';
-import Album from './item/Album';
+import React from "react";
+import "../../assets/css/main.scss";
+import PhotoData from "./data/PhotoData";
+import Album from "./item/Album";
 
 function PhotoGallery() {
     return (

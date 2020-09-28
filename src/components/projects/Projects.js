@@ -1,16 +1,16 @@
-import React from 'react';
-import '../../assets/css/main.scss';
-import $ from 'jquery';
-import SectionTitle from '../sectionTitle/SectionTitle';
-import ProjectCard from './ProjectCard';
-import ProjectData from './data/ProjectData';
-import './styles.scss';
-import Section from '../app/Section';
+import React from "react";
+import "../../assets/css/main.scss";
+import $ from "jquery";
+import SectionTitle from "../sectionTitle/SectionTitle";
+import ProjectCard from "./ProjectCard";
+import ProjectData from "./data/ProjectData";
+import "./styles.scss";
+import Section from "../app/Section";
 
 function Projects() {
     return (
         <div>
-            <SectionTitle props={'My Projects'} />
+            <SectionTitle props={"My Projects"} />
 
             <section className="project-section p-3 p-lg-3">
                 <div className="container">
@@ -97,40 +97,40 @@ function Projects() {
 $(function() {
     ProjectData.forEach(function(project) {
         const id = project.id;
-        const expandBtnClass = '.' + id + '-expand-btn';
-        const cardRevealClass = '.' + id + '-card-reveal';
+        const expandBtnClass = "." + id + "-expand-btn";
+        const cardRevealClass = "." + id + "-card-reveal";
 
-        $(expandBtnClass).on('click', function() {
-            $(cardRevealClass).slideToggle('slow');
+        $(expandBtnClass).on("click", function() {
+            $(cardRevealClass).slideToggle("slow");
         });
 
-        $(cardRevealClass + ' .close').on('click', function() {
-            $(cardRevealClass).slideToggle('slow');
+        $(cardRevealClass + " .close").on("click", function() {
+            $(cardRevealClass).slideToggle("slow");
         });
     });
 
     const filterButtonList = [
-        'java',
-        'python',
-        'android',
-        'web',
-        'self',
-        'uni',
-        'work',
-        'hack',
-        'public',
-        'all',
+        "java",
+        "python",
+        "android",
+        "web",
+        "self",
+        "uni",
+        "work",
+        "hack",
+        "public",
+        "all",
     ];
     filterButtonList.forEach(filterOnClick);
 
     function filterOnClick(item, index) {
-        $('#' + item + '-filter-btn').click(function() {
-            $('.project-card').each(function() {
+        $("#" + item + "-filter-btn").click(function() {
+            $(".project-card").each(function() {
                 $(this).show();
-                if (item !== 'all') {
+                if (item !== "all") {
                     let tags = $(this)
-                        .attr('data-tags')
-                        .split(',');
+                        .attr("data-tags")
+                        .split("","");
                     if (!tags.includes(item)) {
                         $(this).hide();
                     }

@@ -1,25 +1,25 @@
-import fc from '../../../assets/images/projects/fiscalcode.webp';
-import fc_app from '../../../assets/images/projects/fc_app.webp';
-import werner from '../../../assets/images/projects/werners.webp';
-import ict from '../../../assets/images/projects/ict.webp';
-import ictReport from '../../../assets/images/projects/Internship_Final_Report.pdf';
-import gess from '../../../assets/images/projects/gess.webp';
-import wc from '../../../assets/images/projects/wc.webp';
-import bscThesis from '../../../assets/images/projects/SATD_Thesis.pdf';
-import satd from '../../../assets/images/projects/satd.webp';
-import mscBook from '../../../assets/images/projects/mscBook.webp';
-import mscDiss from '../../../assets/images/projects/comp61511_dissertation.pdf';
-import library from '../../../assets/images/projects/library.webp';
-import glurns from '../../../assets/images/projects/glurns.webp';
-import gdpr from '../../../assets/images/projects/gdpr.webp';
-import emma from '../../../assets/images/projects/emma.webp';
-import website from '../../../assets/images/projects/website.webp';
-import noodle1 from '../../../assets/images/projects/noodle1.webp';
-import noodlePics from '../../../assets/images/projects/noodle-pics.pdf';
-import zebra from '../../../assets/images/projects/zebra.webp';
-import programming from '../../../assets/images/projects/programming.webp';
-import bitbar from '../../../assets/images/projects/Bitbar.webp';
-import twitch from '../../../assets/images/projects/twitch.webp';
+import fc from "../../../assets/images/projects/fiscalcode.webp";
+import fcApp from "../../../assets/images/projects/fc_app.webp";
+import werner from "../../../assets/images/projects/werners.webp";
+import ict from "../../../assets/images/projects/ict.webp";
+import ictReport from "../../../assets/images/projects/Internship_Final_Report.pdf";
+import gess from "../../../assets/images/projects/gess.webp";
+import wc from "../../../assets/images/projects/wc.webp";
+import bscThesis from "../../../assets/images/projects/SATD_Thesis.pdf";
+import satd from "../../../assets/images/projects/satd.webp";
+import mscBook from "../../../assets/images/projects/mscBook.webp";
+import mscDiss from "../../../assets/images/projects/comp61511_dissertation.pdf";
+import library from "../../../assets/images/projects/library.webp";
+import glurns from "../../../assets/images/projects/glurns.webp";
+import gdpr from "../../../assets/images/projects/gdpr.webp";
+import emma from "../../../assets/images/projects/emma.webp";
+import website from "../../../assets/images/projects/website.webp";
+import noodle1 from "../../../assets/images/projects/noodle1.webp";
+import noodlePics from "../../../assets/images/projects/noodle-pics.pdf";
+import zebra from "../../../assets/images/projects/zebra.webp";
+import programming from "../../../assets/images/projects/programming.webp";
+import bitbar from "../../../assets/images/projects/Bitbar.webp";
+import twitch from "../../../assets/images/projects/twitch.webp";
 
 function shuffle(array) {
     var currentIndex = array.length,
@@ -41,11 +41,11 @@ function shuffle(array) {
 export const ProjectData = [
     {
         title: "Team toolbar plugin",
-        id: 'bitbar',
-        year: '2020',
+        id: "bitbar",
+        year: "2020",
         photo: bitbar,
-        repo: 'https://github.com/martapanc/BitBar-distrib',
-        tags: ['python', 'work'],
+        repo: "https://github.com/martapanc/BitBar-distrib",
+        tags: ["python", "work"],
         text:
             'Many teams have a considerable number of processes and metrics to monitor and links to web resources, which ' +
             'often end up all over the place in the browser. To gather all of those I created a plugin for ' +
@@ -57,14 +57,14 @@ export const ProjectData = [
     },
     {
         title: "Werner's Restaurant",
-        id: 'werners',
-        year: '2017',
+        id: "werners",
+        year: "2017",
         photo: werner,
-        repo: 'https://github.com/martapanc/restaurantManager',
-        site: 'https://werners-restaurant.herokuapp.com/',
-        tags: ['java', 'js', 'db', 'web', 'uni'],
+        repo: "https://github.com/martapanc/restaurantManager",
+        site: "https://werners-restaurant.herokuapp.com/",
+        tags: ["java", "js", "db", "web", "uni"],
         text:
-            'A full **Restaurant Manager webapp** in **Java** is the final project my team developed for ' +
+            "A full **Restaurant Manager webapp** in **Java** is the final project my team developed for " +
             'the Internet & Mobile Services course: it allows customers to reserve a table or to book a ' +
             'takeaway order, and the restaurant managers to verify the status of the reservations and orders, ' +
             "add and remove takeaway meals and check other employees' accounts, mostly in the form of CRUD " +
@@ -72,13 +72,13 @@ export const ProjectData = [
             '<a href="https://werners-restaurant.herokuapp.com/" target="_blank">check it out</a>!',
     },
     {
-        title: 'Cloud computing and GDPR',
-        id: 'gdpr',
-        year: '2018',
+        title: "Cloud computing and GDPR",
+        id: "gdpr",
+        year: "2018",
         photo: gdpr,
         article:
-            'https://www.computer.org/csdl/magazine/cd/2018/06/mcd2018060058/17D45XwUAKp',
-        tags: ['cloud', 'security', 'public', 'uni'],
+            "https://www.computer.org/csdl/magazine/cd/2018/06/mcd2018060058/17D45XwUAKp",
+        tags: ["cloud", "security", "public", "uni"],
         text:
             'Disclosing personal data for a purpose not known by data subjects is a practice that the 2018 EU **General ' +
             'Data Protection Regulation** (GDPR) is supposed to prevent. This article gives an overview of the major aspects ' +
@@ -87,12 +87,12 @@ export const ProjectData = [
             'of the Free University of Bolzano, and was accepted by IEEE for publication.',
     },
     {
-        title: 'Holiday request manager',
-        id: 'timesheet',
-        year: '2016',
+        title: "Holiday request manager",
+        id: "timesheet",
+        year: "2016",
         photo: ict,
         report: ictReport,
-        tags: ['js', 'web', 'work'],
+        tags: ["js", "web", "work"],
         text:
             'I interned for three months at the <a href="https://www.ict-group.it/en/" target="_blank">ICT-Group</a> ' +
             'as a web developer, and my task was to build an additional feature to the company’s **HR ' +
@@ -102,12 +102,12 @@ export const ProjectData = [
             '(employee or manager), and was built using **AngularJS** with the **Boostrap CSS** framework.',
     },
     {
-        title: 'Food Saver (GESS 2017)',
-        id: 'gess',
-        year: '2018',
+        title: "Food Saver (GESS 2017)",
+        id: "gess",
+        year: "2018",
         photo: gess,
-        site: 'https://globalsummerschool.org/shanghai/',
-        tags: ['hack'],
+        site: "https://globalsummerschool.org/shanghai/",
+        tags: ["hack"],
         text:
             'I was selected (among 1200+ applications) to attend the <b>Global Entrepreneurship ' +
             "Summer School</b> (GESS) 2017 in Shanghai. This year's topic was &quot;Food&quot;, and our goal " +
@@ -119,12 +119,12 @@ export const ProjectData = [
             '<b>reduce food waste</b>.',
     },
     {
-        title: 'wc clone (Unix)',
-        id: 'wc',
-        year: '2017',
+        title: "wc clone (Unix)",
+        id: "wc",
+        year: "2017",
         photo: wc,
-        repo: 'https://github.com/martapanc/comp61511',
-        tags: ['python', 'uni'],
+        repo: "https://github.com/martapanc/comp61511",
+        tags: ["python", "uni"],
         text:
             "First complex project in **Python** - creating a clone of the **Unix' word count** tool, wc, based on re-engineering " +
             'techniques and black-box testing and using only the Python Standard Library for the main functionality. ' +
@@ -132,12 +132,12 @@ export const ProjectData = [
             'file formats, including binary files.',
     },
     {
-        title: 'MSc Dissertation -<br/>Automated Grading',
-        id: 'msc',
-        year: '2018',
+        title: "MSc Dissertation -<br/>Automated Grading",
+        id: "msc",
+        year: "2018",
         photo: mscBook,
         report: mscDiss,
-        tags: ['python', 'uni', 'public'],
+        tags: ["python", "uni", "public"],
         text:
             'I really liked building a wc clone as part of the Software Engineering course of my MSc - less that it took ' +
             'months to receive a grade for it. However, it gave me the prompt for the project of my dissertation project: ' +
@@ -145,13 +145,13 @@ export const ProjectData = [
             'job when evaluating and grading them',
     },
     {
-        title: 'BSc Dissertation -<br/>Technical Debt',
-        id: 'bsc',
-        year: '2017',
+        title: "BSc Dissertation -<br/>Technical Debt",
+        id: "bsc",
+        year: "2017",
         photo: satd,
-        repo: 'https://github.com/martapanc/SATD-replication-package',
+        repo: "https://github.com/martapanc/SATD-replication-package",
         report: bscThesis,
-        tags: ['java', 'uni', 'public'],
+        tags: ["java", "uni", "public"],
         text:
             'My BSc graduation project: I developed an heuristic algorithm that parses the so-called "SATD methods", ' +
             'that is Java methods that are affected by "Self-Admitted Technical Debt", instances of **Technical Debt** that ' +
@@ -160,12 +160,12 @@ export const ProjectData = [
             "code's issue tracker, how the presence of technical debt affects the amount of bugs on average.",
     },
     {
-        title: 'Library Manager',
-        id: 'library',
-        year: '2015',
+        title: "Library Manager",
+        id: "library",
+        year: "2015",
         photo: library,
-        repo: 'https://github.com/martapanc/LibraryManagementApp',
-        tags: ['java', 'uni', 'db'],
+        repo: "https://github.com/martapanc/LibraryManagementApp",
+        tags: ["java", "uni", "db"],
         text:
             'I developed a Library Management app as final project for the Database Systems course of my BSc. Written ' +
             'in Java and with a **PostgresSQL database**, it offers most functions a Library software is expected to have ' +
@@ -173,12 +173,12 @@ export const ProjectData = [
             'and librarian account used to insert new titles into the database and to register book loans and returns.',
     },
     {
-        title: 'Fiscal Code Calculator (Desktop app)',
-        id: 'fiscalcode',
-        year: '2015',
+        title: "Fiscal Code Calculator (Desktop app)",
+        id: "fiscalcode",
+        year: "2015",
         photo: fc,
-        repo: 'https://github.com/martapanc/ItalianFiscalCodeCalculator',
-        tags: ['java', 'uni'],
+        repo: "https://github.com/martapanc/ItalianFiscalCodeCalculator",
+        tags: ["java", "uni"],
         text:
             'Another **Java** app developed for my uni programming course. It allows the user to calculate their Italian tax code ' +
             '(<a href="https://en.wikipedia.org/wiki/Italian_fiscal_code" target="_blank">Codice Fiscale</a>) by ' +
@@ -187,13 +187,13 @@ export const ProjectData = [
             'I recently reused the code and built an Android app.',
     },
     {
-        title: 'Fiscal Code (Android)',
-        id: 'fiscalcode_app',
-        year: '2020',
-        photo: fc_app,
-        link: 'https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app',
-        repo: 'https://github.com/martapanc/ItalianFiscalCodeCalculatorApp',
-        tags: ['java', 'kotlin', 'uni', 'android'],
+        title: "Fiscal Code (Android)",
+        id: "fiscalcode_app",
+        year: "2020",
+        photo: fcApp,
+        link: "https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app",
+        repo: "https://github.com/martapanc/ItalianFiscalCodeCalculatorApp",
+        tags: ["java", "kotlin", "uni", "android"],
         text:
             'I started learning Android development recently and, in order to focus on the feature of the mobile world,' +
             'as well as on practising with Kotlin, I\'ve been reusing the Java backend of the Fiscal Code calculator ' +
@@ -201,12 +201,12 @@ export const ProjectData = [
             '<a href="https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app">Play Store</a>!',
     },
     {
-        title: 'Hack-my-town',
-        id: 'glurns',
-        year: '2014',
+        title: "Hack-my-town",
+        id: "glurns",
+        year: "2014",
         photo: glurns,
-        site: 'http://hackmytown.unibz.it/',
-        tags: ['hack', 'uni'],
+        site: "http://hackmytown.unibz.it/",
+        tags: ["hack", "uni"],
         text:
             'A day of December 2014, four UniBZ computer science and design students were sent to the smallest town in South Tyrol, ' +
             '**Glorenza-Glurns**, with a challenge from their professors: find innovative ideas to **improve the life of a mountain village**, ' +
@@ -216,12 +216,12 @@ export const ProjectData = [
             'food and that tourists get to know and trust.',
     },
     {
-        title: 'Project "EMMA"',
-        id: 'emma',
-        year: '2014',
+        title: "Project \"EMMA\"",
+        id: "emma",
+        year: "2014",
         photo: emma,
-        video: 'https://www.youtube.com/watch?v=5dLfFvGAIjQ',
-        tags: ['raspi', 'hack', 'uni'],
+        video: "https://www.youtube.com/watch?v=5dLfFvGAIjQ",
+        tags: ["raspi", "hack", "uni"],
         text:
             '"Inventing by recycling" was the theme of the final project of my Management Engineering course at ' +
             'University of Bolzano: starting from the collection of old everyday objects, my team used a lamp container, ' +
@@ -230,23 +230,23 @@ export const ProjectData = [
             'it on the matrix.',
     },
     {
-        title: 'mpancaldi.com',
-        id: 'site',
-        year: '2020',
+        title: "mpancaldi.com",
+        id: "site",
+        year: "2020",
         photo: website,
-        repo: 'https://github.com/martapanc/react-gh-pages',
-        tags: ['web', 'self'],
+        repo: "https://github.com/martapanc/react-gh-pages",
+        tags: ["web", "self"],
         text:
             "This very website :) <br/> Built with ReactJS, it's also a chance to play around with my web " +
             'development skills and experiment with front-end technologies.',
     },
     {
-        title: 'Rentalcars.com Premium',
-        id: 'premium',
-        year: '2019',
+        title: "Rentalcars.com Premium",
+        id: "premium",
+        year: "2019",
         photo: noodle1,
         pics: noodlePics,
-        tags: ['web', 'work'],
+        tags: ["web", "work"],
         text:
             'As a part of the Graduate Scheme at Booking.com, I joined the team that develops the **"Premium" insurance product**, ' +
             'which offers exclusive benefits to the customer such as skipping the line at the car pickup counter, low deposit ' +
@@ -255,12 +255,12 @@ export const ProjectData = [
             'integrated in the main webapp.',
     },
     {
-        title: 'Web Scraper',
-        id: 'scraper',
-        year: '2019',
+        title: "Web Scraper",
+        id: "scraper",
+        year: "2019",
         photo: zebra,
-        repo: 'https://github.com/martapanc/Zebra-Scraper',
-        tags: ['python', 'self'],
+        repo: "https://github.com/martapanc/Zebra-Scraper",
+        tags: ["python", "self"],
         text:
             'What to do when your energy supplier offers a live balance of the energy usage in your account and you wish to monitor it ' +
             "to know how much you're spending, but at the same time you don't want to login every few hours? For me it was the perfect " +
@@ -269,12 +269,12 @@ export const ProjectData = [
             'skills to a real-life problem.',
     },
     {
-        title: 'Daily Programming',
-        id: 'daily',
-        year: '2019',
+        title: "Daily Programming",
+        id: "daily",
+        year: "2019",
         photo: programming,
-        repo: 'https://github.com/martapanc/dailyProgramming',
-        tags: ['java', 'self'],
+        repo: "https://github.com/martapanc/dailyProgramming",
+        tags: ["java", "self"],
         text:
             'They say "Practice makes perfect", and that\'s why a good programmer should write code every day. <br/>The way I like to practise, when I don\'t ' +
             'have more complex projects to work on, is to pick a coding challenge (e.g. from ' +
@@ -285,12 +285,12 @@ export const ProjectData = [
             '...), or simply to think of a problem I want to tackle, and write my solution for it. This repository is a collection of all such challenges.',
     },
     {
-        title: 'Twitch-to-Slack notifier',
-        id: 'twitch',
-        year: '2020',
+        title: "Twitch-to-Slack notifier",
+        id: "twitch",
+        year: "2020",
         photo: twitch,
-        repo: 'https://github.com/martapanc/Twitch-notifier',
-        tags: ['python', 'self'],
+        repo: "https://github.com/martapanc/Twitch-notifier",
+        tags: ["python", "self"],
         text:
             'I never want to miss a live show from my favourite Twitch streamers, and I\'m used to grouping notifications ' +
             'on Slack channels as a way to organise them. After testing services like Zapier and IFTTT and getting quite dissatisfied ' +

@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import Markdown from 'markdown-to-jsx';
+import React, { Component } from "react";
+import Markdown from "markdown-to-jsx";
 
 class ProgrammingLanguage extends Component {
     constructor(props) {
@@ -12,8 +12,8 @@ class ProgrammingLanguage extends Component {
         return (
             <div
                 className={
-                    'item col-12 col-md-4 col-lg-4 ' +
-                    (this.data.show ? '' : 'read-more-hide')
+                    "item col-12 col-md-4 col-lg-4 " +
+                    (this.data.show ? "" : "read-more-hide")
                 }
             >
                 <div className="item-inner">

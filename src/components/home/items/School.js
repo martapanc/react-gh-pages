@@ -1,6 +1,6 @@
-import React, {Component} from 'react';
-import Markdown from 'markdown-to-jsx';
-import $ from 'jquery';
+import React, {Component} from "react";
+import Markdown from "markdown-to-jsx";
+import $ from "jquery";
 
 class ProgrammingLanguage extends Component {
     constructor(props) {

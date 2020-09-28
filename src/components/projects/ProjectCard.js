@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import '../../assets/css/main.scss';
-import './styles.scss';
-import Markdown from 'markdown-to-jsx';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faNewspaper } from '@fortawesome/free-regular-svg-icons';
-import { faFileAlt, faImages } from '@fortawesome/free-solid-svg-icons';
-import { faYoutube, faGooglePlay } from '@fortawesome/free-brands-svg-icons';
+import React, { Component } from "react";
+import "../../assets/css/main.scss";
+import "./styles.scss";
+import Markdown from "markdown-to-jsx";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
+import { faFileAlt, faImages } from "@fortawesome/free-solid-svg-icons";
+import { faYoutube, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
 
 class ProjectCard extends Component {
     constructor(props) {

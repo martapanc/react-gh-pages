@@ -1,5 +1,5 @@
-import React from 'react';
-import '../../assets/css/main.scss';
+import React from "react";
+import "../../assets/css/main.scss";
 
 function Wip() {
     return (
