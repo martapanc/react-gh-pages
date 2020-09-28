@@ -75,7 +75,7 @@ $(function() {
             .toggleClass("school-title-container", $(window).width() > 600);
 
         if ($(window).width() < 600) {
-            $('.item-title').text(function() {
+            $(".item-title").text(function() {
                 return $(this)
                     .text()
                     .replace("University of Manchester", "Univ of Manchester")

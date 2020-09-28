@@ -1,28 +1,28 @@
 .blog-list {
-	.item {
-		.title {
-			font-size: 1.275rem;
-			a {
-			    color: $theme-text-color-primary;	
-			    &:hover {
-				    color: $theme-text-color-primary;
-			    }
-			}
-			
+  .item {
+    .title {
+      font-size: 1.275rem;
+      a {
+        color: $theme-text-color-primary;
+        &:hover {
+          color: $theme-text-color-primary;
 		}
-		.post-thumb {
-			max-width: 110px;
-			@include border-radius(2px);
-		}
-		
-		
-		.intro {
-			font-size: 0.875rem;
-		}
-		.more-link {
-			font-size: 0.8125rem;
-		}
-	}
+      }
+
+    }
+    .post-thumb {
+      max-width: 110px;
+      @include border-radius(2px);
+    }
+
+
+    .intro {
+      font-size: 0.875rem;
+    }
+    .more-link {
+      font-size: 0.8125rem;
+    }
+  }
 }
 
 .meta {
@@ -54,7 +54,7 @@
 			}
 		}
 	}
-	
+
 }
 
 .blog-nav {
@@ -78,7 +78,7 @@
 		top: 1.25rem;
 		color: #fff;
 	}
-	
+
 	.arrow-next {
 		position: absolute;
 		right: 1rem;
@@ -135,6 +135,6 @@
 		p {
 			font-size: 1.5rem;
 		}
-		
+
 	}
 }

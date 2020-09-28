@@ -109,20 +109,6 @@ $(function() {
         });
     });
 
-    const filterButtonList = [
-        "java",
-        "python",
-        "android",
-        "web",
-        "self",
-        "uni",
-        "work",
-        "hack",
-        "public",
-        "all",
-    ];
-    filterButtonList.forEach(filterOnClick);
-
     function filterOnClick(item, index) {
         $("#" + item + "-filter-btn").click(function() {
             $(".project-card").each(function() {
@@ -138,6 +124,20 @@ $(function() {
             });
         });
     }
+
+    const filterButtonList = [
+        "java",
+        "python",
+        "android",
+        "web",
+        "self",
+        "uni",
+        "work",
+        "hack",
+        "public",
+        "all",
+    ];
+    filterButtonList.forEach(filterOnClick);
 });
 
 export default Projects;

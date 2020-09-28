@@ -73,8 +73,6 @@ $(function () {
     //     resizeOps();
     // });
 
-    resizeOps();
-
     function resizeOps() {
         $(".title-container")
             .toggleClass("row", $(window).width() > 600)
@@ -98,6 +96,8 @@ $(function () {
             });
         }
     }
+
+    resizeOps();
 });
 
 export default ProgrammingLanguage;

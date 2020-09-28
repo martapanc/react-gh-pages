@@ -183,7 +183,7 @@ function Fun() {
                         </a>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 ">
-                        <h3 style={{fontFamily: "Impact", color: '#226d10'}}>
+                        <h3 style={{fontFamily: "Impact", color: "#226d10"}}>
                             Gaming
                         </h3>
                         <img src={games} alt="Favourite games"/>

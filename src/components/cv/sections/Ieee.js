@@ -15,7 +15,7 @@ function Ieee() {
                 Collaboration in writing an{" "}
                 <a href="https://www.computer.org/csdl/magazine/cd/2018/06/mcd2018060058/17D45XwUAKp">
                     article
-                </a>{' '}
+                </a>{" "}
                 for IEEE about contracts and policies of cloud services,
                 following the changes introduced by the new European law on data
                 protection (GDPR).

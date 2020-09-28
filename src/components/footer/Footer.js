@@ -7,20 +7,20 @@ class Footer extends Component {
         return (
             <footer className="footer text-center py-2 theme-bg-dark">
                 <small className="copyright">
-                    Copyright ©{currYear} by{' '}
+                    Copyright ©{currYear} by{" "}
                     <a href="/" rel="noopener noreferrer">
                         <strong>Marta Pancaldi</strong>
                     </a>
                     <span className="responsive-hide">
-                        .&emsp; Theme based on{' '}
+                        .&emsp; Theme based on{" "}
                         <a
                             href="https://github.com/xriley/DevBlog-Theme"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
                             <strong>DevBlog</strong>
-                        </a>{' '}
-                        by{' '}
+                        </a>{" "}
+                        by{" "}
                         <a
                             href="http://themes.3rdwavemedia.com"
                             target="_blank"
