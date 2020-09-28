@@ -30,7 +30,7 @@ class ProgrammingLanguage extends Component {
                                     <img
                                         className="responsive-hide"
                                         src={this.data.flag}
-                                        alt={'flag'}
+                                        alt={"flag"}
                                         width="30"
                                     />
                                 </h5>
@@ -42,10 +42,10 @@ class ProgrammingLanguage extends Component {
                         <div className="col-lg-4 col-md-4 col-sm-4">
                             <span
                                 className="responsive-hide"
-                                style={{float: 'right'}}
+                                style={{float: "right"}}
                             >
                                 <h5>
-                                    {this.data.grade} &emsp; {this.data.begin}{' '}
+                                    {this.data.grade} &emsp; {this.data.begin}{" "}
                                     &ndash; {this.data.end}
                                 </h5>
                             </span>
@@ -69,32 +69,32 @@ class ProgrammingLanguage extends Component {
 }
 
 $(function () {
-    // $(window).on('resize', function () {
+    // $(window).on("resize", function () {
     //     resizeOps();
     // });
 
     resizeOps();
 
     function resizeOps() {
-        $('.title-container')
-            .toggleClass('row', $(window).width() > 600)
-            .toggleClass('school-title-container', $(window).width() > 600);
+        $(".title-container")
+            .toggleClass("row", $(window).width() > 600)
+            .toggleClass("school-title-container", $(window).width() > 600);
 
         if ($(window).width() < 600) {
-            $('.item-title').text(function () {
+            $(".item-title").text(function () {
                 return $(this)
                     .text()
-                    .replace('Transport Unit', '')
-                    .replace(' ~ Manchester', '')
+                    .replace("Transport Unit", "")
+                    .replace(" ~ Manchester", "")
                     .replace(
-                        'UniBZ - Faculty of Computer Science',
-                        'Faculty of C. Science'
+                        "UniBZ - Faculty of Computer Science",
+                        "Faculty of C. Science"
                     )
                     .replace(
-                        'Intern - Software Developer',
-                        'Web development intern'
+                        "Intern - Software Developer",
+                        "Web development intern"
                     )
-                    .replace('Advanced', '');
+                    .replace("Advanced", "");
             });
         }
     }
