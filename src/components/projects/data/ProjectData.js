@@ -1,5 +1,5 @@
 import fc from "../../../assets/images/projects/fiscalcode.webp";
-import fc_app from "../../../assets/images/projects/fc_app.webp";
+import fcApp from "../../../assets/images/projects/fc_app.webp";
 import werner from "../../../assets/images/projects/werners.webp";
 import ict from "../../../assets/images/projects/ict.webp";
 import ictReport from "../../../assets/images/projects/Internship_Final_Report.pdf";
@@ -190,7 +190,7 @@ export const ProjectData = [
         title: "Fiscal Code (Android)",
         id: "fiscalcode_app",
         year: "2020",
-        photo: fc_app,
+        photo: fcApp,
         link: "https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app",
         repo: "https://github.com/martapanc/ItalianFiscalCodeCalculatorApp",
         tags: ["java", "kotlin", "uni", "android"],
