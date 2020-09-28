@@ -12,7 +12,7 @@ function Ieee() {
                 </div>
             </div>
             <div className="item-content">
-                Collaboration in writing an{' '}
+                Collaboration in writing an{" "}
                 <a href="https://www.computer.org/csdl/magazine/cd/2018/06/mcd2018060058/17D45XwUAKp">
                     article
                 </a>{' '}

@@ -4,6 +4,17 @@ import Languages from "./data/LanguageData";
 import ProgrammingLanguage from "./items/ProgrammingLanguage";
 import laptop from "../../assets/images/intro/laptop.svg";
 
+function readMore() {
+    const hideElements = $(".read-more-hide");
+    const showMoreBtn = $("#read-more-btn");
+
+    $(hideElements).each(function () {
+        $(this).show();
+    });
+
+    $(showMoreBtn).hide();
+}
+
 function SoftwareDevelopment() {
     return (
         <section className="overview-section p-3 p-lg-3">
@@ -26,9 +37,9 @@ function SoftwareDevelopment() {
                     <a href={"/projects"}>project portfolio</a>.
                 </div>
                 <div className="row">
-                    <ProgrammingLanguage props={Languages.java} />
-                    <ProgrammingLanguage props={Languages.python} />
-                    <ProgrammingLanguage props={Languages.js} />
+                    <ProgrammingLanguage props={Languages.java}/>
+                    <ProgrammingLanguage props={Languages.python}/>
+                    <ProgrammingLanguage props={Languages.js}/>
 
                     <div
                         id="read-more-btn"
@@ -39,29 +50,18 @@ function SoftwareDevelopment() {
                         </button>
                     </div>
 
-                    <ProgrammingLanguage props={Languages.web} />
-                    <ProgrammingLanguage props={Languages.android} />
-                    <ProgrammingLanguage props={Languages.cloud} />
-                    <ProgrammingLanguage props={Languages.sql} />
-                    <ProgrammingLanguage props={Languages.cs} />
-                    <ProgrammingLanguage props={Languages.php} />
-                    <ProgrammingLanguage props={Languages.os} />
-                    <ProgrammingLanguage props={Languages.ide} />
+                    <ProgrammingLanguage props={Languages.web}/>
+                    <ProgrammingLanguage props={Languages.android}/>
+                    <ProgrammingLanguage props={Languages.cloud}/>
+                    <ProgrammingLanguage props={Languages.sql}/>
+                    <ProgrammingLanguage props={Languages.cs}/>
+                    <ProgrammingLanguage props={Languages.php}/>
+                    <ProgrammingLanguage props={Languages.os}/>
+                    <ProgrammingLanguage props={Languages.ide}/>
                 </div>
             </div>
         </section>
     );
-}
-
-function readMore() {
-    const hideElements = $(".read-more-hide");
-    const showMoreBtn = $("#read-more-btn");
-
-    $(hideElements).each(function() {
-        $(this).show();
-    });
-
-    $(showMoreBtn).hide();
 }
 
 export default SoftwareDevelopment;

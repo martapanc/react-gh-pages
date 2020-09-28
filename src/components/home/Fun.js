@@ -61,8 +61,8 @@ function Fun() {
                     <div className="col-12 col-md-6 col-lg-6 p-2">
                         <h3
                             style={{
-                                fontFamily: 'Baskerville',
-                                color: '#c11424',
+                                fontFamily: "Baskerville",
+                                color: "#c11424",
                             }}
                         >
                             Books
@@ -72,8 +72,8 @@ function Fun() {
                     <div className="col-12 col-md-6 col-lg-6 ">
                         <h3
                             style={{
-                                fontFamily: 'Trebuchet MS',
-                                color: '#da8314',
+                                fontFamily: "Trebuchet MS",
+                                color: "#da8314",
                             }}
                         >
                             Music
@@ -85,15 +85,15 @@ function Fun() {
                                 musician, I still practise it whenever I can.
                                 <br/>
                                 Wait - you don't know what an oboe is? Check out
-                                this cool{' '}
+                                this cool{" "}
                                 <a
                                     href="https://drive.google.com/open?id=0Bz6vvbUH6o-_cl9pdTN3YmZlZlE"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     presentation
-                                </a>{' '}
-                                I prepared for a uni course! Also,{' '}
+                                </a>{" "}
+                                I prepared for a uni course! Also,{" "}
                                 <a
                                     href="https://drive.google.com/open?id=1gtdxGuYPllZL9aMF6DXTrohCoOL1Y_Jj"
                                     target="_blank"
@@ -101,7 +101,7 @@ function Fun() {
                                 >
                                     1
                                 </a>
-                                ,{' '}
+                                ,{" "}
                                 <a
                                     href="https://drive.google.com/open?id=1lALS5c92C4oL_xmObO4S62DyqFSQoBNU"
                                     target="_blank"
@@ -109,7 +109,7 @@ function Fun() {
                                 >
                                     2
                                 </a>
-                                ,{' '}
+                                ,{" "}
                                 <a
                                     href="https://drive.google.com/open?id=1qIJwMlTUQrdacBkAsIVdeUX-MAQL5e_U"
                                     target="_blank"
@@ -117,22 +117,22 @@ function Fun() {
                                 >
                                     3
                                 </a>
-                                ,{' '}
+                                ,{" "}
                                 <a
                                     href="https://www.youtube.com/watch?v=PDQHUyEdLhw"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     4
-                                </a>{' '}
-                                and{' '}
+                                </a>{" "}
+                                and{" "}
                                 <a
                                     href="https://www.youtube.com/watch?v=F_VM95pANBk&t=24s"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
                                     5
-                                </a>{' '}
+                                </a>{" "}
                                 samples.
                             </li>
                             <li>
@@ -157,8 +157,8 @@ function Fun() {
                     <div className="col-12 col-md-6 col-lg-6 ">
                         <h3
                             style={{
-                                fontFamily: 'Lucida Console',
-                                color: '#2A6FB7',
+                                fontFamily: "Lucida Console",
+                                color: "#2a6fb7",
                             }}
                         >
                             Travels & Photos
@@ -169,7 +169,7 @@ function Fun() {
                         constantly on the road exploring the world.
                         <br/>
                         You may want to check out a few pictures I took so far,
-                        in the{' '}
+                        in the{" "}
                         <a href="/photos" rel="noopener noreferrer">
                             dedicated section
                         </a>
@@ -183,7 +183,7 @@ function Fun() {
                         </a>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 ">
-                        <h3 style={{fontFamily: 'Impact', color: '#226d10'}}>
+                        <h3 style={{fontFamily: "Impact", color: '#226d10'}}>
                             Gaming
                         </h3>
                         <img src={games} alt="Favourite games"/>
