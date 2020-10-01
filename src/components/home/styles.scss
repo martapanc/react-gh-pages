@@ -1,4 +1,4 @@
-img[alt=smallflag] {
+img[alt="smallflag"] {
   width: 25px;
 }
 
@@ -37,7 +37,11 @@ img[alt=smallflag] {
 }
 
 .gr_grid_branding {
-  font-size: .9em; color: #382110; text-decoration: none; float: right; clear: both
+  font-size: 0.9em;
+  color: #382110;
+  text-decoration: none;
+  float: right;
+  clear: both;
 }
 
 .title {
@@ -49,7 +53,7 @@ img[alt=smallflag] {
 }
 
 .clear {
-  clear: both
+  clear: both;
 }
 
 #software-development .card-content .row,
@@ -67,7 +71,9 @@ img[alt=smallflag] {
 //}
 
 .card {
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
-  -moz-box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12);
-  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
+    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
