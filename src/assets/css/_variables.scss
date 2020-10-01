@@ -10,10 +10,8 @@ $theme-text-color-secondary: lighten($theme-text-color-primary, 15%);
 $theme-text-color-light: lighten($theme-text-color-primary, 40%);
 $theme-bg-light: #fafafa;
 $theme-bg-dark: #3b4275;
-$theme-border-color:  lighten($theme-text-color-primary, 60%);
+$theme-border-color: lighten($theme-text-color-primary, 60%);
 $smoky-white: #fafafa;
-
-
 
 /*************************** Variables Section. *****************************/
 // Create variables to override the default value for variables used in the Bootstrap SCSS files.
@@ -28,6 +26,6 @@ $gray-800: lighten($theme-text-color-primary, 10%);
 $gray-900: $theme-text-color-primary;
 
 $theme-colors: (
-  "primary":  $theme-color-primary,
-  "secondary":  $theme-text-color-secondary,
+  "primary": $theme-color-primary,
+  "secondary": $theme-text-color-secondary
 );
