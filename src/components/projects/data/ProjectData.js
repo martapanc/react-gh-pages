@@ -28,7 +28,10 @@ function shuffle(array) {
 
     while (0 !== currentIndex) {
         randomIndex = Math.floor(Math.random() * currentIndex);
+        randomIndex = parseInt(randomIndex, 10);
+
         currentIndex -= 1;
+        currentIndex = parseInt(currentIndex, 10);
 
         temporaryValue = array[currentIndex];
         array[currentIndex] = array[randomIndex];
