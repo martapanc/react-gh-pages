@@ -9,9 +9,11 @@
 .text-justify {
   text-align: justify !important;
 }
+
 .text-nowrap {
   white-space: nowrap !important;
 }
+
 .text-truncate {
   @include text-truncate;
 }
@@ -39,9 +41,11 @@
 .text-lowercase {
   text-transform: lowercase !important;
 }
+
 .text-uppercase {
   text-transform: uppercase !important;
 }
+
 .text-capitalize {
   text-transform: capitalize !important;
 }
@@ -51,12 +55,15 @@
 .font-weight-light {
   font-weight: $font-weight-light !important;
 }
+
 .font-weight-normal {
   font-weight: $font-weight-normal !important;
 }
+
 .font-weight-bold {
   font-weight: $font-weight-bold !important;
 }
+
 .font-italic {
   font-style: italic !important;
 }
