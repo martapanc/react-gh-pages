@@ -30,9 +30,9 @@ function shuffle(array) {
         randomIndex = Math.floor(Math.random() * currentIndex);
         currentIndex -= 1;
 
-        temporaryValue = array[currentIndex];
-        array[currentIndex] = array[randomIndex];
-        array[randomIndex] = temporaryValue;
+        temporaryValue = array[parseInt(currentIndex)];
+        array[parseInt(currentIndex)] = array[parseInt(randomIndex)];
+        array[parseInt(randomIndex)] = temporaryValue;
     }
 
     return array;

@@ -1,6 +1,6 @@
 # Personal Website
 
-### [mpancaldi.netlify.app](https://mpancaldi.netlify.app)
+## [mpancaldi.netlify.app](https://mpancaldi.netlify.app)
 
 ![Netlify Status](https://img.shields.io/netlify/556f64f1-c7a4-489f-9b01-7ca7e0951cc1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/martapanc/react-gh-pages)
@@ -8,7 +8,6 @@
 ![W3C Validation](https://img.shields.io/w3c-validation/html?targetUrl=https%3A%2F%2Fmpancaldi.netlify.com)
 ![Code size](https://img.shields.io/github/languages/code-size/martapanc/react-gh-pages)
 ![Repo Size](https://img.shields.io/github/repo-size/martapanc/react-gh-pages)
-
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -57,23 +56,23 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Code Splitting
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting]()
 
 ### Analyzing the Bundle Size
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size]()
 
 ### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app]()
 
 ### Advanced Configuration
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration]()
 
 ### Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment]()
 
 ### `npm run build` fails to minify
 
