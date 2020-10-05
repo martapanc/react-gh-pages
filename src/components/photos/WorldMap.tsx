@@ -8,6 +8,7 @@ import am4themes_animated from "@amcharts/amcharts4/themes/animated";
 am4core.useTheme(am4themes_animated);
 
 class WorldMap extends Component {
+    private chart: any;
     componentDidMount() {
         let chart = am4core.create("chartdiv", am4maps.MapChart);
 
@@ -125,7 +126,8 @@ class WorldMap extends Component {
                         title: "Malta",
                         id: "MT",
                     },
-                ],
+                ], name: ""
+
             },
         ];
 
@@ -137,7 +139,7 @@ class WorldMap extends Component {
             let series = chart.series.push(new am4maps.MapPolygonSeries());
             series.name = group.name;
             series.useGeodata = true;
-            let includedCountries = [];
+            let includedCountries: string[] = [];
             group.data.forEach(function(country) {
                 includedCountries.push(country.id);
                 excludedCountries.push(country.id);
