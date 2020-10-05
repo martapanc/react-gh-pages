@@ -12,15 +12,15 @@
 
 const isLocalhost = Boolean(
     window.location.hostname === "localhost" ||
-        // [::1] is the IPv6 localhost address.
-        window.location.hostname === "[::1]" ||
-        // 127.0.0.1/8 is considered localhost for IPv4.
-        window.location.hostname.match(
-            /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
-        )
+    // [::1] is the IPv6 localhost address.
+    window.location.hostname === "[::1]" ||
+    // 127.0.0.1/8 is considered localhost for IPv4.
+    window.location.hostname.match(
+        /^127(?:\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/
+    )
 );
 
-function registerValidSW(swUrl, config) {
+function registerValidSW(swUrl: string, config: { onUpdate: (arg0: ServiceWorkerRegistration) => void; onSuccess: (arg0: ServiceWorkerRegistration) => void; }) {
     navigator.serviceWorker
         .register(swUrl)
         .then((registration) => {
@@ -64,7 +64,7 @@ function registerValidSW(swUrl, config) {
         });
 }
 
-function checkValidServiceWorker(swUrl, config) {
+function checkValidServiceWorker(swUrl: string, config: { onUpdate: (arg0: ServiceWorkerRegistration) => void; onSuccess: (arg0: ServiceWorkerRegistration) => void; }) {
     // Check if the service worker can be found. If it can't reload the page.
     fetch(swUrl)
         .then((response) => {
@@ -93,7 +93,7 @@ function checkValidServiceWorker(swUrl, config) {
         });
 }
 
-export function register(config) {
+export function register(config: { onUpdate: (arg0: ServiceWorkerRegistration) => void; onSuccess: (arg0: ServiceWorkerRegistration) => void; }) {
     if (process.env.NODE_ENV === "production" && "serviceWorker" in navigator) {
         // The URL constructor is available in all browsers that support SW.
         const publicUrl = new URL(process.env.PUBLIC_URL, window.location.href);
@@ -116,7 +116,7 @@ export function register(config) {
                 navigator.serviceWorker.ready.then(() => {
                     console.info(
                         "This web app is being served cache-first by a service " +
-                            "worker. To learn more, visit https://bit.ly/CRA-PWA"
+                        "worker. To learn more, visit https://bit.ly/CRA-PWA"
                     );
                 });
             } else {

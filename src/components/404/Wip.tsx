@@ -8,7 +8,7 @@ function Wip() {
                 <h3 className="title mb-1">Work in progress...</h3>
 
                 <div className="fa-3x">
-                    <i className="fas fa-cog fa-spin"></i>
+                    <i className="fas fa-cog fa-spin"/>
                 </div>
 
                 <a href="/">Go back home</a>
