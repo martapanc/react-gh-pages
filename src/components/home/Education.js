@@ -18,10 +18,10 @@ function Education() {
                     Education
                 </h2>
                 <div className="row">
-                    <School props={SchoolData.uom}/>
-                    <School props={SchoolData.unibz}/>
-                    <School props={SchoolData.cofc}/>
-                    <School props={SchoolData.peri}/>
+                    <School props={SchoolData.uom} />
+                    <School props={SchoolData.unibz} />
+                    <School props={SchoolData.cofc} />
+                    <School props={SchoolData.peri} />
                 </div>
             </div>
         </section>

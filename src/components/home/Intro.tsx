@@ -1,5 +1,7 @@
 import React from "react";
 import "../../assets/css/main.scss";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCode, faFileAlt} from "@fortawesome/free-solid-svg-icons";
 
 function Intro() {
     return (
@@ -15,15 +17,15 @@ function Intro() {
                             I'm a junior software engineer based in Manchester
                             (UK), currently working at{" "}
                             <strong>
-                                <span style={{ color: "#21457E" }}>
+                                <span style={{color: "#21457E"}}>
                                     Booking
                                 </span>
-                                <span style={{ color: "#4A9EDA" }}>.com</span>
+                                <span style={{color: "#4A9EDA"}}>.com</span>
                             </strong>
                             , specialised in Java and web development.
-                            <br />I recently graduated from the University of
+                            <br/>I recently graduated from the University of
                             Manchester with a MSc in Advanced Computer Science.
-                            <br />
+                            <br/>
                             <a
                                 className="link-on-bg"
                                 target="_blank"
@@ -46,24 +48,25 @@ function Intro() {
                                 travel photographer
                             </a>{" "}
                             in my free time.
-                            <br />
+                            <br/>
                         </div>
 
                         {/*bio*/}
                         <div className="mb-4">
+
                             <a
                                 className="btn btn-primary mr-2 mb-3"
                                 href="/projects"
                             >
                                 <span className="d-none d-md-inline">
-                                    <i className="fas fa-code fa-fw mr-2"/>
+                                    <FontAwesomeIcon icon={faCode} className="fas fa-fw mr-2"/>
                                     View
                                 </span>{" "}
                                 Projects
                             </a>
                             <a className="btn btn-secondary mb-3" href="/cv">
                                 <span className="d-none d-md-inline">
-                                    <i className="fas fa-file-alt fa-fw mr-2"/>
+                                    <FontAwesomeIcon icon={faFileAlt} className="fas fa-fw mr-2"/>
                                     View
                                 </span>{" "}
                                 CV

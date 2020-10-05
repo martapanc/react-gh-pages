@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../../assets/css/main.scss";
 import "./styles.scss";
 import Markdown from "markdown-to-jsx";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faNewspaper } from "@fortawesome/free-regular-svg-icons";
-import { faFileAlt, faImages } from "@fortawesome/free-solid-svg-icons";
-import { faYoutube, faGooglePlay } from "@fortawesome/free-brands-svg-icons";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faNewspaper} from "@fortawesome/free-regular-svg-icons";
+import {faEllipsisV, faFileAlt, faImages} from "@fortawesome/free-solid-svg-icons";
+import {faYoutube, faGooglePlay, faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faCode} from "@fortawesome/fontawesome-free-solid";
 
 class ProjectCard extends Component {
     constructor(props) {
@@ -42,7 +43,10 @@ class ProjectCard extends Component {
                             className={`btn btn-custom pull-right ${this.data.id}-expand-btn`}
                             aria-label="Left Align"
                         >
-                            <i className="fa fa-ellipsis-v" />
+                            <FontAwesomeIcon
+                                icon={faEllipsisV}
+                                className="fa"
+                            />
                         </button>
                     </div>
                     <div className="card-action">
@@ -52,7 +56,10 @@ class ProjectCard extends Component {
                                 href={this.data.repo}
                                 target="new_blank"
                             >
-                                <i className="fab fa-github fa-fw" />
+                                <FontAwesomeIcon
+                                    icon={faGithub}
+                                    className="fab fa-fw"
+                                />
                                 <span
                                     className={
                                         hasReport || hasSite || hasLink
@@ -70,7 +77,10 @@ class ProjectCard extends Component {
                                 href={this.data.site}
                                 target="new_blank"
                             >
-                                <i className="fa fa-code fa-fw" />
+                                <FontAwesomeIcon
+                                    icon={faCode}
+                                    className="fa fa-fw"
+                                />
                                 &nbsp; Website
                             </a>
                         )}

@@ -12,15 +12,15 @@ import Fun from "./Fun";
 function Home() {
     return (
         <div>
-            <Intro/>
-            <SoftwareDevelopment/>
-            <WorkExperience/>
-            <Education/>
-            <Languages/>
-            <Publications/>
-            <GithubContribs/>
-            <Fun/>
-            <Section/>
+            <Intro />
+            <SoftwareDevelopment />
+            <WorkExperience />
+            <Education />
+            <Languages />
+            <Publications />
+            <GithubContribs />
+            <Fun />
+            <Section />
         </div>
     );
 }

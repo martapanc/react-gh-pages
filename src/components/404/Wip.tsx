@@ -1,5 +1,7 @@
 import React from "react";
 import "../../assets/css/main.scss";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faCog} from "@fortawesome/free-solid-svg-icons";
 
 function Wip() {
     return (
@@ -8,7 +10,7 @@ function Wip() {
                 <h3 className="title mb-1">Work in progress...</h3>
 
                 <div className="fa-3x">
-                    <i className="fas fa-cog fa-spin"/>
+                    <FontAwesomeIcon icon={faCog} className="fas fa-spin"/>
                 </div>
 
                 <a href="/">Go back home</a>
