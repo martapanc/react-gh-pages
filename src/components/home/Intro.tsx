@@ -1,5 +1,7 @@
 import React from "react";
 import "../../assets/css/main.scss";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faCode, faFileAlt} from '@fortawesome/free-solid-svg-icons'
 
 function Intro() {
     return (
@@ -51,19 +53,20 @@ function Intro() {
 
                         {/*bio*/}
                         <div className="mb-4">
+
                             <a
                                 className="btn btn-primary mr-2 mb-3"
                                 href="/projects"
                             >
                                 <span className="d-none d-md-inline">
-                                    <i className="fas fa-code fa-fw mr-2"/>
+                                    <FontAwesomeIcon icon={faCode} className="fas fa-fw mr-2"/>
                                     View
                                 </span>{" "}
                                 Projects
                             </a>
                             <a className="btn btn-secondary mb-3" href="/cv">
                                 <span className="d-none d-md-inline">
-                                    <i className="fas fa-file-alt fa-fw mr-2"/>
+                                    <FontAwesomeIcon icon={faFileAlt} className="fas fa-fw mr-2"/>
                                     View
                                 </span>{" "}
                                 CV

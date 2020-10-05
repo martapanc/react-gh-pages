@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/css/main.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import { faBlog } from "@fortawesome/free-solid-svg-icons";
+import {faBlog, faCode, faFileAlt, faGlobe, faUser} from "@fortawesome/free-solid-svg-icons";
 import {
     faLinkedin,
     faGithub,
@@ -11,6 +11,7 @@ import {
     faBlogger,
 } from "@fortawesome/free-brands-svg-icons";
 import "./styles.scss";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 const profile = require("../../assets/images/profile.webp");
 
@@ -68,7 +69,7 @@ function Sidebar() {
                                     rel="noopener noreferrer"
                                     href="https://www.linkedin.com/in/martapancaldi/"
                                 >
-                                    <i className="fab fa-linkedin fa-fw" />
+                                    <FontAwesomeIcon icon={faLinkedin} className="fab fa-fw"/>
                                 </a>
                             </li>
                             <li className="list-inline-item">
@@ -77,7 +78,7 @@ function Sidebar() {
                                     rel="noopener noreferrer"
                                     href="https://github.com/martapanc"
                                 >
-                                    <i className="fab fa-github fa-fw" />
+                                    <FontAwesomeIcon icon={faGithub} className="fab fa-fw"/>
                                 </a>
                             </li>
                             <li className="list-inline-item">
@@ -86,7 +87,7 @@ function Sidebar() {
                                     rel="noopener noreferrer"
                                     href="https://gitlab.com/mpancaldi"
                                 >
-                                    <i className="fab fa-gitlab fa-fw" />
+                                    <FontAwesomeIcon icon={faGitlab} className="fab fa-fw"/>
                                 </a>
                             </li>
                             <li className="list-inline-item">
@@ -95,7 +96,7 @@ function Sidebar() {
                                     rel="noopener noreferrer"
                                     href="https://www.instagram.com/pancakemarta/"
                                 >
-                                    <i className="fab fa-instagram fa-fw" />
+                                    <FontAwesomeIcon icon={faInstagram} className="fab fa-fw"/>
                                 </a>
                             </li>
                             <li className="list-inline-item">
@@ -104,7 +105,7 @@ function Sidebar() {
                                     rel="noopener noreferrer"
                                     href="https://steamcommunity.com/id/martap/"
                                 >
-                                    <i className="fab fa-steam fa-fw" />
+                                    <FontAwesomeIcon icon={faSteam} className="fab fa-fw"/>
                                 </a>
                             </li>
                         </ul>
@@ -113,31 +114,31 @@ function Sidebar() {
                     <ul className="navbar-nav flex-column text-left">
                         <li className="nav-item">
                             <a className="nav-link" href="/">
-                                <i className="fas fa-user fa-fw mr-2" />
+                                <FontAwesomeIcon icon={faUser} className="fas fa-fw mr-2"/>
                                 About me
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href={"/cv"}>
-                                <i className="fas fa-file-alt fa-fw mr-2" />
+                                <FontAwesomeIcon icon={faFileAlt} className="fas fa-fw mr-2"/>
                                 CV
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href={"/projects"}>
-                                <i className="fas fa-code fa-fw mr-2" />
+                                <FontAwesomeIcon icon={faCode} className="fas fa-fw mr-2"/>
                                 Projects
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href={"/photos"}>
-                                <i className="fas fa-globe fa-fw mr-2" />
+                                <FontAwesomeIcon icon={faGlobe} className="fas fa-fw mr-2"/>
                                 Travel photos
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href={"/blog"}>
-                                <i className="fas fa-blog fa-fw mr-2" />
+                                <FontAwesomeIcon icon={faBlog} className="fas fa-fw mr-2"/>
                                 Blog
                             </a>
                         </li>
