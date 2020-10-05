@@ -63,8 +63,8 @@ class ProjectCard extends Component {
                                 <span
                                     className={
                                         hasReport || hasSite || hasLink
-                                            ? 'responsive-hide'
-                                            : ''
+                                            ? "responsive-hide"
+                                            : ""
                                     }
                                 >
                                     &nbsp; Check it out
