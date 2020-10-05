@@ -14,13 +14,13 @@ class ProjectCard extends Component {
     }
 
     render() {
-        const hasRepo = this.data.repo !== undefined;
-        const hasSite = this.data.site !== undefined;
-        const hasReport = this.data.report !== undefined;
-        const hasArticle = this.data.article !== undefined;
-        const hasVideo = this.data.video !== undefined;
-        const hasPics = this.data.pics !== undefined;
-        const hasLink = this.data.link !== undefined;
+        const hasRepo = this.data.repo;
+        const hasSite = this.data.site;
+        const hasReport = this.data.report;
+        const hasArticle = this.data.article;
+        const hasVideo = this.data.video;
+        const hasPics = this.data.pics;
+        const hasLink = this.data.link;
         return (
             <div
                 className="col-12 col-md-4 col-lg-4 project-card"
