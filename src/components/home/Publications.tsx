@@ -2,7 +2,8 @@ import React from "react";
 import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import "./styles.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import news from "../../assets/images/intro/newspaper.svg";
+
+const news = require("../../assets/images/intro/newspaper.svg");
 
 function Publications() {
     return (

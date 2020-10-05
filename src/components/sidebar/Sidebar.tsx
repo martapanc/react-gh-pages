@@ -1,8 +1,6 @@
 import React from "react";
 import "../../assets/css/main.scss";
-import {} from "@fortawesome/fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {} from "@fortawesome/fontawesome-free-solid";
 import { faBlog } from "@fortawesome/free-solid-svg-icons";
 import {
     faLinkedin,
@@ -12,8 +10,9 @@ import {
     faInstagram,
     faBlogger,
 } from "@fortawesome/free-brands-svg-icons";
-import profile from "../../assets/images/profile.webp";
 import "./styles.scss";
+
+const profile = require("../../assets/images/profile.webp");
 
 library.add(
     faLinkedin,

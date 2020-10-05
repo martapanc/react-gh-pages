@@ -1,10 +1,11 @@
 import React from "react";
-import uk from "../../assets/images/flags/uk.svg";
-import it from "../../assets/images/flags/ita.svg";
-import de from "../../assets/images/flags/deu.svg";
-import fr from "../../assets/images/flags/fra.svg";
 import "./styles.scss";
-import world from "../../assets/images/intro/internet.svg";
+
+const uk = require("../../assets/images/flags/uk.svg");
+const it = require("../../assets/images/flags/ita.svg");
+const de = require("../../assets/images/flags/deu.svg");
+const fr = require("../../assets/images/flags/fra.svg");
+const world = require("../../assets/images/intro/internet.svg");
 
 function Languages() {
     return (

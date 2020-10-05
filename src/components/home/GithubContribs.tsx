@@ -2,10 +2,11 @@ import React from "react";
 import "./styles.scss";
 import $ from "jquery";
 import "github-calendar/dist/github-calendar-responsive.css";
-import GitHubCalendar from "github-calendar";
-import github from "../../assets/images/intro/github.svg";
 
-function Github() {
+const GitHubCalendar = require("github-calendar");
+const github = require("../../assets/images/intro/github.svg");
+
+export default function GithubContribs() {
     return (
         <section className="overview-section p-3 p-lg-3 responsive-hide github-calendar">
             <div className="container">
@@ -28,12 +29,10 @@ function Github() {
     );
 }
 
-$(function() {
+$(function () {
     GitHubCalendar(".calendar", "martapanc", {
         responsive: true,
         summary_text: "",
         global_stats: true,
     });
 });
-
-export default Github;

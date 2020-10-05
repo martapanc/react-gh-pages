@@ -1,6 +1,6 @@
-import bookinggo from "../../../assets/images/work/booking.png";
-import ict from "../../../assets/images/work/ict.png";
-import unibz from "../../../assets/images/work/unibz.jpeg";
+const bookinggo = require("../../../assets/images/work/booking.png");
+const ict = require("../../../assets/images/work/ict.png");
+const unibz = require("../../../assets/images/work/unibz.jpeg");
 
 export const WorkData = {
     bookinggo: {
