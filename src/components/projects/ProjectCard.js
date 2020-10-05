@@ -43,7 +43,10 @@ class ProjectCard extends Component {
                             className={`btn btn-custom pull-right ${this.data.id}-expand-btn`}
                             aria-label="Left Align"
                         >
-                            <FontAwesomeIcon icon={faEllipsisV} className="fa"/>
+                            <FontAwesomeIcon
+                                icon={faEllipsisV}
+                                className="fa"
+                            />
                         </button>
                     </div>
                     <div className="card-action">
@@ -53,12 +56,15 @@ class ProjectCard extends Component {
                                 href={this.data.repo}
                                 target="new_blank"
                             >
-                                <FontAwesomeIcon icon={faGithub} className="fab fa-fw"/>
+                                <FontAwesomeIcon
+                                    icon={faGithub}
+                                    className="fab fa-fw"
+                                />
                                 <span
                                     className={
                                         hasReport || hasSite || hasLink
-                                            ? "responsive-hide"
-                                            : ""
+                                            ? 'responsive-hide'
+                                            : ''
                                     }
                                 >
                                     &nbsp; Check it out
@@ -71,7 +77,10 @@ class ProjectCard extends Component {
                                 href={this.data.site}
                                 target="new_blank"
                             >
-                                <FontAwesomeIcon icon={faCode} className="fa fa-fw"/>
+                                <FontAwesomeIcon
+                                    icon={faCode}
+                                    className="fa fa-fw"
+                                />
                                 &nbsp; Website
                             </a>
                         )}
@@ -81,7 +90,7 @@ class ProjectCard extends Component {
                                 href={this.data.report}
                                 target="new_blank"
                             >
-                                <FontAwesomeIcon icon={faFileAlt}/>
+                                <FontAwesomeIcon icon={faFileAlt} />
                                 &nbsp; Report
                             </a>
                         )}
@@ -91,7 +100,7 @@ class ProjectCard extends Component {
                                 href={this.data.article}
                                 target="new_blank"
                             >
-                                <FontAwesomeIcon icon={faNewspaper}/>
+                                <FontAwesomeIcon icon={faNewspaper} />
                                 &nbsp; See article
                             </a>
                         )}
@@ -101,7 +110,7 @@ class ProjectCard extends Component {
                                 href={this.data.video}
                                 target="new_blank"
                             >
-                                <FontAwesomeIcon icon={faYoutube}/>
+                                <FontAwesomeIcon icon={faYoutube} />
                                 &nbsp; Video
                             </a>
                         )}
@@ -111,7 +120,7 @@ class ProjectCard extends Component {
                                 href={this.data.pics}
                                 target="new_blank"
                             >
-                                <FontAwesomeIcon icon={faImages}/>
+                                <FontAwesomeIcon icon={faImages} />
                                 &nbsp; Screenshots
                             </a>
                         )}
@@ -121,7 +130,7 @@ class ProjectCard extends Component {
                                 href={this.data.link}
                                 target="new_blank"
                             >
-                                <FontAwesomeIcon icon={faGooglePlay}/>
+                                <FontAwesomeIcon icon={faGooglePlay} />
                                 &nbsp; Try app
                             </a>
                         )}
@@ -140,7 +149,7 @@ class ProjectCard extends Component {
                         >
                             <span aria-hidden="true">×</span>
                         </button>
-                        <br/>
+                        <br />
                         <span>
                             <Markdown>{this.data.text}</Markdown>
                         </span>
