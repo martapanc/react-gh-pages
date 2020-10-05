@@ -5,7 +5,7 @@ import Section from "../app/Section";
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
 import Languages from "./Languages";
-import Github from "./Github";
+import GithubContribs from "./GithubContribs";
 import Publications from "./Publications";
 import Fun from "./Fun";
 
@@ -18,7 +18,7 @@ function Home() {
             <Education/>
             <Languages/>
             <Publications/>
-            <Github/>
+            <GithubContribs/>
             <Fun/>
             <Section/>
         </div>

@@ -56,14 +56,14 @@ function Intro() {
                                 href="/projects"
                             >
                                 <span className="d-none d-md-inline">
-                                    <i className="fas fa-code fa-fw mr-2"></i>
+                                    <i className="fas fa-code fa-fw mr-2"/>
                                     View
                                 </span>{" "}
                                 Projects
                             </a>
                             <a className="btn btn-secondary mb-3" href="/cv">
                                 <span className="d-none d-md-inline">
-                                    <i className="fas fa-file-alt fa-fw mr-2"></i>
+                                    <i className="fas fa-file-alt fa-fw mr-2"/>
                                     View
                                 </span>{" "}
                                 CV

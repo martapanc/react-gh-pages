@@ -1,7 +1,8 @@
 import React from "react";
 import WorkData from "./data/WorkData";
 import Work from "./items/Work";
-import bag from "../../assets/images/intro/business-and-finance.svg";
+
+const bag = require("../../assets/images/intro/business-and-finance.svg");
 
 function WorkExperience() {
     return (

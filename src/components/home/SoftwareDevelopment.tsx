@@ -2,7 +2,8 @@ import React from "react";
 import $ from "jquery";
 import Languages from "./data/LanguageData";
 import ProgrammingLanguage from "./items/ProgrammingLanguage";
-import laptop from "../../assets/images/intro/laptop.svg";
+
+const laptop = require("../../assets/images/intro/laptop.svg");
 
 function readMore() {
     const hideElements = $(".read-more-hide");

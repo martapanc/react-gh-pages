@@ -1,11 +1,11 @@
-import cofc from "../../../assets/images/schools/cofc.webp";
-import peri from "../../../assets/images/schools/peri.webp";
-import unibz from "../../../assets/images/schools/unibz.webp";
-import uom from "../../../assets/images/schools/uom.webp";
-import uk from "../../../assets/images/flags/uk.svg";
-import ita from "../../../assets/images/flags/ita.svg";
-import usa from "../../../assets/images/flags/usa.svg";
-import deu from "../../../assets/images/flags/deu.svg";
+const cofc = require("../../../assets/images/schools/cofc.webp");
+const peri = require("../../../assets/images/schools/peri.webp");
+const unibz = require("../../../assets/images/schools/unibz.webp");
+const uom = require("../../../assets/images/schools/uom.webp");
+const uk = require("../../../assets/images/flags/uk.svg");
+const ita = require("../../../assets/images/flags/ita.svg");
+const usa = require("../../../assets/images/flags/usa.svg");
+const deu = require("../../../assets/images/flags/deu.svg");
 
 export const WorkData = {
     uom: {
