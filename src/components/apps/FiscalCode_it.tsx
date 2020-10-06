@@ -5,7 +5,7 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 function CodiceFiscale() {
     return (
         <div>
-            <SectionTitle props={"Calcolo del Codice Fiscale"}/>
+            <SectionTitle title="Calcolo del Codice Fiscale"/>
 
             <section className="blog-list px-3 py-5 p-md-5">
                 <div className="container">

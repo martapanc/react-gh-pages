@@ -6,7 +6,7 @@ import Wip from "../404/Wip";
 function Blog() {
     return (
         <div>
-            <SectionTitle props={"Blog"} />
+            <SectionTitle title="Blog" />
             <Wip />
         </div>
     );

@@ -10,7 +10,7 @@ import Section from "../app/Section";
 function Projects() {
     return (
         <div>
-            <SectionTitle props={"My Projects"} />
+            <SectionTitle title="My Projects" />
 
             <section className="project-section p-3 p-lg-3">
                 <div className="container">
