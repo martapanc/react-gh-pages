@@ -6,10 +6,6 @@ type SectionTitleState = {
 }
 
 class SectionTitle extends Component<SectionTitleState> {
-    constructor(props: SectionTitleState) {
-        super(props);
-    }
-
     render() {
         return (
             <section className="cta-section theme-bg-light py-5">
