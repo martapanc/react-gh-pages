@@ -12,12 +12,13 @@ const cvPdf = require("../../assets/images/cv/MARTA PANCALDI - CV.pdf");
 function CV() {
     return (
         <div>
-            <SectionTitle props={"My CV"}/>
+            <SectionTitle title="My CV"/>
 
             <div>
                 <div className="container px-3 px-lg-5">
                     <div style={{marginTop: "15px", textAlign: "center"}}>
-                        <a href={cvPdf} className="btn btn-primary2 mr-2 mb-3" target="_blank" rel="noopener noreferrer">
+                        <a href={cvPdf} className="btn btn-primary2 mr-2 mb-3" target="_blank"
+                           rel="noopener noreferrer">
                             <FontAwesomeIcon icon={faDownload} className="fas fa-fw mr-2"/>
                             Download PDF
                         </a>

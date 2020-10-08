@@ -6,7 +6,7 @@ import "./styles.scss";
 function FiscalCode() {
     return (
         <div>
-            <SectionTitle props={"Fiscal Code Calculator"}/>
+            <SectionTitle title="Fiscal Code Calculator"/>
 
             <section className="blog-list px-3 py-5 p-md-5">
                 <div className="container">

@@ -8,7 +8,7 @@ import Section from "../app/Section";
 function Photos() {
     return (
         <div>
-            <SectionTitle props={"Pictures from around the world"} />
+            <SectionTitle title="Pictures from around the world" />
             <PhotoGallery />
             <WorldMap />
             <Section />

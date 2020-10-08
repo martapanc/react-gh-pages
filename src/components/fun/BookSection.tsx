@@ -8,7 +8,7 @@ function BookSection() {
             <div className="container" id="education">
                 <div className="row">
                     {BookData.map((data, key) => {
-                        return <Book props={data} key={key} />;
+                        return <Book link={data.link} cover={data.cover} title={data.title} key={key}/>;
                     })}
                 </div>
             </div>

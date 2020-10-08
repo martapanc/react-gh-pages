@@ -1,24 +1,24 @@
 import React, { Component } from "react";
 
-class Book extends Component {
-    constructor(props) {
-        super(props);
+type BookData = {
+    link: string,
+    cover: string,
+    title: string
+}
 
-        this.data = this.props.props;
-    }
-
+class Book extends Component<BookData> {
     render() {
         return (
             <div>
                 <a
-                    href={this.data.link}
+                    href={this.props.link}
                     target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img
                         className="book-icon"
-                        src={this.data.cover}
-                        alt={this.data.title}
+                        src={this.props.cover}
+                        alt={this.props.title}
                         height="70"
                     />
                 </a>

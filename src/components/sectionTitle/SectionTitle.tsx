@@ -1,18 +1,16 @@
 import React, { Component } from "react";
 import "../../assets/css/main.scss";
 
-class SectionTitle extends Component {
-    constructor(props) {
-        super(props);
+type SectionTitleState = {
+    title: String
+}
 
-        this.data = this.props.props;
-    }
-
+class SectionTitle extends Component<SectionTitleState> {
     render() {
         return (
             <section className="cta-section theme-bg-light py-5">
                 <div className="container text-center">
-                    <h2 className="heading">{this.data}</h2>
+                    <h2 className="heading">{this.props.title}</h2>
                 </div>
             </section>
         );
