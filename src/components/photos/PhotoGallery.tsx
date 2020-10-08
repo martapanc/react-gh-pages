@@ -9,10 +9,11 @@ function PhotoGallery() {
             <div className="container">
                 <div className="row">
                     {PhotoData.map((data, key) => {
-                        return <Album props={data} key={key} />;
+                        return <Album link={data.link} photo={data.photo} title={data.title} flag={data.flag}
+                                      key={key}/>;
                     })}
                 </div>
-                <hr className="mt-2 mb-5" />
+                <hr className="mt-2 mb-5"/>
             </div>
         </section>
     );
