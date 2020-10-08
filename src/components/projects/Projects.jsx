@@ -116,7 +116,7 @@ $(function() {
                 if (item !== "all") {
                     let tags = $(this)
                         .attr("data-tags")
-                        .split("","");
+                        .split(",");
                     if (!tags.includes(item)) {
                         $(this).hide();
                     }

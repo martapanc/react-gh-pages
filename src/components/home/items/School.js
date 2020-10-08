@@ -69,10 +69,6 @@ class ProgrammingLanguage extends Component {
 }
 
 $(function () {
-    // $(window).on("resize", function () {
-    //     resizeOps();
-    // });
-
     function resizeOps() {
         $(".title-container")
             .toggleClass("row", $(window).width() > 600)
