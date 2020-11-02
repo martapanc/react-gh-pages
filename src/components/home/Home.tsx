@@ -7,6 +7,7 @@ import Education from "./Education";
 import Languages from "./Languages";
 import Publications from "./Publications";
 import Fun from "./Fun";
+import GithubContribs from "./GithubContribs";
 
 function Home() {
     return (
@@ -17,7 +18,7 @@ function Home() {
             <Education />
             <Languages />
             <Publications />
-            {/*<GithubContribs />*/}
+            <GithubContribs />
             <Fun />
             <Section />
         </div>
