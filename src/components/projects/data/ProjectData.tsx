@@ -200,9 +200,9 @@ export const ProjectData = [
         repo: "https://github.com/martapanc/ItalianFiscalCodeCalculatorApp",
         tags: ["java", "kotlin", "uni", "android"],
         text:
-            "I started learning Android development recently and, in order to focus on the feature of the mobile world, " +
+            "I started learning Android development recently and, in order to focus on the features of the mobile world, " +
             "as well as on practising with Kotlin, I've been reusing the Java backend of the Fiscal Code calculator " +
-            "I built in uni. Check out the result on the " +
+            "I built in university. Check out the result on the " +
             '<a href="https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app">Play Store</a>!',
     },
     {
