@@ -5,9 +5,9 @@ const unibz = require("../../../assets/images/work/unibz.jpeg");
 export const WorkData = {
     bookinggo: {
         title: "Booking.com Transport Unit ~ Manchester",
-        subtitle: "Graduate Software Engineer",
+        subtitle: "Software Engineer",
         begin: "2018",
-        end: "present",
+        end: "2020",
         items: [
             "Team rotation every six months: payment page, premium insurance and supplier integrations",
             "Main technologies used: Java, JavaScript, React, PHP, MySQL, Docker",
