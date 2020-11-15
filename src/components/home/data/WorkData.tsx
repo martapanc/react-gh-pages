@@ -1,11 +1,22 @@
 const bookinggo = require("../../../assets/images/work/booking.png");
 const ict = require("../../../assets/images/work/ict.png");
 const unibz = require("../../../assets/images/work/unibz.jpeg");
+const bjss = require("../../../assets/images/work/bjss.png");
 
 export const WorkData = {
+    bjss: {
+        title: "BJSS Ltd. ~ Manchester (remote)",
+        subtitle: "Software Engineer",
+        begin: "2020",
+        end: "present",
+        items: [
+            "Part of the Specsavers team."
+        ],
+        icon: bjss,
+    },
     bookinggo: {
         title: "Booking.com Transport Unit ~ Manchester",
-        subtitle: "Software Engineer",
+        subtitle: "Graduate Software Engineer",
         begin: "2018",
         end: "2020",
         items: [
@@ -32,7 +43,7 @@ export const WorkData = {
     },
     ictgroup: {
         title: "ICT Group ~ Reggio Emilia",
-        subtitle: "Intern - Software Developer",
+        subtitle: "Intern Software Developer",
         begin: "2016",
         end: "2017",
         items: [
