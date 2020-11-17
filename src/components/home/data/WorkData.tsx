@@ -10,7 +10,9 @@ export const WorkData = {
         begin: "2020",
         end: "present",
         items: [
-            "Part of the Specsavers team."
+            "Technology consultancy company",
+            "All the work is project-based, providing opportunities to work with several clients and various " +
+            "programming languages and stacks",
         ],
         icon: bjss,
     },
