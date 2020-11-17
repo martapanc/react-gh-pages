@@ -18,6 +18,7 @@ function WorkExperience() {
                     Work Experience
                 </h2>
                 <div className="row">
+                    <Work props={WorkData.bjss} />
                     <Work props={WorkData.bookinggo} />
                     <Work props={WorkData.unibz} />
                     <Work props={WorkData.ictgroup} />
