@@ -78,7 +78,7 @@ function Fun() {
                         >
                             Music
                         </h3>
-                        <ul className="fun-music">
+                        <ul>
                             <li>
                                 I studied the oboe for 12+ years, and although
                                 I've never planned to become a professional
