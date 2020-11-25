@@ -2,6 +2,7 @@ import React from "react";
 import "../../assets/css/main.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCode, faFileAlt} from "@fortawesome/free-solid-svg-icons";
+import bjss from "../../assets/images/intro/bjss.webp";
 
 function Intro() {
     return (
@@ -14,17 +15,16 @@ function Intro() {
                         </h2>
                         <div className="tagline mb-3">Software Engineer</div>
                         <div className="bio mb-4">
-                            I'm a junior software engineer based in Manchester
-                            (UK), currently working at{" "}
-                            <strong>
+                            I'm a software engineer based in Manchester (UK), currently working at{" "}
+                            <img src={bjss} alt={"bjss"} width={'45px'}/>, specialised in Java, backend and web
+                            development.
+                            <br/>I have a MSc in Advanced Computer Science from the University of
+                            Manchester and two years of experience at <strong>
                                 <span style={{color: "#21457E"}}>
                                     Booking
                                 </span>
-                                <span style={{color: "#4A9EDA"}}>.com</span>
-                            </strong>
-                            , specialised in Java and web development.
-                            <br/>I recently graduated from the University of
-                            Manchester with a MSc in Advanced Computer Science.
+                            <span style={{color: "#4A9EDA"}}>.com</span>
+                            </strong>.
                             <br/>
                             <a
                                 className="link-on-bg"
