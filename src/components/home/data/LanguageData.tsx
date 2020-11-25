@@ -39,6 +39,7 @@ const aws = require("../../../assets/images/languages/aws.svg");
 const gcp = require("../../../assets/images/languages/gcp.webp");
 const heroku = require("../../../assets/images/languages/heroku.webp");
 const docker = require("../../../assets/images/languages/docker.svg");
+const drupal = require("../../../assets/images/languages/drupal.webp");
 
 export const LanguageData = {
     java: {
@@ -136,10 +137,14 @@ export const LanguageData = {
     },
     php: {
         title: "PHP",
-        icons: [{object: php, name: "PHP"}],
+        icons: [
+            {object: php, name: "PHP"},
+            {object: drupal, name: "Drupal"}
+        ],
         text:
-            "The booking management service of my current company is written in PHP, which was a good chance to learn " +
-            "about this language. I still have a lot to learn and explore - but I like challenges.",
+            "The booking management service of my previous company was written in PHP - kind of a shock therapy experience, " +
+            "still an excellent chance to learn about this language. I'm currently working with Drupal and I still " +
+            "have a lot to explore - but I like challenges.",
         show: false,
     },
     os: {

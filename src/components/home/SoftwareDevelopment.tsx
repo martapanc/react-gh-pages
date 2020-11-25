@@ -53,10 +53,10 @@ function SoftwareDevelopment() {
 
                     <ProgrammingLanguage props={Languages.web}/>
                     <ProgrammingLanguage props={Languages.android}/>
+                    <ProgrammingLanguage props={Languages.php}/>
                     <ProgrammingLanguage props={Languages.cloud}/>
                     <ProgrammingLanguage props={Languages.sql}/>
                     <ProgrammingLanguage props={Languages.cs}/>
-                    <ProgrammingLanguage props={Languages.php}/>
                     <ProgrammingLanguage props={Languages.os}/>
                     <ProgrammingLanguage props={Languages.ide}/>
                 </div>

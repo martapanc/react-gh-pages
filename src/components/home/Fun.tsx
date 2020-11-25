@@ -58,7 +58,7 @@ function Fun() {
                     love doing in my free time :)
                 </div>
                 <div className="row">
-                    <div className="col-12 col-md-6 col-lg-6 p-2">
+                    <div className="col-12 col-md-6 col-lg-6 p-2 fun-item">
                         <h3
                             style={{
                                 fontFamily: "Baskerville",
@@ -69,7 +69,7 @@ function Fun() {
                         </h3>
                         <BookSection/>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6 ">
+                    <div className="col-12 col-md-6 col-lg-6 fun-item">
                         <h3
                             style={{
                                 fontFamily: "Trebuchet MS",
@@ -78,7 +78,7 @@ function Fun() {
                         >
                             Music
                         </h3>
-                        <ul>
+                        <ul className="fun-music">
                             <li>
                                 I studied the oboe for 12+ years, and although
                                 I've never planned to become a professional
@@ -154,7 +154,7 @@ function Fun() {
                     </div>
                 </div>
                 <div className="row">
-                    <div className="col-12 col-md-6 col-lg-6 ">
+                    <div className="col-12 col-md-6 col-lg-6 fun-item">
                         <h3
                             style={{
                                 fontFamily: "Lucida Console",
@@ -182,7 +182,7 @@ function Fun() {
                             <img src={ig} height="40" alt="Instagram"/>
                         </a>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-6 ">
+                    <div className="col-12 col-md-6 col-lg-6 fun-item">
                         <h3 style={{fontFamily: "Impact", color: "#226d10"}}>
                             Gaming
                         </h3>
