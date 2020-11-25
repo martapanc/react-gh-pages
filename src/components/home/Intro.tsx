@@ -16,7 +16,7 @@ function Intro() {
                         <div className="tagline mb-3">Software Engineer</div>
                         <div className="bio mb-4">
                             I'm a software engineer based in Manchester (UK), currently working at{" "}
-                            <img src={bjss} alt={"bjss"} width={'45px'}/>, specialised in Java, backend and web
+                            <img src={bjss} alt={"bjss"} width={"45px"}/>, specialised in Java, backend and web
                             development.
                             <br/>I have a MSc in Advanced Computer Science from the University of
                             Manchester and two years of experience at <strong>
