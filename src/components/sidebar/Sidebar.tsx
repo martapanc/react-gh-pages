@@ -9,6 +9,7 @@ import {
     faSteam,
     faInstagram,
     faBlogger,
+    faGoodreads,
 } from "@fortawesome/free-brands-svg-icons";
 import "./styles.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
@@ -22,7 +23,8 @@ library.add(
     faSteam,
     faInstagram,
     faBlogger,
-    faBlog
+    faBlog,
+    faGoodreads
 );
 
 function Sidebar() {
@@ -85,18 +87,18 @@ function Sidebar() {
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href="https://gitlab.com/mpancaldi"
+                                    href="https://www.instagram.com/pancakemarta/"
                                 >
-                                    <FontAwesomeIcon icon={faGitlab} className="fab fa-fw"/>
+                                    <FontAwesomeIcon icon={faInstagram} className="fab fa-fw"/>
                                 </a>
                             </li>
                             <li className="list-inline-item">
                                 <a
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    href="https://www.instagram.com/pancakemarta/"
+                                    href="https://www.goodreads.com/topolinamarta"
                                 >
-                                    <FontAwesomeIcon icon={faInstagram} className="fab fa-fw"/>
+                                    <FontAwesomeIcon icon={faGoodreads} className="fab fa-fw"/>
                                 </a>
                             </li>
                             <li className="list-inline-item">
