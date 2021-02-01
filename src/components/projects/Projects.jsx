@@ -26,6 +26,12 @@ function Projects() {
                                 Java
                             </button>
                             <button
+                                id="kotlin-filter-btn"
+                                className="btn btn-primary3 btn-sm filter-btn"
+                            >
+                                Kotlin
+                            </button>
+                            <button
                                 id="python-filter-btn"
                                 className="btn btn-primary btn-primary2 btn-sm filter-btn"
                             >
@@ -127,6 +133,7 @@ $(function() {
 
     const filterButtonList = [
         "java",
+        "kotlin",
         "python",
         "android",
         "web",

@@ -9,6 +9,17 @@
   }
 }
 
+.btn-primary3 {
+  background-color: #F28509;
+  color: white;
+
+  &:hover {
+    background: #cf6f06;
+    border-color: transparent;
+    color: white;
+  }
+}
+
 .btn-info2 {
   background-color: #1793b8;
 
@@ -19,11 +30,11 @@
 }
 
 .btn-orange {
-  background-color: #b86e00;
+  background-color: #995c00;
   color: white;
 
   &:hover {
-    background: #b85700;
+    background: #865203;
     border-color: transparent;
     color: white;
   }

@@ -20,6 +20,7 @@ const zebra = require("../../../assets/images/projects/zebra.webp");
 const programming = require("../../../assets/images/projects/programming.webp");
 const bitbar = require("../../../assets/images/projects/Bitbar.webp");
 const twitch = require("../../../assets/images/projects/twitch.webp");
+const aoc = require("../../../assets/images/projects/aoc.webp");
 
 function shuffle(array: string | any[]) {
     var currentIndex = array.length,
@@ -198,11 +199,12 @@ export const ProjectData = [
         photo: fcApp,
         link: "https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app",
         repo: "https://github.com/martapanc/ItalianFiscalCodeCalculatorApp",
-        tags: ["java", "kotlin", "uni", "android"],
+        tags: ["java", "kotlin", "uni", "android", "self"],
         text:
             "I started learning Android development recently and, in order to focus on the features of the mobile world, " +
             "as well as on practising with Kotlin, I've been reusing the Java backend of the Fiscal Code calculator " +
-            "I built in university. Check out the result on the " +
+            "I built in university. The app has currently been downloaded 15000+ times and has a rating of 4.0. " +
+            "Check out the result on the " +
             '<a href="https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app">Play Store</a>!',
     },
     {
@@ -302,6 +304,18 @@ export const ProjectData = [
             "with the licence limitations or the lack of customisation, I decided to write my own **cron job in Python**: it " +
             "queries the **Twitch API** to find which of the streamers I follow goes live and then connects to a **Slack webhook**, " +
             "displaying a nice-looking message. <br/>Never gonna miss a show again!",
+    },
+    {
+        title: "All-Star Advent of Code",
+        id: "aoc",
+        year: "2021",
+        photo: aoc,
+        repo: "https://github.com/martapanc/Advent-Of-Code",
+        tags: ["java", "kotlin", "self"],
+        text:
+            "After taking part to the Advent of Code 2020 challenges, I decided to go back and solve all puzzles from the " +
+            "past years. I succeeded in a few weeks, and now I'm quite proud of my shiny 300 stars ⭐&nbsp; — not to " +
+            "mention the huge progress I've made with Kotlin and complex algorithms.",
     },
 ];
 
