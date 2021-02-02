@@ -55,7 +55,7 @@ class ProgrammingLanguage extends Component {
                         <ul>
                             {this.data.items.map((text, key) => {
                                 return (
-                                    <li key={key}>
+                                    <li className="item-li" key={key}>
                                         <Markdown>{text}</Markdown>
                                     </li>
                                 );

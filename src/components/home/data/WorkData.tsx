@@ -50,7 +50,7 @@ export const WorkData = {
         end: "2017",
         items: [
             "Summer internship followed by a 5-month remote collaboration contract",
-            "Development of a web portal for the request and management of the employees' holidays and permits.",
+            "Development of a HRMS, a customisable web portal for the request and management of the employees' holidays.",
             "Main technologies: HTML, CSS, Javascript, AngularJS, JQuery, NodeJS, Java, MongoDB, Wildfly",
         ],
         icon: ict,

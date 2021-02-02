@@ -49,7 +49,7 @@ class Work extends Component {
                                 <ul>
                                     {this.data.items.map((text, key) => {
                                         return (
-                                            <li key={key}>
+                                            <li className="item-li" key={key}>
                                                 <Markdown>{text}</Markdown>
                                             </li>
                                         );
@@ -78,6 +78,7 @@ $(function () {
                 return $(this)
                     .text()
                     .replace("University of Manchester", "Univ of Manchester")
+                    .replace("ICT Group ~ Reggio Emilia", "ICT Group ~ Reggio E.")
                     .replace("Free University of Bolzano", "Univ of Bolzano");
             });
         }
