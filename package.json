@@ -65,7 +65,8 @@
     "prettier": "prettier --single-quote --trailing-comma es5 --write --tab-width 4 \"**/*.js\"",
     "prettiercss": "prettier --write --rule-empty-line-before --tab-width 2 \"**/*.scss\"",
     "fb_serve": "npm run build && firebase serve --only hosting\n",
-    "fb_deploy": "npm run build && firebase deploy --only hosting:mpancaldi"
+    "fb_deploy": "npm run build && firebase deploy --only hosting:mpancaldi",
+    "all_deploys": "npm run predeploy && npm run deploy && npm run fb_deploy"
   },
   "eslintConfig": {
     "extends": "react-app"
