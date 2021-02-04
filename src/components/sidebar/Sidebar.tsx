@@ -1,7 +1,7 @@
 import React from "react";
 import "../../assets/css/main.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
-import {faBlog, faCode, faFileAlt, faGlobe, faUser} from "@fortawesome/free-solid-svg-icons";
+import {faBlog, faCode, faFileAlt, faGlobe, faUser, faPizzaSlice} from "@fortawesome/free-solid-svg-icons";
 import {
     faLinkedin,
     faGithub,
@@ -135,15 +135,21 @@ function Sidebar() {
                         <li className="nav-item">
                             <a className="nav-link" href={"/photos"}>
                                 <FontAwesomeIcon icon={faGlobe} className="fas fa-fw mr-2"/>
-                                Travel photos
+                                Travel Pictures
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" href={"/blog"}>
-                                <FontAwesomeIcon icon={faBlog} className="fas fa-fw mr-2"/>
-                                Blog
+                            <a className="nav-link" href={"/recipes"}>
+                                <FontAwesomeIcon icon={faPizzaSlice} className="fas fa-fw mr-2"/>
+                                Food Pictures
                             </a>
                         </li>
+                        {/*<li className="nav-item">*/}
+                        {/*    <a className="nav-link" href={"/blog"}>*/}
+                        {/*        <FontAwesomeIcon icon={faBlog} className="fas fa-fw mr-2"/>*/}
+                        {/*        Blog*/}
+                        {/*    </a>*/}
+                        {/*</li>*/}
                     </ul>
 
                     <div className="my-2 my-md-3">

@@ -12,6 +12,7 @@ import Projects from "../projects/Projects";
 import NotFound from "../404/NotFound";
 import FiscalCode from "../apps/FiscalCode";
 import CodiceFiscale from "../apps/FiscalCode_it";
+import Recipes from "../recipes/Recipes";
 
 function App() {
     return (
@@ -26,6 +27,7 @@ function App() {
                             <Route path="/cv" component={CV} />
                             <Route path="/projects" component={Projects} />
                             <Route path="/photos" component={Photos} />
+                            <Route path="/recipes" component={Recipes} />
                             <Route path="/blog" component={Blog} />
                             <Route path="/apps/fiscal-code" component={FiscalCode} />
                             <Route path="/apps/codice-fiscale" component={CodiceFiscale} />
