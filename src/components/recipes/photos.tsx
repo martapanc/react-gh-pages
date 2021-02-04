@@ -29,6 +29,7 @@ const pastabake_2 = require("../../assets/images/recipes/pastabake_2.jpg")
 const piadine = require("../../assets/images/recipes/piadine.jpg")
 const pierogi = require("../../assets/images/recipes/pierogi.jpg")
 const pierogis_2 = require("../../assets/images/recipes/pierogis_2.jpg")
+const pizza = require("../../assets/images/recipes/pizza.jpg")
 const raclette = require("../../assets/images/recipes/raclette.jpg")
 const risotto = require("../../assets/images/recipes/risotto.jpg")
 const russian_things = require("../../assets/images/recipes/russian_things.jpg")
@@ -174,6 +175,11 @@ export const photos = [
     },
     {
         src: pierogi,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: pizza,
         width: pic_width,
         height: pic_height
     },
