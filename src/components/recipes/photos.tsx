@@ -1,5 +1,3 @@
-import {PhotoProps} from "react-photo-gallery";
-
 const baguette_1 = require('../../assets/images/recipes/baguette_1.webp')
 const baguette_2 = require('../../assets/images/recipes/baguette_2.webp')
 const beetroot_dip = require("../../assets/images/recipes/beetroot_dip.webp")
@@ -38,6 +36,17 @@ const strudel = require("../../assets/images/recipes/strudel.webp")
 const sushi_3 = require("../../assets/images/recipes/sushi_3.webp")
 const sushi_4 = require("../../assets/images/recipes/sushi_4.webp")
 const tortelli = require("../../assets/images/recipes/tortelli.webp")
+const calzone = require("../../assets/images/recipes/calzone.jpg")
+const cappelletti = require("../../assets/images/recipes/cappelletti.jpg")
+const flatbread_fries = require("../../assets/images/recipes/flatbread_fries.jpg")
+const french_pancakes = require("../../assets/images/recipes/french_pancakes.jpg")
+const naan = require("../../assets/images/recipes/naan.jpg")
+const pasta_2 = require("../../assets/images/recipes/pasta_2.jpg")
+const pizza_1 = require("../../assets/images/recipes/pizza_1.jpg")
+const quiche = require("../../assets/images/recipes/quiche.jpg")
+const raviolini = require("../../assets/images/recipes/raviolini.jpg")
+const sushi_5 = require("../../assets/images/recipes/sushi_5.jpg")
+const toast_salad = require("../../assets/images/recipes/toast_salad.jpg")
 
 const pic_width = 4
 const pic_height = 3
@@ -49,12 +58,22 @@ export const photos = [
         height: pic_height
     },
     {
-        src: baguette_2,
+        src: pizza,
         width: pic_width,
         height: pic_height
     },
     {
         src: beetroot_dip,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: baguette_2,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: burgers,
         width: pic_width,
         height: pic_height
     },
@@ -70,11 +89,6 @@ export const photos = [
     },
     {
         src: burger_salad,
-        width: pic_width,
-        height: pic_height
-    },
-    {
-        src: burgers,
         width: pic_width,
         height: pic_height
     },
@@ -179,11 +193,6 @@ export const photos = [
         height: pic_height
     },
     {
-        src: pizza,
-        width: pic_width,
-        height: pic_height
-    },
-    {
         src: risotto,
         width: pic_width,
         height: pic_height
@@ -228,6 +237,59 @@ export const photos = [
         width: 3,
         height: 3
     },
+    {
+        src: calzone,
+        width: 3,
+        height: pic_height
+    },
+    {
+        src: cappelletti,
+        width: 3,
+        height: pic_height
+    },
+    {
+        src: flatbread_fries,
+        width: 3,
+        height: pic_height
+    },
+    {
+        src: french_pancakes,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: naan,
+        width: 3,
+        height: pic_height
+    },
+    {
+        src: pasta_2,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: pizza_1,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: quiche,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: raviolini,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: sushi_5,
+        width: 5,
+        height: 4
+    },
+    {
+        src: toast_salad,
+        width: 3,
+        height: pic_height
+    }
 ];
-
-
