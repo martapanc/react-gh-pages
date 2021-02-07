@@ -26,8 +26,6 @@ const pasta_bake = require("../../assets/images/recipes/pasta_bake.webp")
 const pastabake_2 = require("../../assets/images/recipes/pastabake_2.webp")
 const piadine = require("../../assets/images/recipes/piadine.webp")
 const pierogi = require("../../assets/images/recipes/pierogi.webp")
-const pierogis_2 = require("../../assets/images/recipes/pierogis_2.webp")
-const pizza = require("../../assets/images/recipes/pizza.webp")
 const raclette = require("../../assets/images/recipes/raclette.webp")
 const risotto = require("../../assets/images/recipes/risotto.webp")
 const russian_things = require("../../assets/images/recipes/russian_things.webp")
@@ -36,49 +34,37 @@ const strudel = require("../../assets/images/recipes/strudel.webp")
 const sushi_3 = require("../../assets/images/recipes/sushi_3.webp")
 const sushi_4 = require("../../assets/images/recipes/sushi_4.webp")
 const tortelli = require("../../assets/images/recipes/tortelli.webp")
-const calzone = require("../../assets/images/recipes/calzone.jpg")
-const cappelletti = require("../../assets/images/recipes/cappelletti.jpg")
-const flatbread_fries = require("../../assets/images/recipes/flatbread_fries.jpg")
-const french_pancakes = require("../../assets/images/recipes/french_pancakes.jpg")
-const naan = require("../../assets/images/recipes/naan.jpg")
-const pasta_2 = require("../../assets/images/recipes/pasta_2.jpg")
-const pizza_1 = require("../../assets/images/recipes/pizza_1.jpg")
-const quiche = require("../../assets/images/recipes/quiche.jpg")
-const raviolini = require("../../assets/images/recipes/raviolini.jpg")
-const sushi_5 = require("../../assets/images/recipes/sushi_5.jpg")
-const toast_salad = require("../../assets/images/recipes/toast_salad.jpg")
+const cappelletti = require("../../assets/images/recipes/cappelletti.webp")
+const flatbread_fries = require("../../assets/images/recipes/flatbread_fries.webp")
+const french_pancakes = require("../../assets/images/recipes/french_pancakes.webp")
+const pasta_2 = require("../../assets/images/recipes/pasta_2.webp")
+const pizza_1 = require("../../assets/images/recipes/pizza_1.webp")
+const quiche = require("../../assets/images/recipes/quiche.webp")
+const raviolini = require("../../assets/images/recipes/raviolini.webp")
+const sushi_5 = require("../../assets/images/recipes/sushi_5.webp")
+const toast_salad = require("../../assets/images/recipes/toast_salad.webp")
 
 const pic_width = 4
 const pic_height = 3
 
 export const photos = [
     {
-        src: baguette_1,
-        width: pic_width,
-        height: pic_height
-    },
-    {
-        src: pizza,
-        width: pic_width,
-        height: pic_height
-    },
-    {
-        src: beetroot_dip,
-        width: pic_width,
-        height: pic_height
-    },
-    {
-        src: baguette_2,
-        width: pic_width,
-        height: pic_height
-    },
-    {
         src: burgers,
         width: pic_width,
         height: pic_height
     },
     {
+        src: sushi_5,
+        width: 5,
+        height: 4
+    },
+    {
         src: biscuits,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: pizza_1,
         width: pic_width,
         height: pic_height
     },
@@ -88,7 +74,7 @@ export const photos = [
         height: pic_height
     },
     {
-        src: burger_salad,
+        src: falafels,
         width: pic_width,
         height: pic_height
     },
@@ -103,12 +89,27 @@ export const photos = [
         height: pic_height
     },
     {
+        src: baguette_1,
+        width: pic_width,
+        height: pic_height
+    },
+    {
         src: crozets,
         width: pic_width,
         height: pic_height
     },
     {
-        src: falafels,
+        src: beetroot_dip,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: baguette_2,
+        width: pic_width,
+        height: pic_height
+    },
+    {
+        src: burger_salad,
         width: pic_width,
         height: pic_height
     },
@@ -119,11 +120,6 @@ export const photos = [
     },
     {
         src: flatbread,
-        width: pic_width,
-        height: pic_height
-    },
-    {
-        src: focaccia,
         width: pic_width,
         height: pic_height
     },
@@ -140,6 +136,11 @@ export const photos = [
     {
         src: halloumi,
         width: pic_width,
+        height: pic_height
+    },
+    {
+        src: toast_salad,
+        width: 3,
         height: pic_height
     },
     {
@@ -168,6 +169,11 @@ export const photos = [
         height: 4
     },
     {
+        src: focaccia,
+        width: pic_width,
+        height: pic_height
+    },
+    {
         src: gnocco_fritto,
         width: 3,
         height: 4
@@ -179,11 +185,6 @@ export const photos = [
     },
     {
         src: pasta_bake,
-        width: pic_width,
-        height: pic_height
-    },
-    {
-        src: pastabake_2,
         width: pic_width,
         height: pic_height
     },
@@ -228,6 +229,11 @@ export const photos = [
         height: 5
     },
     {
+        src: pastabake_2,
+        width: pic_width,
+        height: pic_height
+    },
+    {
         src: sushi_3,
         width: 3,
         height: 4
@@ -236,11 +242,6 @@ export const photos = [
         src: cheese_dip,
         width: 3,
         height: 3
-    },
-    {
-        src: calzone,
-        width: 3,
-        height: pic_height
     },
     {
         src: cappelletti,
@@ -258,17 +259,7 @@ export const photos = [
         height: pic_height
     },
     {
-        src: naan,
-        width: 3,
-        height: pic_height
-    },
-    {
         src: pasta_2,
-        width: pic_width,
-        height: pic_height
-    },
-    {
-        src: pizza_1,
         width: pic_width,
         height: pic_height
     },
@@ -280,16 +271,6 @@ export const photos = [
     {
         src: raviolini,
         width: pic_width,
-        height: pic_height
-    },
-    {
-        src: sushi_5,
-        width: 5,
-        height: 4
-    },
-    {
-        src: toast_salad,
-        width: 3,
         height: pic_height
     }
 ];
