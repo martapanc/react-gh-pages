@@ -26,7 +26,7 @@ $(function () {
     imgElements.wrap('<div class="food-image"></div>');
     imgElements.each(function () {
         let alt = this.getAttribute("alt")
-        $(this).parent("div").append('<div class="food-image__text">' + alt + '</div>');
+        $(this).parent(".food-image").append('<div class="food-image__text">' + alt + '</div>');
     })
 })
 
