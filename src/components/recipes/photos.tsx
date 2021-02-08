@@ -51,27 +51,32 @@ export const photos = [
     {
         src: burgers,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Burgers with homemade fries and onion rings"
     },
     {
         src: sushi_5,
         width: 5,
-        height: 4
+        height: 4,
+        alt: "Sushi 🍣"
     },
     {
         src: biscuits,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Ginger biscuits with sugarpaste decorations"
     },
     {
         src: pizza_1,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Pizza 🍕"
     },
     {
         src: burger_2,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Burgers and breaded mozzarella balls"
     },
     {
         src: falafels,
