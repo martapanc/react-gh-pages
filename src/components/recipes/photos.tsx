@@ -51,226 +51,271 @@ export const photos = [
     {
         src: burgers,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Burgers with homemade fries and onion rings"
     },
     {
         src: sushi_5,
         width: 5,
-        height: 4
+        height: 4,
+        alt: "Sushi 🍣"
     },
     {
         src: biscuits,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Ginger biscuits with sugarpaste decorations"
     },
     {
         src: pizza_1,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Pizza 🍕"
     },
     {
         src: burger_2,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Burgers and breaded mozzarella balls"
     },
     {
         src: falafels,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Falafels 🧆"
     },
     {
         src: burgers_3,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Burgers with mozzarella sticks and fried onions"
     },
     {
         src: cheesecake,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Mini cheesecakes"
     },
     {
         src: baguette_1,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Homemade baguettes 🥖"
     },
     {
         src: crozets,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Crozets (flat square-shaped pasta from the Savoie region)"
     },
     {
         src: beetroot_dip,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Beetroot dip"
     },
     {
         src: baguette_2,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Baguette pieces"
     },
     {
         src: burger_salad,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Halloumi burger with salad"
     },
     {
         src: falafels_2,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Falafels in a tomato and egg sauce"
     },
     {
         src: flatbread,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Garlic flatbread with spices"
     },
     {
         src: gnocchi,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Potato gnocchi"
     },
     {
         src: gyros,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Gyros with homemade fries"
     },
     {
         src: halloumi,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Fried halloumi, puff pastry rolls and salad"
     },
     {
         src: toast_salad,
         width: 3,
-        height: pic_height
+        height: pic_height,
+        alt: "Sandwiches + salad"
     },
     {
         src: hotdogs,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Hot-dogs with fries and onions"
     },
     {
         src: mozzarella_in_carrozza,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Mozzarella in carrozza"
     },
     {
         src: nachos,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "(attempt at) Nachos"
     },
     {
         src: pancakes,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Fluffy pancakes 🥞"
     },
     {
         src: pandoro,
         width: 3,
-        height: 4
+        height: 4,
+        alt: "Pandoro 🇮🇹"
     },
     {
         src: focaccia,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Focaccia (flatbread)"
     },
     {
         src: gnocco_fritto,
         width: 3,
-        height: 4
+        height: 4,
+        alt: "Gnocco fritto 🇮🇹"
     },
     {
         src: piadine,
         width: 3,
-        height: 4
+        height: 4,
+        alt: "Piadine with cheese, rocket and lettuce"
     },
     {
         src: pasta_bake,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Pasta bake"
     },
     {
         src: pierogi,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Pierogi 🇵🇱"
     },
     {
         src: risotto,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Risotto with red chicory and gorgonzola"
     },
-    {
-        src: russian_things,
-        width: pic_width,
-        height: pic_height
-    },
+    // {
+    //     src: russian_things,
+    //     width: pic_width,
+    //     height: pic_height,
+    //
+    // },
     {
         src: spaetzle,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Spätzle 🇦🇹"
     },
     {
         src: sushi_4,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "More sushi 🍱"
     },
     {
         src: tortelli,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Tortelli"
     },
     {
         src: strudel,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Apfelstrüdel 🇩🇪"
     },
     {
         src: raclette,
         width: 4,
-        height: 5
+        height: 5,
+        alt: "Raclette 🧀 &nbsp;🇫🇷"
     },
     {
         src: pastabake_2,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "More pasta bake"
     },
     {
         src: sushi_3,
         width: 3,
-        height: 4
+        height: 4,
+        alt: "Veg nigiri"
     },
     {
         src: cheese_dip,
         width: 3,
-        height: 3
+        height: 3,
+        alt: "Cheese dip 🧀"
     },
     {
         src: cappelletti,
         width: 3,
-        height: pic_height
+        height: pic_height,
+        alt: "Cappelletti 😍"
     },
     {
         src: flatbread_fries,
         width: 3,
-        height: pic_height
+        height: pic_height,
+        alt: "Flatbread with fries"
     },
     {
         src: french_pancakes,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "French pancakes 🇫🇷"
     },
     {
         src: pasta_2,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Shaped pasta"
     },
     {
         src: quiche,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Quiche 🇫🇷"
     },
     {
         src: raviolini,
         width: pic_width,
-        height: pic_height
+        height: pic_height,
+        alt: "Raviolini"
     }
 ];
