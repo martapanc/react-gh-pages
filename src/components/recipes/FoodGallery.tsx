@@ -22,11 +22,15 @@ export default function FoodGallery() {
 
 
 $(function () {
-    let imgElements = $('.react-photo-gallery--gallery img');
-    imgElements.wrap('<div class="food-image"></div>');
-    imgElements.each(function () {
-        let alt = this.getAttribute("alt")
-        $(this).parent(".food-image").append('<div class="food-image__text">' + alt + '</div>');
-    })
+    function addAltLabels() {
+        let imgElements = $('.react-photo-gallery--gallery img');
+        imgElements.wrap('<div class="food-image"></div>');
+        imgElements.each(function () {
+            let alt = this.getAttribute("alt")
+            $(this).parent(".food-image").append('<div class="food-image__text">' + alt + '</div>');
+        });
+    }
+
+    addAltLabels();
 })
 
