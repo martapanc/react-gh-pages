@@ -18,7 +18,7 @@ function Home() {
             <Education />
             <Languages />
             <Publications />
-            {/*<GithubContribs />*/}
+            <GithubContribs />
             <Fun />
             <Section />
         </div>
