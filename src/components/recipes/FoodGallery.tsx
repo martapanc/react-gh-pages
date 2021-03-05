@@ -26,7 +26,8 @@ $(function () {
         let imgElements = $('.react-photo-gallery--gallery img');
         imgElements.wrap('<div class="food-image"></div>');
         imgElements.each(function () {
-            let alt = this.getAttribute("alt")
+            let alt = this.getAttribute("alt");
+            console.log(alt);
             $(this).parent(".food-image").append('<div class="food-image__text">' + alt + '</div>');
         });
     }

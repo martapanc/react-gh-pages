@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import Markdown from "markdown-to-jsx";
 import $ from "jquery";
 
-class ProgrammingLanguage extends Component {
+class School extends Component {
     constructor(props) {
         super(props);
 
@@ -96,4 +96,4 @@ $(function () {
     resizeOps();
 });
 
-export default ProgrammingLanguage;
+export default School;
