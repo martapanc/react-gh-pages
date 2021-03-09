@@ -203,7 +203,7 @@ export const ProjectData = [
         text:
             "I started learning Android development recently and, in order to focus on the features of the mobile world, " +
             "as well as on practising with Kotlin, I've been reusing the Java backend of the Fiscal Code calculator " +
-            "I built in university. The app has currently been downloaded 20000+ times and has a rating of 4.0. " +
+            "I built in university. The app has currently been downloaded 20000+ times and has a rating of ~4.0. " +
             "Check out the result on the " +
             '<a href="https://play.google.com/store/apps/details?id=com.pancaldim.fiscalcode_app">Play Store</a>!',
     },
