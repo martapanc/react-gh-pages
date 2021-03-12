@@ -38,7 +38,7 @@
     "inquirer": "^7.3.3",
     "jquery": "^3.5.1",
     "jsdom": "^14.1.0",
-    "jspdf": "^1.5.3",
+    "jspdf": "^2.3.1",
     "markdown-to-jsx": "^6.11.4",
     "materialize-css": "^1.0.0",
     "netlify-cli": "^2.68.4",
