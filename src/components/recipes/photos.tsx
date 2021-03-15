@@ -28,7 +28,7 @@ const piadine = require("../../assets/images/recipes/piadine.webp")
 const pierogi = require("../../assets/images/recipes/pierogi.webp")
 const raclette = require("../../assets/images/recipes/raclette.webp")
 const risotto = require("../../assets/images/recipes/risotto.webp")
-const russian_things = require("../../assets/images/recipes/russian_things.webp")
+const bliny = require("../../assets/images/recipes/bliny.webp")
 const spaetzle = require("../../assets/images/recipes/spaetzle.webp")
 const strudel = require("../../assets/images/recipes/strudel.webp")
 const sushi_3 = require("../../assets/images/recipes/sushi_3.webp")
@@ -43,6 +43,13 @@ const quiche = require("../../assets/images/recipes/quiche.webp")
 const raviolini = require("../../assets/images/recipes/raviolini.webp")
 const sushi_5 = require("../../assets/images/recipes/sushi_5.webp")
 const toast_salad = require("../../assets/images/recipes/toast_salad.webp")
+const calzone = require("../../assets/images/recipes/calzone.webp")
+const crumpets = require("../../assets/images/recipes/crumpets.webp")
+const gyros_2 = require("../../assets/images/recipes/gyros_2.webp")
+const pancakes_strawberry = require("../../assets/images/recipes/pancakes_strawberry.webp")
+const spring_rolls = require("../../assets/images/recipes/spring_rolls.webp")
+const sushi_6 = require("../../assets/images/recipes/sushi_6.webp")
+const veg_soup = require("../../assets/images/recipes/veg_soup.webp")
 
 const pic_width = 4
 const pic_height = 3
@@ -317,5 +324,47 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "Raviolini"
+    },
+    {
+        src: crumpets,
+        width: pic_width,
+        height: pic_height,
+        alt: "Crumpets 🇬🇧"
+    },
+    {
+        src: calzone,
+        width: pic_width,
+        height: pic_height,
+        alt: "Calzone 🍕"
+    },
+    {
+        src: gyros_2,
+        width: pic_width,
+        height: pic_height,
+        alt: "Gyros 🇬🇷"
+    },
+    {
+        src: pancakes_strawberry,
+        width: pic_width,
+        height: pic_height,
+        alt: "Pancakes with strawberries"
+    },
+    {
+        src: spring_rolls,
+        width: 2,
+        height: pic_height,
+        alt: "Spring rolls 🇨🇳"
+    },
+    {
+        src: sushi_6,
+        width: 3,
+        height: pic_height,
+        alt: "More veg nigiri"
+    },
+    {
+        src: veg_soup,
+        width: pic_width,
+        height: pic_height,
+        alt: "Veg soup"
     }
 ];
