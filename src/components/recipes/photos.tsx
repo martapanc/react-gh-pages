@@ -1,5 +1,6 @@
 const baguette_1 = require('../../assets/images/recipes/baguette_1.webp')
 const baguette_2 = require('../../assets/images/recipes/baguette_2.webp')
+const baguette_3 = require('../../assets/images/recipes/baguette_3.webp')
 const beetroot_dip = require("../../assets/images/recipes/beetroot_dip.webp")
 const biscuits = require("../../assets/images/recipes/biscuits.webp")
 const burger_salad = require("../../assets/images/recipes/burger_salad.webp")
@@ -116,16 +117,16 @@ export const photos = [
         alt: "Crozets (flat square-shaped pasta from the Savoie region)"
     },
     {
+        src: baguette_2,
+        width: pic_width,
+        height: pic_height,
+        alt: "Baguette pieces for cheese fondue"
+    },
+    {
         src: beetroot_dip,
         width: pic_width,
         height: pic_height,
         alt: "Beetroot dip"
-    },
-    {
-        src: baguette_2,
-        width: pic_width,
-        height: pic_height,
-        alt: "Baguette pieces"
     },
     {
         src: burger_salad,
@@ -366,5 +367,11 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "Veg soup"
-    }
+    },
+    {
+        src: baguette_3,
+        width: pic_width,
+        height: pic_height,
+        alt: "New baguette attempt"
+    },
 ];
