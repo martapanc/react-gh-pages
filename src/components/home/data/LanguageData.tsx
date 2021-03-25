@@ -40,6 +40,7 @@ const gcp = require("../../../assets/images/languages/gcp.webp");
 const heroku = require("../../../assets/images/languages/heroku.webp");
 const docker = require("../../../assets/images/languages/docker.svg");
 const drupal = require("../../../assets/images/languages/drupal.webp");
+const gtm = require("../../../assets/images/languages/gtm.svg");
 
 export const LanguageData = {
     java: {
@@ -166,6 +167,7 @@ export const LanguageData = {
         icons: [
             {object: aws, name: "Amazon Web Services"},
             {object: gcp, name: "Google Cloud Platform"},
+            {object: gtm, name: "Google Tag Manager"},
             {object: heroku, name: "Heroku"},
             {object: docker, name: "Docker"}
         ],
