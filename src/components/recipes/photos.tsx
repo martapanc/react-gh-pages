@@ -40,6 +40,8 @@ const flatbread_fries = require("../../assets/images/recipes/flatbread_fries.web
 const french_pancakes = require("../../assets/images/recipes/french_pancakes.webp")
 const pasta_2 = require("../../assets/images/recipes/pasta_2.webp")
 const pizza_1 = require("../../assets/images/recipes/pizza_1.webp")
+const pizza_2 = require("../../assets/images/recipes/pizza_2.webp")
+const flammenkuche = require("../../assets/images/recipes/flammenkuche.webp")
 const quiche = require("../../assets/images/recipes/quiche.webp")
 const raviolini = require("../../assets/images/recipes/raviolini.webp")
 const sushi_5 = require("../../assets/images/recipes/sushi_5.webp")
@@ -303,6 +305,12 @@ export const photos = [
         alt: "Flatbread with fries"
     },
     {
+        src: flammenkuche,
+        width: pic_width,
+        height: pic_height,
+        alt: "Flammekueche 🇫🇷 (culturally appropriated pizza from Alsace)"
+    },
+    {
         src: french_pancakes,
         width: pic_width,
         height: pic_height,
@@ -373,5 +381,11 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "New baguette attempt"
+    },
+    {
+        src: pizza_2,
+        width: pic_width,
+        height: pic_height,
+        alt: "Pizza #2"
     },
 ];
