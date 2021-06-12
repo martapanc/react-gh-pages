@@ -26,7 +26,7 @@
     "auth0-js": "^9.14.3",
     "babel-eslint": "^10.1.0",
     "bootstrap": "^4.6.0",
-    "canvas": "^2.6.1",
+    "canvas": "^2.6.0",
     "eslint": "^6.8.0",
     "eslint-config-react-app": "^5.2.1",
     "eslint-plugin-flowtype": "^3.13.0",
@@ -35,7 +35,7 @@
     "eslint-plugin-react": "^7.21.5",
     "eslint-plugin-react-hooks": "^1.7.0",
     "github-calendar": "^2.2.7",
-    "inquirer": "^7.3.3",
+    "inquirer": "^6.0.0",
     "jquery": "^3.5.1",
     "jsdom": "^14.1.0",
     "jspdf": "^2.3.1",
@@ -43,6 +43,7 @@
     "materialize-css": "^1.0.0",
     "netlify-cli": "^2.68.8",
     "node-sass": "^4.14.1",
+    "normalize-url": "^4.5.1",
     "popper.js": "^1.16.1",
     "prettier": "^1.19.1",
     "react": "^17.0.1",
@@ -84,7 +85,6 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {},
   "peerDependencies": {
     "canvas": "^2.6.0",
     "inquirer": "^6.0.0",

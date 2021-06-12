@@ -1709,10 +1709,6 @@
   "integrity" "sha512-HZXEdIXzg8CpysYRDVXkBpmjOj/C8Zb8Q/qkkt9x+npJ56HeX6sXAE4vK4SMCRLkkbQ2VyYTaDKg++GefeB2Gg=="
   "resolved" "https://registry.npmjs.org/@netlify/traffic-mesh-agent/-/traffic-mesh-agent-0.27.10.tgz"
   "version" "0.27.10"
-  dependencies:
-    "@netlify/traffic-mesh-agent-darwin-x64" "^0.27.10"
-    "@netlify/traffic-mesh-agent-linux-x64" "^0.27.10"
-    "@netlify/traffic-mesh-agent-win32-x64" "^0.27.10"
   optionalDependencies:
     "@netlify/traffic-mesh-agent-darwin-x64" "^0.27.10"
     "@netlify/traffic-mesh-agent-linux-x64" "^0.27.10"
@@ -1817,7 +1813,7 @@
     "debug" "^4.1.1"
     "semver" "^7.3.2"
 
-"@oclif/config@^1.15.1":
+"@oclif/config@^1", "@oclif/config@^1.15.1":
   "integrity" "sha512-Lmfuf6ubjQ4ifC/9bz1fSCHc6F6E653oyaRXxg+lgT4+bYf9bk+nqrUpAbrXyABkCqgIBiFr3J4zR/kiFdE1PA=="
   "resolved" "https://registry.npmjs.org/@oclif/config/-/config-1.17.0.tgz"
   "version" "1.17.0"
@@ -4288,7 +4284,7 @@
   "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001181.tgz"
   "version" "1.0.30001181"
 
-"canvas@^2.6.1":
+"canvas@^2.6.0":
   "integrity" "sha512-S98rKsPcuhfTcYbtF53UIJhcbgIAK533d1kJKMwsMwAIFgfd58MOyxRud3kktlzWiEkFliaJtvyZCBtud/XVEA=="
   "resolved" "https://registry.npmjs.org/canvas/-/canvas-2.6.1.tgz"
   "version" "2.6.1"
@@ -4482,7 +4478,6 @@
     "anymatch" "^2.0.0"
     "async-each" "^1.0.1"
     "braces" "^2.3.2"
-    "fsevents" "^1.2.7"
     "glob-parent" "^3.1.0"
     "inherits" "^2.0.3"
     "is-binary-path" "^1.0.0"
@@ -4501,7 +4496,6 @@
   dependencies:
     "anymatch" "~3.1.1"
     "braces" "~3.0.2"
-    "fsevents" "~2.3.1"
     "glob-parent" "~5.1.0"
     "is-binary-path" "~2.1.0"
     "is-glob" "~4.0.1"
@@ -6608,7 +6602,6 @@
     "estraverse" "^4.2.0"
     "esutils" "^2.0.2"
     "optionator" "^0.8.1"
-    "source-map" "~0.6.1"
   optionalDependencies:
     "source-map" "~0.6.1"
 
@@ -6620,7 +6613,6 @@
     "esprima" "~1.0.4"
     "estraverse" "~1.5.0"
     "esutils" "~1.0.0"
-    "source-map" "~0.1.30"
   optionalDependencies:
     "source-map" "~0.1.30"
 
@@ -8900,26 +8892,7 @@
     "run-async" "^2.4.0"
     "rxjs" "^6.6.2"
 
-"inquirer@^5.0.0 || ^6.0.0 || ^7.0.0", "inquirer@^7.0.0", "inquirer@^7.3.3":
-  "integrity" "sha512-JG3eIAj5V9CwcGvuOmoo6LB9kbAYT8HXffUl6memuszlwDC/qvFAJw49XJ5NROSFNPxp3iQg1GqkFhaY/CR0IA=="
-  "resolved" "https://registry.npmjs.org/inquirer/-/inquirer-7.3.3.tgz"
-  "version" "7.3.3"
-  dependencies:
-    "ansi-escapes" "^4.2.1"
-    "chalk" "^4.1.0"
-    "cli-cursor" "^3.1.0"
-    "cli-width" "^3.0.0"
-    "external-editor" "^3.0.3"
-    "figures" "^3.0.0"
-    "lodash" "^4.17.19"
-    "mute-stream" "0.0.8"
-    "run-async" "^2.4.0"
-    "rxjs" "^6.6.0"
-    "string-width" "^4.1.0"
-    "strip-ansi" "^6.0.0"
-    "through" "^2.3.6"
-
-"inquirer@^6.5.1":
+"inquirer@^5.0.0 || ^6.0.0 || ^7.0.0", "inquirer@^6.0.0", "inquirer@^6.5.1":
   "integrity" "sha512-cntlB5ghuB0iuO65Ovoi8ogLHiWGs/5yNrtUcKjFhSSiVeAIVpD7koaSU9RM8mpXw5YDi9RdYXGQMaOURB7ycQ=="
   "resolved" "https://registry.npmjs.org/inquirer/-/inquirer-6.5.2.tgz"
   "version" "6.5.2"
@@ -8936,6 +8909,25 @@
     "rxjs" "^6.4.0"
     "string-width" "^2.1.0"
     "strip-ansi" "^5.1.0"
+    "through" "^2.3.6"
+
+"inquirer@^7.0.0":
+  "integrity" "sha512-JG3eIAj5V9CwcGvuOmoo6LB9kbAYT8HXffUl6memuszlwDC/qvFAJw49XJ5NROSFNPxp3iQg1GqkFhaY/CR0IA=="
+  "resolved" "https://registry.npmjs.org/inquirer/-/inquirer-7.3.3.tgz"
+  "version" "7.3.3"
+  dependencies:
+    "ansi-escapes" "^4.2.1"
+    "chalk" "^4.1.0"
+    "cli-cursor" "^3.1.0"
+    "cli-width" "^3.0.0"
+    "external-editor" "^3.0.3"
+    "figures" "^3.0.0"
+    "lodash" "^4.17.19"
+    "mute-stream" "0.0.8"
+    "run-async" "^2.4.0"
+    "rxjs" "^6.6.0"
+    "string-width" "^4.1.0"
+    "strip-ansi" "^6.0.0"
     "through" "^2.3.6"
 
 "inquirer@7.0.4":
@@ -9688,7 +9680,6 @@
     "@jest/types" "^24.9.0"
     "anymatch" "^2.0.0"
     "fb-watchman" "^2.0.0"
-    "fsevents" "^1.2.7"
     "graceful-fs" "^4.1.15"
     "invariant" "^2.2.4"
     "jest-serializer" "^24.9.0"
@@ -10164,8 +10155,6 @@
   "integrity" "sha1-h3Gq4HmbZAdrdmQPygWPnBDjPss="
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz"
   "version" "4.0.0"
-  dependencies:
-    "graceful-fs" "^4.1.6"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
 
@@ -10174,7 +10163,6 @@
   "resolved" "https://registry.npmjs.org/jsonfile/-/jsonfile-6.1.0.tgz"
   "version" "6.1.0"
   dependencies:
-    "graceful-fs" "^4.1.6"
     "universalify" "^2.0.0"
   optionalDependencies:
     "graceful-fs" "^4.1.6"
@@ -10191,11 +10179,7 @@
   dependencies:
     "atob" "^2.1.2"
     "btoa" "^1.2.1"
-    "canvg" "^3.0.6"
-    "core-js" "^3.6.0"
-    "dompurify" "^2.2.0"
     "fflate" "^0.4.8"
-    "html2canvas" "^1.0.0-rc.5"
   optionalDependencies:
     "canvg" "^3.0.6"
     "core-js" "^3.6.0"
@@ -11737,7 +11721,7 @@
   "resolved" "https://registry.npmjs.org/normalize-url/-/normalize-url-3.3.0.tgz"
   "version" "3.3.0"
 
-"normalize-url@^4.1.0":
+"normalize-url@^4.1.0", "normalize-url@^4.5.0":
   "integrity" "sha512-2s47yzUxdexf1OhyRi4Em83iQk0aPvwTddtFz4hnSSw9dCEsLEGf6SwIO8ss/19S9iBb5sJaOuTvTGDeZI00BQ=="
   "resolved" "https://registry.npmjs.org/normalize-url/-/normalize-url-4.5.0.tgz"
   "version" "4.5.0"
@@ -13969,7 +13953,6 @@
     "eslint-plugin-react-hooks" "^1.6.1"
     "file-loader" "4.3.0"
     "fs-extra" "^8.1.0"
-    "fsevents" "2.1.2"
     "html-webpack-plugin" "4.0.0-beta.11"
     "identity-obj-proxy" "3.0.0"
     "jest" "24.9.0"
@@ -14825,8 +14808,6 @@
   "integrity" "sha512-FVx/XzR2DtCozKNDBjHJCHIgkC12rNg/ruAeoYWjLeeKfSKgwhh+lDLDhuCkuRG/fsup8py8dKBTlHdvUFX32A=="
   "resolved" "https://registry.npmjs.org/rollup/-/rollup-2.38.3.tgz"
   "version" "2.38.3"
-  dependencies:
-    "fsevents" "~2.3.1"
   optionalDependencies:
     "fsevents" "~2.3.1"
 
@@ -16676,7 +16657,6 @@
   "version" "2.8.29"
   dependencies:
     "source-map" "~0.5.1"
-    "uglify-to-browserify" "~1.0.0"
     "yargs" "~3.10.0"
   optionalDependencies:
     "uglify-to-browserify" "~1.0.0"
@@ -17187,10 +17167,8 @@
   "resolved" "https://registry.npmjs.org/watchpack/-/watchpack-1.7.5.tgz"
   "version" "1.7.5"
   dependencies:
-    "chokidar" "^3.4.1"
     "graceful-fs" "^4.1.2"
     "neo-async" "^2.5.0"
-    "watchpack-chokidar2" "^2.0.1"
   optionalDependencies:
     "chokidar" "^3.4.1"
     "watchpack-chokidar2" "^2.0.1"
