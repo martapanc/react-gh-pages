@@ -1,3 +1,4 @@
+const arancini = require('../../assets/images/recipes/arancini.webp')
 const baguette_1 = require('../../assets/images/recipes/baguette_1.webp')
 const baguette_2 = require('../../assets/images/recipes/baguette_2.webp')
 const baguette_3 = require('../../assets/images/recipes/baguette_3.webp')
@@ -7,6 +8,7 @@ const burger_salad = require("../../assets/images/recipes/burger_salad.webp")
 const burger_2 = require("../../assets/images/recipes/burger_2.webp")
 const burgers = require("../../assets/images/recipes/burgers.webp")
 const burgers_3 = require("../../assets/images/recipes/burgers_3.webp")
+const bruschette = require("../../assets/images/recipes/bruschette.webp")
 const cheesecake = require("../../assets/images/recipes/cheesecakes.webp")
 const cheese_dip = require("../../assets/images/recipes/cheese_dip.webp")
 const crozets = require("../../assets/images/recipes/crozets.webp")
@@ -27,6 +29,7 @@ const pasta_bake = require("../../assets/images/recipes/pasta_bake.webp")
 const pastabake_2 = require("../../assets/images/recipes/pastabake_2.webp")
 const piadine = require("../../assets/images/recipes/piadine.webp")
 const pierogi = require("../../assets/images/recipes/pierogi.webp")
+const pierogi_2 = require("../../assets/images/recipes/pierogi_2.webp")
 const raclette = require("../../assets/images/recipes/raclette.webp")
 const risotto = require("../../assets/images/recipes/risotto.webp")
 const bliny = require("../../assets/images/recipes/bliny.webp")
@@ -41,6 +44,8 @@ const french_pancakes = require("../../assets/images/recipes/french_pancakes.web
 const pasta_2 = require("../../assets/images/recipes/pasta_2.webp")
 const pizza_1 = require("../../assets/images/recipes/pizza_1.webp")
 const pizza_2 = require("../../assets/images/recipes/pizza_2.webp")
+const pizza_3 = require("../../assets/images/recipes/pizza_3.webp")
+const pizza_4 = require("../../assets/images/recipes/pizza_4.webp")
 const flammenkuche = require("../../assets/images/recipes/flammenkuche.webp")
 const quiche = require("../../assets/images/recipes/quiche.webp")
 const raviolini = require("../../assets/images/recipes/raviolini.webp")
@@ -305,6 +310,12 @@ export const photos = [
         alt: "Flatbread with fries"
     },
     {
+        src: pizza_2,
+        width: pic_width,
+        height: pic_height,
+        alt: "Pizza #2"
+    },
+    {
         src: flammenkuche,
         width: pic_width,
         height: pic_height,
@@ -339,6 +350,12 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "Crumpets 🇬🇧"
+    },
+    {
+        src: pizza_3,
+        width: pic_width,
+        height: pic_height,
+        alt: "Pizza #3"
     },
     {
         src: calzone,
@@ -383,9 +400,21 @@ export const photos = [
         alt: "New baguette attempt"
     },
     {
-        src: pizza_2,
+        src: pizza_4,
         width: pic_width,
         height: pic_height,
-        alt: "Pizza #2"
+        alt: "Pizza #4"
+    },
+    {
+        src: arancini,
+        width: pic_width,
+        height: pic_height,
+        alt: "Arancini siciliani"
+    },
+    {
+        src: bruschette,
+        width: pic_width,
+        height: pic_height,
+        alt: "Bruschette"
     },
 ];
