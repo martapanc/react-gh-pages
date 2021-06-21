@@ -383,7 +383,7 @@ export const photos = [
     },
     {
         src: sushi_6,
-        width: 3,
+        width: 2.6,
         height: pic_height,
         alt: "More veg nigiri"
     },
@@ -398,6 +398,12 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "New baguette attempt"
+    },
+    {
+        src: pierogi_2,
+        width: pic_width,
+        height: pic_height,
+        alt: "Pierogi #2"
     },
     {
         src: pizza_4,

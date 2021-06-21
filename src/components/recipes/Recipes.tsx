@@ -2,8 +2,8 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 import Section from "../app/Section";
 import React from "react";
 import FoodGallery from "./FoodGallery";
-import {photos} from "./photos";
-import Gallery from "react-photo-gallery";
+// import {photos} from "./photos";
+// import Gallery from "react-photo-gallery";
 
 function Recipes() {
     return (
