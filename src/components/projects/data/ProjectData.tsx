@@ -21,6 +21,7 @@ const programming = require("../../../assets/images/projects/programming.webp");
 const bitbar = require("../../../assets/images/projects/Bitbar.webp");
 const twitch = require("../../../assets/images/projects/twitch.webp");
 const aoc = require("../../../assets/images/projects/aoc.webp");
+const pigeons = require("../../../assets/images/projects/pigeons.webp");
 
 function shuffle(array: string | any[]) {
     var currentIndex = array.length,
@@ -316,6 +317,17 @@ export const ProjectData = [
             "After taking part to the Advent of Code 2020 challenges, I decided to go back and solve all puzzles from the " +
             "past years. I succeeded in a few weeks, and now I'm quite proud of my shiny 300 stars ⭐&nbsp; — not to " +
             "mention the huge progress I've made with Kotlin and complex algorithms.",
+    },
+    {
+        title: "Pigeon family cam",
+        id: "pigeons",
+        year: "2021",
+        photo: pigeons,
+        repo: "https://github.com/martapanc/pigeon-family-cam",
+        tags: ["web", "self"],
+        text:
+            "When a couple of pigeon nests on your balcony, what could be better than installing a RasPi webcam " +
+            "and broadcasting their lives on the internet?"
     },
 ];
 
