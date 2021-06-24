@@ -325,7 +325,9 @@ export const ProjectData = [
         photo: pigeons,
         repo: "https://github.com/martapanc/pigeon-family-cam",
         tags: ["web", "self"],
-        text: ""
+        text:
+            "When a couple of pigeon nests on your balcony, what could be better than installing a RasPi webcam " +
+            "and broadcasting their lives on the internet?"
     },
 ];
 
