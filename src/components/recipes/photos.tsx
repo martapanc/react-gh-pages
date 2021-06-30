@@ -3,6 +3,7 @@ const baguette_1 = require('../../assets/images/recipes/baguette_1.webp')
 const baguette_2 = require('../../assets/images/recipes/baguette_2.webp')
 const baguette_3 = require('../../assets/images/recipes/baguette_3.webp')
 const beetroot_dip = require("../../assets/images/recipes/beetroot_dip.webp")
+const bicolor_pizza = require("../../assets/images/recipes/bicolor_pizza.webp")
 const biscuits = require("../../assets/images/recipes/biscuits.webp")
 const burger_salad = require("../../assets/images/recipes/burger_salad.webp")
 const burger_2 = require("../../assets/images/recipes/burger_2.webp")
@@ -416,6 +417,12 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "Arancini siciliani"
+    },
+    {
+        src: bicolor_pizza,
+        width: pic_width,
+        height: pic_height,
+        alt: "Bicolor Pizza"
     },
     {
         src: bruschette,
