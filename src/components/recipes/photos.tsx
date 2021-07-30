@@ -17,6 +17,7 @@ const falafels = require("../../assets/images/recipes/falafels.webp")
 const falafels_2 = require("../../assets/images/recipes/falafels_2.webp")
 const flatbread = require("../../assets/images/recipes/flatbread.webp")
 const focaccia = require("../../assets/images/recipes/focaccia.webp")
+const garlic_bread = require("../../assets/images/recipes/garlic_bread.webp")
 const gnocchi = require("../../assets/images/recipes/gnocchi.webp")
 const gnocco_fritto = require("../../assets/images/recipes/gnocco_fritto.webp")
 const gyros = require("../../assets/images/recipes/gyros.webp")
@@ -31,6 +32,7 @@ const pastabake_2 = require("../../assets/images/recipes/pastabake_2.webp")
 const piadine = require("../../assets/images/recipes/piadine.webp")
 const pierogi = require("../../assets/images/recipes/pierogi.webp")
 const pierogi_2 = require("../../assets/images/recipes/pierogi_2.webp")
+const potato_croissants = require("../../assets/images/recipes/potato_croissants.webp")
 const raclette = require("../../assets/images/recipes/raclette.webp")
 const risotto = require("../../assets/images/recipes/risotto.webp")
 const bliny = require("../../assets/images/recipes/bliny.webp")
@@ -38,6 +40,7 @@ const spaetzle = require("../../assets/images/recipes/spaetzle.webp")
 const strudel = require("../../assets/images/recipes/strudel.webp")
 const sushi_3 = require("../../assets/images/recipes/sushi_3.webp")
 const sushi_4 = require("../../assets/images/recipes/sushi_4.webp")
+const tartiflette = require("../../assets/images/recipes/tartiflette.webp")
 const tortelli = require("../../assets/images/recipes/tortelli.webp")
 const cappelletti = require("../../assets/images/recipes/cappelletti.webp")
 const flatbread_fries = require("../../assets/images/recipes/flatbread_fries.webp")
@@ -122,7 +125,7 @@ export const photos = [
         src: crozets,
         width: pic_width,
         height: pic_height,
-        alt: "Crozets (flat square-shaped pasta from the Savoie region)"
+        alt: "Crozets (flat square-shaped pasta from the Savoy region)"
     },
     {
         src: baguette_2,
@@ -429,5 +432,23 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "Bruschette"
+    },
+    {
+        src: garlic_bread,
+        width: pic_width,
+        height: pic_height,
+        alt: "Garlic bread"
+    },
+    {
+        src: potato_croissants,
+        width: pic_width,
+        height: pic_height,
+        alt: "Cheese-filled potato croissants 😋"
+    },
+    {
+        src: tartiflette,
+        width: pic_width,
+        height: pic_height,
+        alt: "Tartiflette (dish from Savoy with lots of potatoes and cheese)"
     },
 ];
