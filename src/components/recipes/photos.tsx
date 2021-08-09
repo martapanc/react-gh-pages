@@ -51,6 +51,7 @@ const pizza_2 = require("../../assets/images/recipes/pizza_2.webp")
 const pizza_3 = require("../../assets/images/recipes/pizza_3.webp")
 const pizza_4 = require("../../assets/images/recipes/pizza_4.webp")
 const flammenkuche = require("../../assets/images/recipes/flammenkuche.webp")
+const flammenkuche2 = require("../../assets/images/recipes/flammenkueche_2.webp")
 const quiche = require("../../assets/images/recipes/quiche.webp")
 const raviolini = require("../../assets/images/recipes/raviolini.webp")
 const sushi_5 = require("../../assets/images/recipes/sushi_5.webp")
@@ -62,6 +63,7 @@ const pancakes_strawberry = require("../../assets/images/recipes/pancakes_strawb
 const spring_rolls = require("../../assets/images/recipes/spring_rolls.webp")
 const sushi_6 = require("../../assets/images/recipes/sushi_6.webp")
 const veg_soup = require("../../assets/images/recipes/veg_soup.webp")
+const zucchini = require("../../assets/images/recipes/zucchini.webp")
 
 const pic_width = 4
 const pic_height = 3
@@ -450,5 +452,17 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "Tartiflette (dish from Savoy with lots of potatoes and cheese)"
+    },
+    {
+        src: flammenkuche2,
+        width: pic_width,
+        height: pic_height,
+        alt: "Flammekueche #2"
+    },
+    {
+        src: zucchini,
+        width: pic_width,
+        height: pic_height,
+        alt: "Zucchini al forno"
     },
 ];
