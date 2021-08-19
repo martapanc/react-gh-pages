@@ -4,7 +4,7 @@ source ~/.bash_profile
 
 cd ~/Workspace/react-gh-pages/src/assets/images/cv || exit
 
-convert -verbose -density 600 ./*.pdf -quality 100 cv.webp
+convert -verbose -density 600 ./*CV.pdf -quality 100 cv.webp
 
 
 ### USAGE ###

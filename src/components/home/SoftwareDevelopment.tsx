@@ -31,7 +31,7 @@ function SoftwareDevelopment() {
                 </h2>
                 <div className="section-intro mb-4">
                     Software development has been both my passion and my work
-                    for 5 years. Below is a quick overview of my main technical
+                    for 6 years. Below is a quick overview of my main technical
                     skill sets and technologies I use. Want to find out more
                     about my experience? Check out my{" "}
                     <a href={"/cv"}>online CV</a> and{" "}
