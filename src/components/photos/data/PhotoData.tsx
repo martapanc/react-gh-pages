@@ -32,11 +32,19 @@ const nyc = require("../../../assets/images/photos/new-york.webp");
 const oxford = require("../../../assets/images/photos/oxford.webp");
 const rome = require("../../../assets/images/photos/rome.webp");
 const sanfrancisco = require("../../../assets/images/photos/san-francisco.webp");
+const scotland = require("../../../assets/images/photos/portree.webp");
 const shanghai = require("../../../assets/images/photos/shanghai.webp");
 const bolzano = require("../../../assets/images/photos/south-tyrol.webp");
 const vienna = require("../../../assets/images/photos/vienna.webp");
 
 export const PhotoData = [
+    {
+        title: "Isle of Skye",
+        flag: scot,
+        photo: scotland,
+        link:
+            "https://www.flickr.com/photos/185365090@N08/albums/",
+    },
     {
         title: "Malta",
         flag: mt,
