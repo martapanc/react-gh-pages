@@ -1,6 +1,6 @@
-# Personal Website
+# Personal Website 👩🏻 🌐
 
-## [mpancaldi.netlify.app](https://mpancaldi.netlify.app) / [mpancaldi.co.uk](https://mpancaldi.co.uk)
+## [mpancaldi.netlify.app](https://mpancaldi.netlify.app) / [mpancaldi.web.app](https://mpancaldi.web.app)
 
 ![Netlify Status](https://img.shields.io/netlify/556f64f1-c7a4-489f-9b01-7ca7e0951cc1)
 ![GitHub last commit](https://img.shields.io/github/last-commit/martapanc/react-gh-pages)
@@ -61,6 +61,9 @@ Create a code build and start a local server instance that reproduces the Fireba
 
 ### `npm run fb_deploy`
 Build code and deploy to Firebase Hosting remote server.
+
+### `npm run all_deploy`
+Deploy code to both Netlify and Firebase servers.
 
 ## Learn More
 
