@@ -12,7 +12,7 @@ function Education() {
                     <img
                         className="school-icon responsive-hide"
                         src={edu}
-                        alt="Booking.com"
+                        alt="Education"
                         height="42"
                     />
                     Education

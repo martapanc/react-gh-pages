@@ -3,7 +3,7 @@ import {faExternalLinkAlt} from "@fortawesome/free-solid-svg-icons";
 import "./styles.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const news = require("../../assets/images/intro/newspaper.svg");
+import news from "../../assets/images/intro/newspaper.svg";
 
 function Publications() {
     return (

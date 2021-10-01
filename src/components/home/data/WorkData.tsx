@@ -1,7 +1,7 @@
-const bookinggo = require("../../../assets/images/work/booking.webp");
-const ict = require("../../../assets/images/work/ict.webp");
-const unibz = require("../../../assets/images/work/unibz.webp");
-const bjss = require("../../../assets/images/work/bjss.webp");
+import bookinggo from "../../../assets/images/work/booking.webp";
+import ict from "../../../assets/images/work/ict.webp";
+import unibz from "../../../assets/images/work/unibz.webp";
+import bjss from "../../../assets/images/work/bjss.webp";
 
 export const WorkData = {
     bjss: {

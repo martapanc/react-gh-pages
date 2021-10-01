@@ -6,7 +6,7 @@ import "./styles.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faDownload} from "@fortawesome/free-solid-svg-icons";
 
-const cv = require("../../assets/images/cv/cv.webp");
+import cv from "../../assets/images/cv/cv.webp";
 const cvPdf = require("../../assets/images/cv/MARTA PANCALDI - CV.pdf");
 
 function CV() {
