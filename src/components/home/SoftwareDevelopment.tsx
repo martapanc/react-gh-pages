@@ -3,7 +3,7 @@ import $ from "jquery";
 import Languages from "./data/LanguageData";
 import ProgrammingLanguage from "./items/ProgrammingLanguage";
 
-const laptop = require("../../assets/images/intro/laptop.svg");
+import laptop from "../../assets/images/intro/laptop.svg";
 
 function readMore() {
     const hideElements = $(".read-more-hide");

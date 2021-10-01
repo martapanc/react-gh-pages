@@ -1,0 +1,8 @@
+.bookSection.row > * {
+  flex-shrink: 0;
+  width: auto;
+  max-width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  margin-top: var(--bs-gutter-y);
+}

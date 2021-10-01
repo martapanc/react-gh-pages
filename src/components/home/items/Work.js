@@ -18,7 +18,7 @@ class Work extends Component {
                             <img
                                 className="school-icon"
                                 src={this.data.icon}
-                                alt="Booking.com"
+                                alt="School"
                             />
                         </div>
                         <div className="school-title col-lg-8 col-md-8 col-sm-1">

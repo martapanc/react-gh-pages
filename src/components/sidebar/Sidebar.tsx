@@ -14,7 +14,7 @@ import {
 import "./styles.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
-const profile = require("../../assets/images/profile.webp");
+import profile from "../../assets/images/profile.webp";
 
 library.add(
     faLinkedin,

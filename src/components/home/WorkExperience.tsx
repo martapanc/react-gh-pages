@@ -2,7 +2,7 @@ import React from "react";
 import WorkData from "./data/WorkData";
 import Work from "./items/Work";
 
-const bag = require("../../assets/images/intro/business-and-finance.svg");
+import bag from "../../assets/images/intro/business-and-finance.svg";
 
 function WorkExperience() {
     return (
@@ -12,7 +12,7 @@ function WorkExperience() {
                     <img
                         className="school-icon responsive-hide"
                         src={bag}
-                        alt="Booking.com"
+                        alt="Work Experience"
                         height="42"
                     />
                     Work Experience

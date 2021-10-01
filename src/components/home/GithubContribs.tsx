@@ -2,9 +2,9 @@ import React from "react";
 import "./styles.scss";
 import $ from "jquery";
 import "github-calendar/dist/github-calendar-responsive.css";
+import github from "../../assets/images/intro/github.svg";
 
 const GitHubCalendar = require("github-calendar");
-const github = require("../../assets/images/intro/github.svg");
 
 export default function GithubContribs() {
     return (
