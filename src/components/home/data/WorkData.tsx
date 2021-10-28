@@ -10,8 +10,8 @@ export const WorkData = {
         begin: "2020",
         end: "present",
         items: [
-            "Technology consultancy company - All the work is project-based, providing opportunities to work with several clients and various " +
-            "programming languages and stacks",
+            "Technology consultancy company",
+            "All the work is project-based, providing opportunities to work with several clients and various programming languages and stacks",
             "Main developer responsible for implementing an updated Cookie & Privacy policy on a client's EU-based websites"
         ],
         icon: bjss,
