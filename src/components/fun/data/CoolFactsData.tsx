@@ -22,6 +22,12 @@ export const CoolFactsData = [
             '<a href="https://globalsummerschool.org/" target="_blank">GESS 2017</a>... ' +
             "all this in less than 3 weeks 🌎 "
     },
+    {
+        title: "Karate",
+        text: "I have a brown belt in karate, which I practised for 6 years 🥋 &nbsp;I took part in a few local competitions, including the" +
+            '<a href="http://www.fondazionesport.it/Sezione.jsp?idSezione=50&visscadute=1" target="_blank">"Tricolore Youth Olympic Games"</a>' +
+            " in Reggio Emilia... so be careful when you're around me 😉"
+    }
 ]
 
 export const ComingSoon = "That was the last cool fact I could think of... come back in some time for more :)";
