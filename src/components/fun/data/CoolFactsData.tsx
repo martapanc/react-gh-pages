@@ -1,7 +1,7 @@
 export const CoolFactsData = [
     {
         title: "Peppuccio",
-        text: "I was an extra-actor in a movie once 🎬 It was " +
+        text: "I was an extra-actor in a movie once 🎬 &nbsp;It was " +
             '<a href="https://www.imdb.com/title/tt3530978/" target="_blank">"The Correspondence"</a> ' +
             "(2016) by Giuseppe Tornatore, and I was part of the university students who sat in the conference hall " +
             "and walked around the uni campus. If you manage to spot me, I promise I'll autograph your t-shirt ;)"
