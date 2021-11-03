@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import {CoolFactsData, ComingSoon} from "./data/CoolFactsData";
+import Markdown from "markdown-to-jsx";
 import $ from "jquery";
 import "./styles.scss";
 
@@ -28,18 +29,16 @@ export default class CoolFacts extends Component {
 }
 
 function randomFact() {
-
     if (CoolFactsData.length > 0) {
         const index = Math.floor(Math.random() * CoolFactsData.length);
-        const factToShow = CoolFactsData[index]
-        $('#cool-fact').text(factToShow['text']);
-        CoolFactsData.splice(index)
+        const factToShow = CoolFactsData[index];
+        $('#cool-fact').html(factToShow['text']);
+        CoolFactsData.splice(index);
     } else {
-        $('#cool-fact').text(ComingSoon);
+        $('#cool-fact').html(ComingSoon);
         setTimeout(() => {
             $('#cool-facts-button').fadeOut(2000, "linear");
         }, 10);
-
     }
 }
 
