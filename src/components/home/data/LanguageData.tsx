@@ -53,7 +53,7 @@ export const LanguageData = {
             {object: jsp, name: "JSP"},
         ],
         text:
-            "I've worked with Java for 7 years and I developed various projects for university and personal development, " +
+            "I've worked with Java for 6 years and I developed various projects for university and personal development, " +
             "including a Library Management software and a Restaurant reservations and take-away webapp in JSP." +
             "\nCheck out my projects [here](/projects).",
         show: true,
