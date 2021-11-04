@@ -15,7 +15,7 @@ export default class CoolFacts extends Component {
         } else {
             $("#cool-fact").html(ComingSoon);
             setTimeout(() => {
-                $('#cool-facts-button').fadeOut(2000, "linear");
+                $("#cool-facts-button").fadeOut(2000, "linear");
             }, 10);
         }
     }
@@ -37,6 +37,6 @@ export default class CoolFacts extends Component {
                     </div>
                 </div>
             </section>
-        )
+        );
     }
 }

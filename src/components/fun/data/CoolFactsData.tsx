@@ -28,7 +28,7 @@ export const CoolFactsData = [
             "<a href=\"http://www.fondazionesport.it/Sezione.jsp?idSezione=50&visscadute=1\" target=\"_blank\">\"Tricolore Youth Olympic Games\"</a>" +
             " in Reggio Emilia... so be careful when you're around me 😉"
     }
-]
+];
 
 export const ComingSoon = "That was the last cool fact I could think of... come back in some time for more :)";
 
