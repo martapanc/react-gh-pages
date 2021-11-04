@@ -8,6 +8,7 @@ import Languages from "./Languages";
 import Publications from "./Publications";
 import Fun from "./Fun";
 import GithubContribs from "./GithubContribs";
+import CoolFacts from "../fun/CoolFacts";
 
 function Home() {
     return (
@@ -20,6 +21,7 @@ function Home() {
             <Publications />
             <GithubContribs />
             <Fun />
+            <CoolFacts />
             <Section />
         </div>
     );

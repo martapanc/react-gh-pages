@@ -24,7 +24,7 @@ import ictReport from "../../../assets/images/projects/Internship_Final_Report.p
 import mscDiss from "../../../assets/images/projects/comp61511_dissertation.pdf";
 import noodlePics from "../../../assets/images/projects/noodle-pics.pdf";
 
-function shuffle(array: string | any[]) {
+export const shuffle = (array: string | any[]) => {
     var currentIndex = array.length,
         temporaryValue,
         randomIndex;

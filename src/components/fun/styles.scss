@@ -6,3 +6,27 @@
   padding-left: 0;
   margin-top: var(--bs-gutter-y);
 }
+
+.cool-facts-title {
+  color: #1d078d;
+  font-family: "Bradley Hand", serif;
+  text-align: center;
+}
+
+.cool-facts-container {
+  min-height: 135px;
+}
+
+.cool-facts-item {
+  display: flex;
+  justify-content: center;
+
+  &__text {
+    height: 85px;
+  }
+
+  &__button {
+    bottom: 0;
+    min-height: 50px;
+  }
+}
