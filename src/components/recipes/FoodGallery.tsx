@@ -2,6 +2,7 @@ import React, {Component} from "react";
 import Gallery from "react-photo-gallery";
 import {photos} from "./photos";
 import $ from "jquery";
+import { getAnalytics, logEvent } from "firebase/analytics";
 
 export default class FoodGallery extends Component {
 
@@ -13,6 +14,9 @@ export default class FoodGallery extends Component {
                 let alt = this.getAttribute("alt")
                 $(this).parent(".food-image").append('<div class="food-image__text">' + alt + '</div>');
             })
+
+            const analytics = getAnalytics();
+            logEvent(analytics, 'Food gallery visited');
         }, 1000)
     }
 

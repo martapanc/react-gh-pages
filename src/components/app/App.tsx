@@ -14,6 +14,27 @@ import FiscalCode from "../apps/FiscalCode";
 import CodiceFiscale from "../apps/FiscalCode_it";
 import Recipes from "../recipes/Recipes";
 
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+
+const firebaseConfig = {
+    apiKey: "AIzaSyB3Z5VklMrzH6OPN37Gxwlm1B2ysONAxmA",
+    authDomain: "react-7f58d.firebaseapp.com",
+    databaseURL: "https://react-7f58d.firebaseio.com",
+    projectId: "react-7f58d",
+    storageBucket: "react-7f58d.appspot.com",
+    messagingSenderId: "455632545837",
+    appId: "1:455632545837:web:9965ea20a7b84b27cd30a4",
+    measurementId: "G-182HBEBJGX"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+analytics.app.automaticDataCollectionEnabled = true;
+
+
 function App() {
     return (
         <Router>
