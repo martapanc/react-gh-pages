@@ -8,6 +8,7 @@ import Languages from "./Languages";
 import Publications from "./Publications";
 import Fun from "./Fun";
 import GithubContribs from "./GithubContribs";
+import CookieBannerSection from "./CookieBannerSection";
 
 function Home() {
     return (
@@ -21,6 +22,7 @@ function Home() {
             <GithubContribs />
             <Fun />
             <Section />
+            <CookieBannerSection />
         </div>
     );
 }
