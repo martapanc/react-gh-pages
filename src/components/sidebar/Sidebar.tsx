@@ -35,19 +35,26 @@ function toggleMobileSidebar() {
     let navbarExpanded: boolean = eval(navbarTogglerButton.attr('aria-expanded') as string);
 
     if (navbarExpanded) {
-        // Collapse navbar
-
-        // navbar.addClass('collapsing');
-        // setTimeout(() => {
-        //     navbar.removeClass('collapsing');
-        // }, 500);
-
-        navbarTogglerButton.addClass('collapsed');
-        navbar.removeClass("show");
+        /* Collapse navbar */
+        navbar.addClass("collapsing");
+        console.log("collapsing");
+        setTimeout(() => {
+            console.log("collapsed");
+            navbar.removeClass("collapsing");
+            navbarTogglerButton.addClass("collapsed");
+            navbar.removeClass("show");
+        }, 400);
     } else {
-        // Expand navbar
-        navbarTogglerButton.removeClass('collapsed');
-        navbar.addClass("show");
+        /* Expand navbar */
+        navbar.addClass("collapsing");
+        console.log("expanding");
+
+        setTimeout(() => {
+            console.log("expanded");
+            navbar.removeClass("collapsing");
+            navbarTogglerButton.removeClass('collapsed');
+            navbar.addClass("show");
+        }, 400);
     }
 
     navbarTogglerButton.attr('aria-expanded', (!navbarExpanded).toString());
