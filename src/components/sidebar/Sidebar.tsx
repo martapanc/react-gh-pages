@@ -30,27 +30,20 @@ library.add(
 );
 
 function toggleMobileSidebar() {
-    const navbarTogglerButton = $('#navbar-toggler');
-    const navbar = $('#navigation');
-    let navbarExpanded: boolean = eval(navbarTogglerButton.attr('aria-expanded') as string);
+    const navbarTogglerButton = $("#navbar-toggler");
+    const navbar = $("#navigation");
+    let navbarExpanded: boolean = eval(navbarTogglerButton.attr("aria-expanded") as string);
 
     if (navbarExpanded) {
-        // Collapse navbar
-
-        // navbar.addClass('collapsing');
-        // setTimeout(() => {
-        //     navbar.removeClass('collapsing');
-        // }, 500);
-
-        navbarTogglerButton.addClass('collapsed');
+        navbarTogglerButton.addClass("collapsed");
         navbar.removeClass("show");
     } else {
         // Expand navbar
-        navbarTogglerButton.removeClass('collapsed');
+        navbarTogglerButton.removeClass("collapsed");
         navbar.addClass("show");
     }
 
-    navbarTogglerButton.attr('aria-expanded', (!navbarExpanded).toString());
+    navbarTogglerButton.attr("aria-expanded", (!navbarExpanded).toString());
 }
 
 function Sidebar() {
