@@ -49,6 +49,7 @@
     "prettier": "^2.4.1",
     "react": "^16.8.6",
     "react-bootstrap": "^1.6.4",
+    "react-cookie-banner": "^4.1.0",
     "react-dev-utils": "^11.0.4",
     "react-dom": "^16.8.6",
     "react-photo-gallery": "^8.0.0",
