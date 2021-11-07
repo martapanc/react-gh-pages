@@ -15,6 +15,7 @@ import "./styles.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 import profile from "../../assets/images/profile.webp";
+import useScript from "../../hooks/useScript";
 
 library.add(
     faLinkedin,
@@ -28,6 +29,8 @@ library.add(
 );
 
 function Sidebar() {
+    useScript('//cdn.cookie-script.com/s/06fdb88c3566faba23172547fdd92983.js');
+
     return (
         <header className="header text-center">
             <h1 className="blog-name pt-lg-4 mb-0">
