@@ -1,6 +1,6 @@
 import React from "react";
 import "../../assets/css/main.scss";
-import { library } from "@fortawesome/fontawesome-svg-core";
+import {library} from "@fortawesome/fontawesome-svg-core";
 import {faBlog, faCode, faFileAlt, faGlobe, faUser, faPizzaSlice} from "@fortawesome/free-solid-svg-icons";
 import {
     faLinkedin,
@@ -13,6 +13,7 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 import "./styles.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import $ from "jquery";
 
 import profile from "../../assets/images/profile.webp";
 import useScript from "../../hooks/useScript";
@@ -28,6 +29,23 @@ library.add(
     faGoodreads
 );
 
+function toggleMobileSidebar() {
+    const navbarTogglerButton = $("#navbar-toggler");
+    const navbar = $("#navigation");
+    let navbarExpanded: boolean = eval(navbarTogglerButton.attr("aria-expanded") as string);
+
+    if (navbarExpanded) {
+        navbarTogglerButton.addClass("collapsed");
+        navbar.removeClass("show");
+    } else {
+        // Expand navbar
+        navbarTogglerButton.removeClass("collapsed");
+        navbar.addClass("show");
+    }
+
+    navbarTogglerButton.attr("aria-expanded", (!navbarExpanded).toString());
+}
+
 function Sidebar() {
     useScript('//cdn.cookie-script.com/s/06fdb88c3566faba23172547fdd92983.js');
 
@@ -39,6 +57,7 @@ function Sidebar() {
 
             <nav className="navbar navbar-expand-lg navbar-dark">
                 <button
+                    id="navbar-toggler"
                     className="navbar-toggler"
                     type="button"
                     data-toggle="collapse"
@@ -46,8 +65,9 @@ function Sidebar() {
                     aria-controls="navigation"
                     aria-expanded="false"
                     aria-label="Toggle navigation"
+                    onClick={toggleMobileSidebar}
                 >
-                    <span className="navbar-toggler-icon" />
+                    <span className="navbar-toggler-icon"/>
                 </button>
 
                 <div
