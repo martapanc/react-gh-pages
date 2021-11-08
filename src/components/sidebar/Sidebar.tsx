@@ -47,7 +47,7 @@ function toggleMobileSidebar() {
 }
 
 function Sidebar() {
-    useScript('//cdn.cookie-script.com/s/06fdb88c3566faba23172547fdd92983.js');
+    useScript("https://cdn-cookieyes.com/client_data/b17b2f525626c31229b9c6d6/script.js", "cookieyes");
 
     return (
         <header className="header text-center">
