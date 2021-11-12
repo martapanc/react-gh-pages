@@ -25,30 +25,40 @@ function Intro() {
                                 </span>
                             <span style={{color: "#4A9EDA"}}>.com</span>
                             </strong>.
-                            <br/>
-                            <a
-                                className="link-on-bg"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://pensieridinchiostro.wordpress.com/"
-                            >
-                                Fiction writer
-                            </a>
-                            ,&nbsp;
-                            <a
-                                className="link-on-bg"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href="https://www.youtube.com/watch?v=F_VM95pANBk"
-                            >
-                                oboist
-                            </a>{" "}
-                            and&nbsp;
-                            <a className="link-on-bg" href="/photos">
-                                travel photographer
-                            </a>{" "}
-                            in my free time.
-                            <br/>
+                            <div className="free-time">
+                                <a
+                                    className="link-on-bg"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://pensieridinchiostro.wordpress.com/"
+                                >
+                                    Fiction writer
+                                </a>
+                                ,&nbsp;
+                                <a
+                                    className="link-on-bg"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.goodreads.com/topolinamarta"
+                                >
+                                    bookworm
+                                </a>
+                                ,&nbsp;
+                                <a
+                                    className="link-on-bg"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    href="https://www.youtube.com/watch?v=F_VM95pANBk"
+                                >
+                                    oboist
+                                </a>{" "}
+                                and&nbsp;
+                                <a className="link-on-bg" href="/photos">
+                                    travel photographer
+                                </a>{" "}
+                                in my free time.
+                                <br/>
+                            </div>
                         </div>
 
                         {/*bio*/}

@@ -12,7 +12,8 @@ export const WorkData = {
         items: [
             "Technology consultancy company",
             "All the work is project-based, providing opportunities to work with several clients and various programming languages and stacks",
-            "Main developer responsible for implementing an updated Cookie & Privacy policy on a client's EU-based websites"
+            "Main developer responsible for implementing an updated Cookie & Privacy policy on a client's EU-based websites",
+            "Support engineer/tester for the Platform team to create a containerised version of the client's web-app"
         ],
         icon: bjss,
     },
@@ -26,7 +27,7 @@ export const WorkData = {
             "Main technologies used: Java, JavaScript, React, PHP, MySQL, Docker",
             "Everyday development follows the Agile principles, in particular the Kanban approach, " +
             "including activities like pair programming and testing, code reviews, daily stand-ups an retros",
-            "Recently involved in interviewing students who applied for the Booking.com grad scheme",
+            "Involved in interviewing students who applied for the Booking.com grad scheme",
         ],
         icon: bookinggo,
     },
