@@ -1,15 +1,16 @@
 import es from "../../../assets/images/flags/es.svg";
-import de from "../../../assets/images/flags/deu.svg";
+import de from "../../../assets/images/flags/de.svg";
 import sk from "../../../assets/images/flags/sk.svg";
 import nl from "../../../assets/images/flags/nl.svg";
-import eng from "../../../assets/images/flags/england.svg";
-import scot from "../../../assets/images/flags/scotland.svg";
-import us from "../../../assets/images/flags/usa.svg";
+import eng from "../../../assets/images/flags/gb-eng.svg";
+import scot from "../../../assets/images/flags/gb-sct.svg";
+import us from "../../../assets/images/flags/us.svg";
 import is from "../../../assets/images/flags/is.svg";
+import fr from "../../../assets/images/flags/fr.svg";
 import ie from "../../../assets/images/flags/ie.svg";
 import uk from "../../../assets/images/flags/uk.svg";
 import pt from "../../../assets/images/flags/pt.svg";
-import it from "../../../assets/images/flags/ita.svg";
+import it from "../../../assets/images/flags/it.svg";
 import zh from "../../../assets/images/flags/zh.svg";
 import at from "../../../assets/images/flags/at.svg";
 import mt from "../../../assets/images/flags/mt.svg";
@@ -39,11 +40,16 @@ import vienna from "../../../assets/images/photos/vienna.webp";
 
 export const PhotoData = [
     {
+        title: "Grenoble",
+        flag: fr,
+        photo: scotland,
+        link: "/photos/grenoble",
+    },
+    {
         title: "Isle of Skye",
         flag: scot,
         photo: scotland,
-        link:
-            "https://www.flickr.com/photos/185365090@N08/albums/",
+        link: "/photos/skye",
     },
     {
         title: "Malta",

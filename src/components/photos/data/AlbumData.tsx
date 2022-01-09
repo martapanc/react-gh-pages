@@ -2,7 +2,12 @@ export const PhotoData = [
     {
         id: "skye",
         title: "Isle of Skye",
-        flag: "scotland"
+        flag: "gb-sct"
+    },
+    {
+        id: "grenoble",
+        title: "Grenoble",
+        flag: "fr"
     }
 ]
 
