@@ -3,7 +3,7 @@ import "../../assets/css/main.scss";
 import "../sidebar/Sidebar";
 import Sidebar from "../sidebar/Sidebar";
 import Footer from "../footer/Footer";
-import { Switch, Route, BrowserRouter as Router } from "react-router-dom";
+import {Routes, Route, BrowserRouter as Router} from "react-router-dom";
 import Home from "../home/Home";
 import Photos from "../photos/Photos";
 import CV from "../cv/CV";
@@ -13,9 +13,11 @@ import NotFound from "../404/NotFound";
 import FiscalCode from "../apps/FiscalCode";
 import CodiceFiscale from "../apps/FiscalCode_it";
 import Recipes from "../recipes/Recipes";
+import PhotoData from "../photos/data/AlbumData";
 
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
+import {initializeApp} from "firebase/app";
+import {getAnalytics} from "firebase/analytics";
+import AlbumDisplay from "../photos/item/AlbumDisplay";
 
 const firebaseConfig = {
     apiKey: "AIzaSyB3Z5VklMrzH6OPN37Gxwlm1B2ysONAxmA",
@@ -40,23 +42,31 @@ function App() {
         <Router>
             <div className="App">
                 <div className="main-wrapper">
-                    <Sidebar />
+                    <Sidebar/>
 
                     <div className="content">
-                        <Switch>
-                            <Route exact path="/" component={Home} />
-                            <Route path="/cv" component={CV} />
-                            <Route path="/projects" component={Projects} />
-                            <Route path="/photos" component={Photos} />
-                            <Route path="/recipes" component={Recipes} />
-                            <Route path="/blog" component={Blog} />
-                            <Route path="/apps/fiscal-code" component={FiscalCode} />
-                            <Route path="/apps/codice-fiscale" component={CodiceFiscale} />
-                            <Route component={NotFound} />
-                        </Switch>
+                        <Routes>
+                            <Route path="/" element={<Home/>}/>
+                            <Route path="/cv" element={<CV/>}/>
+                            <Route path="/projects" element={<Projects/>}/>
+                            <Route path="/photos" element={<Photos/>}/>
+                            <Route path="/recipes" element={<Recipes/>}/>
+                            <Route path="/blog" element={<Blog/>}/>
+                            <Route path="/apps/fiscal-code" element={<FiscalCode/>}/>
+                            <Route path="/apps/codice-fiscale" element={<CodiceFiscale/>}/>
+                            <Route path="*" element={<NotFound/>}/>
+
+                            {PhotoData && PhotoData.map(
+                                (config, i) => <Route key={`route-${i}`} path={`/photos/${config.id}`} element={
+                                    <AlbumDisplay id={config.id}
+                                                  flag={config.flag}
+                                                  title={config.title}/>
+                                }/>
+                            )}
+                        </Routes>
                     </div>
 
-                    <Footer />
+                    <Footer/>
                 </div>
             </div>
         </Router>
