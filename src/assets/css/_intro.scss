@@ -1,9 +1,9 @@
-.school-title-container {
+.school-title-container, .language-title-container {
   display: flex;
   align-items: center;
 }
 
-.school-icon {
+.school-icon, .language-icon {
   width: 55px;
   float: left;
   margin-right: 10px;
@@ -22,6 +22,10 @@
   @media (min-width: 768px) and (max-width: 991px) {
     width: 670px;
   }
+}
+
+.language-title h5 {
+  margin-bottom: 0.2rem;
 }
 
 h5 span {
