@@ -13,7 +13,7 @@ function Languages() {
             <div className="container">
                 <h2 className="section-title font-weight-bold mb-3">
                     <img
-                        className="school-icon responsive-hide"
+                        className="language-icon responsive-hide"
                         src={world}
                         alt="Languages"
                         height="42"
@@ -22,52 +22,52 @@ function Languages() {
                 </h2>
                 <div className="row">
                     <div className="item col-6 col-sm-6 col-lg-3">
-                        <div className="school-title-container">
+                        <div className="language-title-container">
                             <img
-                                className="school-icon"
+                                className="language-icon"
                                 src={uk}
                                 alt="English"
                             />
-                            <div className="school-title">
+                            <div className="language-title">
                                 <h5 className="item-title">Fluent (C2)</h5>
                             </div>
                         </div>
                     </div>
 
                     <div className="item col-6 col-sm-6 col-lg-3">
-                        <div className="school-title-container">
+                        <div className="language-title-container">
                             <img
-                                className="school-icon"
+                                className="language-icon"
                                 src={it}
                                 alt="Italian"
                             />
-                            <div className="school-title">
+                            <div className="language-title">
                                 <h5 className="item-title">Native</h5>
                             </div>
                         </div>
                     </div>
 
                     <div className="item col-6 col-sm-6 col-lg-3">
-                        <div className="school-title-container">
+                        <div className="language-title-container">
                             <img
-                                className="school-icon"
+                                className="language-icon"
                                 src={de}
                                 alt="German"
                             />
-                            <div className="school-title">
+                            <div className="language-title">
                                 <h5 className="item-title">Good (B2)</h5>
                             </div>
                         </div>
                     </div>
 
                     <div className="item col-6 col-sm-6 col-lg-3">
-                        <div className="school-title-container">
+                        <div className="language-title-container">
                             <img
-                                className="school-icon"
+                                className="language-icon"
                                 src={fr}
                                 alt="French"
                             />
-                            <div className="school-title">
+                            <div className="language-title">
                                 <h5 className="item-title">Basic (A2)</h5>
                             </div>
                         </div>
