@@ -5,10 +5,17 @@ import Section from "../../app/Section";
 import LightGallery from 'lightgallery/react';
 
 import 'lightgallery/scss/lightgallery.scss';
+import 'lightgallery/scss/lg-autoplay.scss';
+import 'lightgallery/scss/lg-fullscreen.scss';
+import 'lightgallery/scss/lg-share.scss';
+import 'lightgallery/scss/lg-thumbnail.scss';
 import 'lightgallery/scss/lg-zoom.scss';
 
+import lgAutoplay from 'lightgallery/plugins/autoplay';
+import lgFullscreen from 'lightgallery/plugins/fullscreen';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
+import lgShare from 'lightgallery/plugins/share';
 
 type AlbumDisplayData = {
     id: string,
@@ -29,14 +36,16 @@ class AlbumDisplay extends Component<AlbumDisplayData> {
 
                 <div className="p-3 p-lg-3 gallery-container flexbin flexbin-margin">
 
-
                     <LightGallery
                         onInit={onInit}
                         speed={500}
-                        plugins={[lgThumbnail, lgZoom]}
+                        mode={'lg-fade'}
+                        plugins={[lgAutoplay, lgFullscreen, lgShare, lgThumbnail, lgZoom]}
+                        animateThumb={false}
+                        zoomFromOrigin={false}
+                        allowMediaOverlap={true}
+                        toggleThumb={true}
                     >
-
-
                         <a
                             data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0604.webp"
                             data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">
@@ -46,20 +55,20 @@ class AlbumDisplay extends Component<AlbumDisplayData> {
 
                         <a
                             data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0607.webp"
-                            data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">
+                            data-sub-html="<h4>Photo by ">
                             <img className="img-fluid" width="350"
                                  src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0607.webp"/>
                         </a>
 
                         <a
                             data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0636.webp"
-                            data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">
+                            data-sub-html="<h4>Photo by ">
                             <img className="img-fluid" width="350"
                                  src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0636.webp"/>
                         </a>
                         <a
                             data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0643.webp"
-                            data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">
+                            data-sub-html="<h4>Photo by - ">
                             <img className="img-fluid" width="350"
                                  src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0643.webp"/>
                         </a>
