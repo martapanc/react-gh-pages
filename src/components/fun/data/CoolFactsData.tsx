@@ -9,7 +9,7 @@ export const CoolFactsData = [
     {
         title: "Oboe",
         text: "When I studied the oboe at the music school, I occasionally played for some illustrious people - notably, " +
-            "the ex President of the Republic Giorgio Napolitano, the Nobel prize Dario Fo, the bishop of my hometown, " +
+            "the ex Italian President Giorgio Napolitano, the Nobel prize Dario Fo, the bishop of my hometown, " +
             "and the singer Luciano Ligabue 🎵 🎸 🎶 🎻. Not so oddly enough, it was usually me who asked them for an " +
             "autograph, although I was technically the 'star' and they were the audience..."
     },
