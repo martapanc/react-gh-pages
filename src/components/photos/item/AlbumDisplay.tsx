@@ -28,11 +28,25 @@ class AlbumDisplay extends Component<AlbumDisplayData> {
     render() {
         const onInit = () => {
             console.log('lightGallery has been initialized');
+            fetchAlbum()
         };
+
+        const album = this.props;
+
+        function fetchAlbum() {
+            fetch(`https://mpancaldi.gitlab.io/photo-gallery/albums/${album.id}/`)
+                .then(response => response.text())
+                .then(function (html) {
+                    const doc = new DOMParser().parseFromString(html, "text/html");
+                    const json = doc.querySelector('pre')!.innerHTML
+                    const photoList = JSON.parse(json).allFile.edges
+                })
+                .catch(e => console.log(e))
+        }
 
         return (
             <div>
-                <SectionTitle title={this.props.title} icon={this.props.flag}/>
+                <SectionTitle title={album.title} icon={album.flag}/>
 
                 <div className="p-3 p-lg-3 gallery-container flexbin flexbin-margin">
 
