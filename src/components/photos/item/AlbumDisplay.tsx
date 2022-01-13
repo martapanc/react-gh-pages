@@ -1,4 +1,4 @@
-import React, {Component} from "react";
+import React, {Component, useCallback} from "react";
 import SectionTitle from "../../sectionTitle/SectionTitle";
 import Section from "../../app/Section";
 
@@ -16,6 +16,9 @@ import lgFullscreen from 'lightgallery/plugins/fullscreen';
 import lgThumbnail from 'lightgallery/plugins/thumbnail';
 import lgZoom from 'lightgallery/plugins/zoom';
 import lgShare from 'lightgallery/plugins/share';
+import PhotoData from "../data/PhotoData";
+import Album from "./Album";
+import lightGallery from "lightgallery";
 
 type AlbumDisplayData = {
     id: string,
@@ -25,25 +28,49 @@ type AlbumDisplayData = {
 
 class AlbumDisplay extends Component<AlbumDisplayData> {
 
-    render() {
-        const onInit = () => {
-            console.log('lightGallery has been initialized');
-            fetchAlbum()
-        };
+    state = {
+        album: this.props,
+        photos: []
+    }
 
-        const album = this.props;
+    componentDidMount() {
 
-        function fetchAlbum() {
-            fetch(`https://mpancaldi.gitlab.io/photo-gallery/albums/${album.id}/`)
-                .then(response => response.text())
-                .then(function (html) {
-                    const doc = new DOMParser().parseFromString(html, "text/html");
-                    const json = doc.querySelector('pre')!.innerHTML
-                    const photoList = JSON.parse(json).allFile.edges
+        this.fetchAlbum()
+    }
+
+    onGalleryInit = () => {
+        console.log('lightGallery has been initialized');
+    };
+
+    fetchAlbum = () => {
+        const state = this
+        fetch(`https://mpancaldi.gitlab.io/photo-gallery/albums/${this.state.album.id}/`)
+            .then(response => response.text())
+            .then(function (html) {
+                const doc = new DOMParser().parseFromString(html, "text/html");
+                const json = doc.querySelector('pre')!.innerHTML
+                const list = JSON.parse(json).allFile.edges
+                let photoList: string[] = []
+                list.forEach((item: { [x: string]: string; }) => {
+                    // @ts-ignore
+                    photoList.push(item['node'].relativePath)
                 })
-                .catch(e => console.log(e))
-        }
+                state.setState({photos: photoList})
+            })
+            .catch(e => console.log(e))
+    }
 
+    render() {
+        // const lightGallery = useRef < any > null;
+        const album = this.state.album;
+        const photos = this.state.photos;
+        photos.length !== 0 && console.log(photos);
+
+        const loadPhotos = (detail: { instance: any; } | undefined) => {
+            if (detail) {
+                // lightGallery.current = detail.instance
+            }
+        }
         return (
             <div>
                 <SectionTitle title={album.title} icon={album.flag}/>
@@ -51,7 +78,7 @@ class AlbumDisplay extends Component<AlbumDisplayData> {
                 <div className="p-3 p-lg-3 gallery-container flexbin flexbin-margin">
 
                     <LightGallery
-                        onInit={onInit}
+                        onInit={this.onGalleryInit}
                         speed={500}
                         mode={'lg-fade'}
                         plugins={[lgAutoplay, lgFullscreen, lgShare, lgThumbnail, lgZoom]}
@@ -60,12 +87,18 @@ class AlbumDisplay extends Component<AlbumDisplayData> {
                         allowMediaOverlap={true}
                         toggleThumb={true}
                     >
-                        <a
-                            data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0604.webp"
-                            data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">
-                            <img className="img-fluid" width="350"
-                                 src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0604.webp"/>
-                        </a>
+
+                        {/*{ loadPhotos() }*/}
+
+                        {photos.map((filePath, key) => {
+                            return <a key={key}
+                                data-src={`https://mpancaldi.gitlab.io/photo-gallery/${filePath}`}
+                                data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">
+                                <img className="img-fluid" width="350"
+                                     src={`https://mpancaldi.gitlab.io/photo-gallery/${filePath}`} />
+                            </a>;
+                        })}
+
 
                         <a
                             data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0607.webp"
@@ -74,18 +107,18 @@ class AlbumDisplay extends Component<AlbumDisplayData> {
                                  src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0607.webp"/>
                         </a>
 
-                        <a
-                            data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0636.webp"
-                            data-sub-html="<h4>Photo by ">
-                            <img className="img-fluid" width="350"
-                                 src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0636.webp"/>
-                        </a>
-                        <a
-                            data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0643.webp"
-                            data-sub-html="<h4>Photo by - ">
-                            <img className="img-fluid" width="350"
-                                 src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0643.webp"/>
-                        </a>
+                        {/*<a*/}
+                        {/*    data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0636.webp"*/}
+                        {/*    data-sub-html="<h4>Photo by ">*/}
+                        {/*    <img className="img-fluid" width="350"*/}
+                        {/*         src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0636.webp"/>*/}
+                        {/*</a>*/}
+                        {/*<a*/}
+                        {/*    data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0643.webp"*/}
+                        {/*    data-sub-html="<h4>Photo by - ">*/}
+                        {/*    <img className="img-fluid" width="350"*/}
+                        {/*         src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0643.webp"/>*/}
+                        {/*</a>*/}
                     </LightGallery>
 
                 </div>
