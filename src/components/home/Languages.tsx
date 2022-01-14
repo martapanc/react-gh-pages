@@ -2,9 +2,9 @@ import React from "react";
 import "./styles.scss";
 
 import uk from "../../assets/images/flags/uk.svg";
-import it from "../../assets/images/flags/ita.svg";
-import de from "../../assets/images/flags/deu.svg";
-import fr from "../../assets/images/flags/fra.svg";
+import it from "../../assets/images/flags/it.svg";
+import de from "../../assets/images/flags/de.svg";
+import fr from "../../assets/images/flags/fr.svg";
 import world from "../../assets/images/intro/internet.svg";
 
 function Languages() {

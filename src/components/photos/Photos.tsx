@@ -4,14 +4,15 @@ import SectionTitle from "../sectionTitle/SectionTitle";
 import PhotoGallery from "./PhotoGallery";
 import WorldMap from "./WorldMap";
 import Section from "../app/Section";
+import "./styles.scss";
 
 function Photos() {
     return (
         <div>
-            <SectionTitle title="Pictures from around the world" />
-            <PhotoGallery />
-            <WorldMap />
-            <Section />
+            <SectionTitle title="Pictures from around the world"/>
+            <PhotoGallery/>
+            <WorldMap/>
+            <Section/>
         </div>
     );
 }

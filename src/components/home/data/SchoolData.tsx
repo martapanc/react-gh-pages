@@ -3,9 +3,9 @@ import peri from "../../../assets/images/schools/peri.webp";
 import unibz from "../../../assets/images/schools/unibz.webp";
 import uom from "../../../assets/images/schools/uom.webp";
 import uk from "../../../assets/images/flags/uk.svg";
-import ita from "../../../assets/images/flags/ita.svg";
-import usa from "../../../assets/images/flags/usa.svg";
-import deu from "../../../assets/images/flags/deu.svg";
+import ita from "../../../assets/images/flags/it.svg";
+import usa from "../../../assets/images/flags/us.svg";
+import deu from "../../../assets/images/flags/de.svg";
 
 export const WorkData = {
     uom: {
