@@ -39,17 +39,17 @@ import bolzano from "../../../assets/images/photos/south-tyrol.webp";
 import vienna from "../../../assets/images/photos/vienna.webp";
 
 export const PhotoData = [
-    {
-        title: "Grenoble",
-        flag: fr,
-        photo: scotland,
-        link: "/photos/grenoble",
-    },
+    // {
+    //     title: "Grenoble",
+    //     flag: fr,
+    //     photo: scotland,
+    //     link: "/photos/grenoble",
+    // },
     {
         title: "Isle of Skye",
         flag: scot,
         photo: scotland,
-        link: "/photos/skye",
+        link: "",
     },
     {
         title: "Malta",

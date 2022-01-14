@@ -22,35 +22,41 @@ type AlbumDisplayData = {
 }
 
 function AlbumDisplayFunc(props: AlbumDisplayData) {
-    // eslint-disable-next-line no-mixed-operators
-    // @ts-ignore
-    const lightGallery = useRef();
+    const lightGallery = useRef<any>(null);
 
     const [items, setItems] = useState([
-        ""
+        {full: "", x3000: "", x900: ""}
     ]);
 
-    const fetchAlbum = () => {
+    const fetchAlbum = useCallback(() => {
         fetch(`https://mpancaldi.gitlab.io/photo-gallery/albums/${props.id}/`)
             .then(response => response.text())
             .then(function (html) {
                 const doc = new DOMParser().parseFromString(html, "text/html");
                 const json = doc.querySelector('pre')!.innerHTML
                 const list = JSON.parse(json).allFile.edges
-                let photoList: string[] = []
+                // @ts-ignore
+                let photoList: object[] = []
                 list.forEach((item: { [x: string]: string; }) => {
                     // @ts-ignore
-                    photoList.push(item['node'].relativePath)
+                    const path = item['node'].relativePath;
+                    const photoSizes = {
+                        full: path,
+                        x3000: path.replace('.full', '.3000x'),
+                        x900: path.replace('.full', '.900x')
+                    }
+                    photoList.push(photoSizes)
                 })
+                // @ts-ignore
                 setItems(photoList)
             })
             .catch(e => console.log(e))
-    }
+    }, [props])
 
     const onInit = useCallback((details) => {
+        fetchAlbum();
         if (details) {
-            fetchAlbum()
-            lightGallery.current = details.instance
+            lightGallery.current = details.instance;
         }
     }, [fetchAlbum]);
 
@@ -58,14 +64,13 @@ function AlbumDisplayFunc(props: AlbumDisplayData) {
         return items.map((item, key) => {
             return (
                 <a key={key}
-                   data-src={`https://mpancaldi.gitlab.io/photo-gallery/${item}`}
-                   data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">
+                   data-src={`https://mpancaldi.gitlab.io/photo-gallery/${item.full}`}>
                     <img className="img-fluid" width="350"
-                         src={`https://mpancaldi.gitlab.io/photo-gallery/${item}`} />
+                         src={`https://mpancaldi.gitlab.io/photo-gallery/${item.x900}`} alt={props.title}/>
                 </a>
             );
         });
-    }, [items])
+    }, [items, props])
 
     useEffect(() => {
         console.log(items)
@@ -89,26 +94,7 @@ function AlbumDisplayFunc(props: AlbumDisplayData) {
                     allowMediaOverlap={true}
                     toggleThumb={true}
                 >
-
-                    { getItems() }
-
-                    <a
-                        data-src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0607.webp"
-                        data-sub-html="<h4>Photo by ">
-                        <img className="img-fluid" width="350"
-                             src="https://mpancaldi.gitlab.io/photo-gallery/grenoble/DSC_0607.webp"/>
-                    </a>
-
-
-                    {/*{photoRelPaths.map((path, key) => {*/}
-                    {/*    return <a key={key}*/}
-                    {/*              data-src={`https://mpancaldi.gitlab.io/photo-gallery/${path}`}*/}
-                    {/*              data-sub-html="<h4>Photo by - <a href='https://unsplash.com/@thesaboo' >Sascha Bosshard </a></h4><p> Location - <a href='https://unsplash.com/s/photos/pizol%2C-mels%2C-schweiz'>Pizol, Mels, Schweiz</a></p>">*/}
-                    {/*        <img className="img-fluid" width="350"*/}
-                    {/*             src={`https://mpancaldi.gitlab.io/photo-gallery/${path}`} />*/}
-                    {/*    </a>;*/}
-                    {/*})}*/}
-
+                    {getItems()}
                 </LightGallery>
 
             </div>
