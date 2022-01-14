@@ -14,7 +14,6 @@ class Album extends Component<AlbumData> {
                 <a
                     href={this.props.link}
                     data-size="1600x1067"
-                    // target="_blank"
                     rel="noopener noreferrer"
                 >
                     <img

@@ -18,8 +18,6 @@ import PhotoData from "../photos/data/AlbumData";
 import {initializeApp} from "firebase/app";
 import {getAnalytics} from "firebase/analytics";
 import AlbumDisplay from "../photos/item/AlbumDisplay";
-import AlbumDisplayFunc from "../photos/item/AlbumDisplayFunc";
-import AlbumDisplayFunc2 from "../photos/item/AlbumDisplayFunc2";
 
 const firebaseConfig = {
     apiKey: "AIzaSyB3Z5VklMrzH6OPN37Gxwlm1B2ysONAxmA",
@@ -60,7 +58,7 @@ function App() {
 
                             {PhotoData && PhotoData.map(
                                 (config, i) => <Route key={`route-${i}`} path={`/photos/${config.id}`} element={
-                                    <AlbumDisplayFunc id={config.id}
+                                    <AlbumDisplay id={config.id}
                                                   flag={config.flag}
                                                   title={config.title}/>
                                 }/>
