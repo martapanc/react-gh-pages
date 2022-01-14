@@ -9,12 +9,12 @@ import lgZoom from "lightgallery/plugins/zoom";
 import Section from "../../app/Section";
 import $ from "jquery";
 
-import 'lightgallery/scss/lightgallery.scss';
-import 'lightgallery/scss/lg-autoplay.scss';
-import 'lightgallery/scss/lg-fullscreen.scss';
-import 'lightgallery/scss/lg-share.scss';
-import 'lightgallery/scss/lg-thumbnail.scss';
-import 'lightgallery/scss/lg-zoom.scss';
+import "lightgallery/scss/lightgallery.scss";
+import "lightgallery/scss/lg-autoplay.scss";
+import "lightgallery/scss/lg-fullscreen.scss";
+import "lightgallery/scss/lg-share.scss";
+import "lightgallery/scss/lg-thumbnail.scss";
+import "lightgallery/scss/lg-zoom.scss";
 
 type AlbumDisplayData = {
     id: string,
@@ -31,27 +31,27 @@ function AlbumDisplay(props: AlbumDisplayData) {
 
     const fetchAlbum = useCallback(() => {
         fetch(`https://mpancaldi.gitlab.io/photo-gallery/albums/${props.id}/`)
-            .then(response => response.text())
+            .then((response) => response.text())
             .then(function (html) {
                 const doc = new DOMParser().parseFromString(html, "text/html");
-                const json = doc.querySelector('pre')!.innerHTML
-                const list = JSON.parse(json).allFile.edges
+                const json = doc.querySelector("pre")!.innerHTML;
+                const list = JSON.parse(json).allFile.edges;
 
-                let photoList: any[] = []
+                let photoList: any[] = [];
                 list.forEach((item: { [x: string]: string; }) => {
                     // @ts-ignore
-                    const path = item['node'].relativePath;
+                    const path = item["node"].relativePath;
                     const photoSizes = {
                         full: path,
-                        x3000: path.replace('.full', '.3000x'),
-                        x900: path.replace('.full', '.900x')
+                        x3000: path.replace(".full", ".3000x"),
+                        x900: path.replace(".full", ".900x")
                     }
-                    photoList.push(photoSizes)
+                    photoList.push(photoSizes);
                 })
-                setItems(photoList)
+                setItems(photoList);
             })
-            .catch(e => console.log(e))
-    }, [props])
+            .catch((e) => console.log(e))
+    }, [props]);
 
     const onInit = useCallback((details) => {
         fetchAlbum();
@@ -73,12 +73,12 @@ function AlbumDisplay(props: AlbumDisplayData) {
     }, [items, props])
 
     const setPageHeight = useCallback(() => {
-        const $gallery = $('.gallery-container');
-        const horizontalItems = Math.floor(($gallery.width() || 1000 - 32) / 350) || 1
-        const verticalItems = Math.ceil(items.length / horizontalItems)
-        const minHeight = verticalItems * ($('.img-fluid').height() || 233) + 100
+        const $gallery = $(".gallery-container");
+        const horizontalItems = Math.floor(($gallery.width() || 1000 - 32) / 350) || 1;
+        const verticalItems = Math.ceil(items.length / horizontalItems);
+        const minHeight = verticalItems * ($(".img-fluid").height() || 233) + 100;
 
-        $gallery.css('min-height', minHeight);
+        $gallery.css("min-height", minHeight);
     }, [items]);
 
     useEffect(() => {
@@ -87,7 +87,7 @@ function AlbumDisplay(props: AlbumDisplayData) {
     }, [items, setPageHeight]);
 
     useEffect(() => {
-        window.addEventListener('resize', () => setPageHeight())
+        window.addEventListener("resize", () => setPageHeight());
     })
 
     return (
@@ -99,7 +99,7 @@ function AlbumDisplay(props: AlbumDisplayData) {
                 <LightGallery
                     onInit={onInit}
                     speed={500}
-                    mode={'lg-fade'}
+                    mode={"lg-fade"}
                     plugins={[lgAutoplay, lgFullscreen, lgShare, lgThumbnail, lgZoom]}
                     animateThumb={true}
                     zoomFromOrigin={false}

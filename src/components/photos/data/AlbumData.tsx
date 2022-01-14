@@ -9,6 +9,6 @@ export const PhotoData = [
         title: "Grenoble",
         flag: "fr"
     }
-]
+];
 
 export default PhotoData;

@@ -32,7 +32,7 @@ class SectionTitle extends Component<SectionTitleState> {
     }
 
     private static getFlagObject(name: string) {
-        return require(`../../assets/images/flags/${name}.svg`).default
+        return require(`../../assets/images/flags/${name}.svg`).default;
     }
 }
 
