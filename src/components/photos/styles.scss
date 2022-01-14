@@ -68,7 +68,13 @@ $flexbin-space-phone: $flexbin-space !default;
 }
 
 .gallery-container {
-  min-height: 1000px;
+  @media (max-width: 399px) {
+    min-height: 4000px;
+  }
+
+  @media (min-width: 400px) {
+    min-height: 1300px;
+  }
 }
 
 #back-to-all-photos {

@@ -7,6 +7,7 @@ import lgShare from "lightgallery/plugins/share";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
 import lgZoom from "lightgallery/plugins/zoom";
 import Section from "../../app/Section";
+import $ from "jquery";
 
 import 'lightgallery/scss/lightgallery.scss';
 import 'lightgallery/scss/lg-autoplay.scss';
@@ -72,11 +73,23 @@ function AlbumDisplayFunc(props: AlbumDisplayData) {
         });
     }, [items, props])
 
-    useEffect(() => {
-        console.log(items)
-        // @ts-ignore
-        lightGallery.current.refresh();
+    const setPageHeight = useCallback(() => {
+        const $gallery = $('.gallery-container');
+        const horizontalItems = Math.floor(($gallery.width() || 1000 - 32) / 350) || 1
+        const verticalItems = Math.ceil(items.length / horizontalItems)
+        const minHeight = verticalItems * ($('.img-fluid').height() || 233) + 100
+
+        $gallery.css('min-height', minHeight);
     }, [items]);
+
+    useEffect(() => {
+        setPageHeight();
+        lightGallery.current.refresh();
+    }, [items, setPageHeight]);
+
+    useEffect(() => {
+        window.addEventListener('resize', () => setPageHeight())
+    })
 
     return (
         <div>
