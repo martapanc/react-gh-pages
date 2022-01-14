@@ -13,7 +13,7 @@ import NotFound from "../404/NotFound";
 import FiscalCode from "../apps/FiscalCode";
 import CodiceFiscale from "../apps/FiscalCode_it";
 import Recipes from "../recipes/Recipes";
-import PhotoData from "../photos/data/AlbumData";
+import AlbumData from "../photos/data/AlbumData";
 
 import {initializeApp} from "firebase/app";
 import {getAnalytics} from "firebase/analytics";
@@ -56,7 +56,7 @@ function App() {
                             <Route path="/apps/codice-fiscale" element={<CodiceFiscale/>}/>
                             <Route path="*" element={<NotFound/>}/>
 
-                            {PhotoData && PhotoData.map(
+                            {AlbumData && AlbumData.map(
                                 (config, i) => <Route key={`route-${i}`} path={`/photos/${config.id}`} element={
                                     <AlbumDisplay id={config.id}
                                                   flag={config.flag}

@@ -1,4 +1,4 @@
-export const PhotoData = [
+export const AlbumData = [
     {
         id: "skye",
         title: "Isle of Skye",
@@ -11,4 +11,4 @@ export const PhotoData = [
     }
 ];
 
-export default PhotoData;
+export default AlbumData;
