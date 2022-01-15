@@ -40,7 +40,7 @@ class WorldMap extends Component {
                 data: [
                     {
                         title: "Austria",
-                        id: "AT", // With MapPolygonSeries.useGeodata = true, it will try and match this id, then apply the other properties as custom data
+                        id: "AT",
                     },
                     {
                         title: "Belgium",
@@ -219,7 +219,7 @@ class WorldMap extends Component {
             >
                 <div className="container">
                     <h2 className="section-title font-weight-bold mb-3">
-                        Countries I've been to
+                        Countries I've visited
                     </h2>
                     <div className="row">
                         <div id="chartdiv"></div>
