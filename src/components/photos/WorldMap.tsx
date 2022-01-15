@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, {Component} from "react";
 import "../../assets/css/main.scss";
 import * as am4core from "@amcharts/amcharts4/core";
 import * as am4maps from "@amcharts/amcharts4/maps";
@@ -9,6 +9,7 @@ am4core.useTheme(am4themes_animated);
 
 class WorldMap extends Component {
     private chart: any;
+
     componentDidMount() {
         let chart = am4core.create("chartdiv", am4maps.MapChart);
 
@@ -17,7 +18,7 @@ class WorldMap extends Component {
         chart.zoomControl = new am4maps.ZoomControl();
 
         let homeButton = new am4core.Button();
-        homeButton.events.on("hit", function() {
+        homeButton.events.on("hit", function () {
             chart.goHome();
         });
 
@@ -32,7 +33,7 @@ class WorldMap extends Component {
 
         // Center on the groups by default
         chart.homeZoomLevel = 1.4;
-        chart.homeGeoPoint = { longitude: 10, latitude: 50 };
+        chart.homeGeoPoint = {longitude: 10, latitude: 50};
 
         let groupData = [
             {
@@ -135,12 +136,12 @@ class WorldMap extends Component {
         let excludedCountries = ["AQ"];
 
         // Create a series for each group, and populate the above array
-        groupData.forEach(function(group) {
+        groupData.forEach(function (group) {
             let series = chart.series.push(new am4maps.MapPolygonSeries());
             series.name = group.name;
             series.useGeodata = true;
             let includedCountries: string[] = [];
-            group.data.forEach(function(country) {
+            group.data.forEach(function (country) {
                 includedCountries.push(country.id);
                 excludedCountries.push(country.id);
             });
@@ -162,16 +163,16 @@ class WorldMap extends Component {
             mapPolygonTemplate.nonScalingStroke = true;
             mapPolygonTemplate.tooltipPosition = "fixed";
 
-            mapPolygonTemplate.events.on("over", function(event) {
-                series.mapPolygons.each(function(mapPolygon) {
+            mapPolygonTemplate.events.on("over", function (event) {
+                series.mapPolygons.each(function (mapPolygon) {
                     mapPolygon.isHover = true;
                 });
                 event.target.isHover = false;
                 event.target.isHover = true;
             });
 
-            mapPolygonTemplate.events.on("out", function(event) {
-                series.mapPolygons.each(function(mapPolygon) {
+            mapPolygonTemplate.events.on("out", function (event) {
+                series.mapPolygons.each(function (mapPolygon) {
                     mapPolygon.isHover = false;
                 });
             });
@@ -215,14 +216,14 @@ class WorldMap extends Component {
         return (
             <section
                 className="overview-section p-3 p-lg-3"
-                style={{ marginTop: -50 + "px" }}
+                style={{marginTop: -50 + "px"}}
             >
                 <div className="container">
                     <h2 className="section-title font-weight-bold mb-3">
                         Countries I've visited
                     </h2>
                     <div className="row">
-                        <div id="chartdiv"></div>
+                        <div id="chartdiv"/>
                     </div>
                 </div>
             </section>
