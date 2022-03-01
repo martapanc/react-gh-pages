@@ -2,13 +2,24 @@ import bookinggo from "../../../assets/images/work/booking.webp";
 import ict from "../../../assets/images/work/ict.webp";
 import unibz from "../../../assets/images/work/unibz.webp";
 import bjss from "../../../assets/images/work/bjss.webp";
+import resourcify from "../../../assets/images/work/resourcify.webp";
 
 export const WorkData = {
+    resourcify: {
+        title: "Resourcify ~ Hamburg (remote)",
+        subtitle: "Software Engineer",
+        begin: "2022",
+        end: "present",
+        items: [
+            "Europe's #1 platform for intelligent and sustainable waste and recyclables management"
+        ],
+        icon: resourcify,
+    },
     bjss: {
         title: "BJSS Ltd. ~ Manchester (remote)",
         subtitle: "Software Engineer",
         begin: "2020",
-        end: "present",
+        end: "2022",
         items: [
             "Technology consultancy company",
             "All the work is project-based, providing opportunities to work with several clients and various programming languages and stacks",

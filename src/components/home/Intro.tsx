@@ -2,7 +2,9 @@ import React from "react";
 import "../../assets/css/main.scss";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCode, faFileAlt} from "@fortawesome/free-solid-svg-icons";
+import bookingcom from "../../assets/images/intro/bookingcom.svg";
 import bjss from "../../assets/images/intro/bjss.webp";
+import resourcify from "../../assets/images/intro/resourcify.webp";
 
 function Intro() {
     return (
@@ -15,16 +17,23 @@ function Intro() {
                         </h2>
                         <div className="tagline mb-3">Software Engineer</div>
                         <div className="bio mb-4">
-                            I'm a software engineer based in Manchester (UK), currently working at{" "}
-                            <img src={bjss} alt={"bjss"} width={"45px"}/>, specialised in Java, backend and web
+                            I'm a software engineer based in Manchester (UK), currently working at {" "}
+                            <a href="https://resourcify.de/" target="_blank" rel="noopener noreferrer">
+                                <img src={resourcify} alt={"Resourcify"} height={"20px"}/>
+                            </a>
+                            , specialised in Java, backend and
+                            web
                             development.
                             <br/>I have a MSc in Advanced Computer Science from the University of
-                            Manchester and two years of experience at <strong>
-                                <span style={{color: "#21457E"}}>
-                                    Booking
-                                </span>
-                            <span style={{color: "#4A9EDA"}}>.com</span>
-                            </strong>.
+                            Manchester and four years of experience at{" "}
+                            <a href="https://bjss.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={bjss} alt={"BJSS"} height={"22px"}/>
+                            </a>
+                            {" "} and {" "}
+                            <a href="https://www.booking.com/" target="_blank" rel="noopener noreferrer">
+                                <img src={bookingcom} alt={"Booking.com"} height={"18px"}/>
+                            </a>
+
                             <div className="free-time">
                                 <a
                                     className="link-on-bg"
