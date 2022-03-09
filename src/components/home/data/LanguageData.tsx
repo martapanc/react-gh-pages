@@ -41,6 +41,9 @@ import heroku from "../../../assets/images/languages/heroku.webp";
 import docker from "../../../assets/images/languages/docker.svg";
 import drupal from "../../../assets/images/languages/drupal.webp";
 import gtm from "../../../assets/images/languages/gtm.svg";
+import vue from "../../../assets/images/languages/vue.svg";
+import azure from "../../../assets/images/languages/azure.svg";
+import jenkins from "../../../assets/images/languages/jenkins.svg";
 
 export const LanguageData = {
     java: {
@@ -77,8 +80,9 @@ export const LanguageData = {
             {object: ts, name: "TypeScript"},
             {object: node, name: "Node"},
             {object: jquery, name: "JQuery"},
-            {object: angular, name: "Angular"},
             {object: react, name: "React"},
+            {object: angular, name: "Angular"},
+            {object: vue, name: "Vue"},
         ],
         text:
             "I delved into JavaScript during my work placements. In particular, I developed an interactive timesheet " +
@@ -167,6 +171,8 @@ export const LanguageData = {
         icons: [
             {object: aws, name: "Amazon Web Services"},
             {object: gcp, name: "Google Cloud Platform"},
+            {object: azure, name: "Azure"},
+            {object: jenkins, name: "Jenkins"},
             {object: gtm, name: "Google Tag Manager"},
             {object: heroku, name: "Heroku"},
             {object: docker, name: "Docker"}

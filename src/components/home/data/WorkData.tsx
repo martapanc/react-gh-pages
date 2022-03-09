@@ -24,7 +24,7 @@ export const WorkData = {
         items: [
             "Technology consultancy company",
             "All the work is project-based, providing opportunities to work with various clients and programming languages and stacks " +
-            "– mainly PHP, Java, Javascript, Angular and Vue",
+            "– mainly PHP, Java, Javascript, Angular and Vue, Docker, Jenkins and Azure",
             "Main developer responsible for implementing an updated Cookie & Privacy policy on a client's EU-based websites",
             "Support engineer/tester for the Platform team to create a containerised version of the client's web-app"
         ],
