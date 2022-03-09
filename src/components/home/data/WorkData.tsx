@@ -11,7 +11,8 @@ export const WorkData = {
         begin: "2022",
         end: "present",
         items: [
-            "Europe's #1 platform for intelligent and sustainable waste and recyclables management"
+            "Europe's #1 platform for intelligent and sustainable waste and recyclables management",
+            "Part of the Recycler API / Platform Core team"
         ],
         icon: resourcify,
     },
@@ -22,7 +23,8 @@ export const WorkData = {
         end: "2022",
         items: [
             "Technology consultancy company",
-            "All the work is project-based, providing opportunities to work with several clients and various programming languages and stacks",
+            "All the work is project-based, providing opportunities to work with various clients and programming languages and stacks " +
+            "– mainly PHP, Java, Javascript, Angular and Vue",
             "Main developer responsible for implementing an updated Cookie & Privacy policy on a client's EU-based websites",
             "Support engineer/tester for the Platform team to create a containerised version of the client's web-app"
         ],
@@ -43,7 +45,7 @@ export const WorkData = {
         icon: bookinggo,
     },
     unibz: {
-        title: "UniBZ - Faculty of Computer Science",
+        title: "UniBZ – Faculty of Computer Science",
         subtitle: "Research Assistant",
         begin: "2017",
         end: "2018",
