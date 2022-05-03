@@ -9,6 +9,7 @@ import resourcify from "../../assets/images/intro/resourcify.webp";
 function Intro() {
     return (
         <section className="about-me-section p-3 p-lg-4 theme-bg-light">
+            <a id="intro"/>
             <div className="container">
                 <div className="profile-teaser media flex-column flex-lg-row">
                     <div className="media-body">

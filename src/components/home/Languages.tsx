@@ -10,6 +10,7 @@ import world from "../../assets/images/intro/internet.svg";
 function Languages() {
     return (
         <section className="overview-section p-3 p-lg-3 responsive-adjust">
+            <a id="languages"/>
             <div className="container">
                 <h2 className="section-title font-weight-bold mb-3">
                     <img

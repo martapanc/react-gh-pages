@@ -9,6 +9,7 @@ const GitHubCalendar = require("github-calendar");
 export default function GithubContribs() {
     return (
         <section className="overview-section p-3 p-lg-3 responsive-hide github-calendar">
+            <a id="github"/>
             <div className="container">
                 <h2 className="section-title font-weight-bold mb-3">
                     <img

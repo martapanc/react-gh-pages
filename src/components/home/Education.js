@@ -7,6 +7,7 @@ import edu from "../../assets/images/intro/mortarboard.svg";
 function Education() {
     return (
         <section className="overview-section p-3 p-lg-3">
+            <a id="education"/>
             <div className="container" id="education">
                 <h2 className="section-title font-weight-bold mb-3">
                     <img

@@ -8,6 +8,7 @@ import news from "../../assets/images/intro/newspaper.svg";
 function Publications() {
     return (
         <section className="overview-section p-3 p-lg-3 responsive-adjust">
+            <a id="publications"/>
             <div className="container">
                 <h2 className="section-title font-weight-bold mb-3">
                     <img

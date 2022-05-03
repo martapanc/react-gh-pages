@@ -11,6 +11,7 @@ import ig from "../../assets/images/insta.webp";
 function Fun() {
     return (
         <section className="overview-section p-3 p-lg-3 responsive-adjust">
+            <a id="fun"/>
             <div className="container">
                 <div>
                     <h2 className="section-title font-weight-bold mb-3">

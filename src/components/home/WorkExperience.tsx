@@ -7,6 +7,7 @@ import bag from "../../assets/images/intro/business-and-finance.svg";
 function WorkExperience() {
     return (
         <section className="overview-section p-3 p-lg-3">
+            <a id="work"/>
             <div className="container" id="experience">
                 <h2 className="section-title font-weight-bold mb-2">
                     <img

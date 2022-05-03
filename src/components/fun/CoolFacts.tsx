@@ -27,6 +27,7 @@ export default class CoolFacts extends Component {
     render() {
         return (
             <section className="overview-section p3 p-lg-3 responsive-hide">
+                <a id="cool-facts"/>
                 <div className="container cool-facts-container">
                     <h2 className="section-title font-weight-bold mb-3 cool-facts-title">Cool facts about me</h2>
                     <div className="cool-facts-item cool-facts-item__text">
