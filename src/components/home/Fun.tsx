@@ -60,6 +60,7 @@ function Fun() {
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-6 p-2 fun-item">
+                        <a id="books"/>
                         <h3
                             style={{
                                 fontFamily: "Baskerville",
@@ -71,6 +72,7 @@ function Fun() {
                         <BookSection/>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 fun-item">
+                        <a id="music"/>
                         <h3
                             style={{
                                 fontFamily: "Trebuchet MS",
@@ -156,6 +158,7 @@ function Fun() {
                 </div>
                 <div className="row">
                     <div className="col-12 col-md-6 col-lg-6 fun-item">
+                        <a id="photos"/>
                         <h3
                             style={{
                                 fontFamily: "Lucida Console",
@@ -184,6 +187,7 @@ function Fun() {
                         </a>
                     </div>
                     <div className="col-12 col-md-6 col-lg-6 fun-item">
+                        <a id="gaming"/>
                         <h3 style={{fontFamily: "Impact", color: "#226d10"}}>
                             Gaming
                         </h3>
