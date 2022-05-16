@@ -19,7 +19,7 @@ function Intro() {
                         <div className="tagline mb-3">Software Engineer</div>
                         <div className="bio mb-4">
                             I'm a software engineer based in Manchester (UK), currently working at {" "}
-                            <a href="https://resourcify.de/" target="_blank" rel="noopener noreferrer">
+                            <a href="https://resourcify.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={resourcify} alt={"Resourcify"} height={"20px"}/>
                             </a>
                             , specialised in Java, backend and
