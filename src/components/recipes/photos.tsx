@@ -12,6 +12,7 @@ import burgers_3 from "../../assets/images/recipes/burgers_3.webp";
 import bruschette from "../../assets/images/recipes/bruschette.webp";
 import cheesecake from "../../assets/images/recipes/cheesecakes.webp";
 import cheese_dip from "../../assets/images/recipes/cheese_dip.webp";
+import croque_monsieur from "../../assets/images/recipes/croque_monsieur.webp";
 import crozets from "../../assets/images/recipes/crozets.webp";
 import falafels from "../../assets/images/recipes/falafels.webp";
 import falafels_2 from "../../assets/images/recipes/falafels_2.webp";
@@ -25,6 +26,7 @@ import halloumi from "../../assets/images/recipes/halloumi.webp";
 import hotdogs from "../../assets/images/recipes/hotdogs.webp";
 import mozzarella_in_carrozza from "../../assets/images/recipes/mozzarella_in_carrozza.webp";
 import nachos from "../../assets/images/recipes/nachos.webp";
+import nut_tarte from "../../assets/images/recipes/nut_tarte.webp";
 import pancakes from "../../assets/images/recipes/pancakes.webp";
 import pandoro from "../../assets/images/recipes/pandoro.webp";
 import pasta_bake from "../../assets/images/recipes/pasta_bake.webp";
@@ -172,6 +174,12 @@ export const photos = [
         alt: "Gyros with homemade fries"
     },
     {
+        src: nut_tarte,
+        width: pic_width,
+        height: pic_height,
+        alt: "Nut tarte"
+    },
+    {
         src: halloumi,
         width: pic_width,
         height: pic_height,
@@ -212,6 +220,12 @@ export const photos = [
         width: 3,
         height: 4,
         alt: "Pandoro 🇮🇹"
+    },
+    {
+        src: croque_monsieur,
+        width: pic_width,
+        height: pic_height,
+        alt: "Croque monsieur 🇫🇷"
     },
     {
         src: focaccia,
