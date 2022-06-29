@@ -12,7 +12,9 @@ export const WorkData = {
         end: "present",
         items: [
             "Europe's #1 platform for intelligent and sustainable waste and recyclables management",
-            "Part of the Recycler API / Platform Core team"
+            "Started as part of the Recycler API / Platform Core team",
+            "Recently involved in building the new accounting platform for the internal use of the company and its partners",
+            "Most of the work involves Spring Boot and Angular"
         ],
         icon: resourcify,
     },

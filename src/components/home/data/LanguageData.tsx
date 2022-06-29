@@ -56,7 +56,7 @@ export const LanguageData = {
             {object: jsp, name: "JSP"},
         ],
         text:
-            "I've worked with Java for 6 years and I developed various projects for university and personal development, " +
+            "I've worked with Java for 7 years and I developed various projects for university and personal development, " +
             "including a Library Management software and a Restaurant reservations and take-away webapp in JSP." +
             "\nCheck out my projects [here](/projects).",
         show: true,
@@ -85,9 +85,8 @@ export const LanguageData = {
             {object: vue, name: "Vue"},
         ],
         text:
-            "I delved into JavaScript during my work placements. In particular, I developed an interactive timesheet " +
-            "with Angular, and I've learnt React in my current job, building components for the " +
-            "[Rentalcars.com](https://www.rentalcars.com/) website.",
+            "I delved into JavaScript during my work placements. In particular, I've learnt React in my past job, developing UI " +
+            "components for the Rentalcars website, and Angular to build my current company's new tools.",
         show: true,
     },
     web: {
