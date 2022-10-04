@@ -56,7 +56,7 @@ export const LanguageData = {
             {object: jsp, name: "JSP"},
         ],
         text:
-            "I've worked with Java for 7 years and I developed various projects for university and personal development, " +
+            "I've worked with Java for 7+ years and I developed various projects for university and personal development, " +
             "including a Library Management software and a Restaurant reservations and take-away webapp in JSP." +
             "\nCheck out my projects [here](/projects).",
         show: true,
@@ -69,8 +69,8 @@ export const LanguageData = {
             {object: flask, name: "Flask"},
         ],
         text:
-            "I taught myself Python and it quickly became one of my favourite languages. I mainly used it to develop an " +
-            "automated assessment tool for programming assignments, which was the subject of my MSc Dissertation.",
+            "I taught myself Python and it quickly became one of my favourite languages. <br>I mainly used it to develop an " +
+            "automated assessment tool for CompSci programming assignments, which was the focus of my MSc Dissertation.",
         show: true,
     },
     js: {
@@ -86,7 +86,7 @@ export const LanguageData = {
         ],
         text:
             "I delved into JavaScript during my work placements. In particular, I've learnt React in my past job, developing UI " +
-            "components for the Rentalcars website, and Angular to build my current company's new tools.",
+            "components for the Rentalcars website, and the latest Angular with TypeScript to build my employer's new tools.",
         show: true,
     },
     web: {
@@ -109,9 +109,8 @@ export const LanguageData = {
             {object: kotlin, name: "Kotlin"},
         ],
         text:
-            "I've started learning Kotlin last year, as I'm intrigued by its features and possibilities for mobile development. " +
-            "For now I'm following Google's tutorials for developing Android applications, " +
-            "and I can't wait to apply what I've learned to create complex apps. Stay tuned ;)",
+            "I've started learning Kotlin two years ago, as I'm intrigued by its features and possibilities for mobile development. " +
+            "For now I've created a few simple apps, and I'm looking to learn frameworks like Flutter and React Native.",
         show: false,
     },
     cs: {
@@ -134,7 +133,7 @@ export const LanguageData = {
             {object: firebase, name: "Firestore"},
         ],
         text:
-            "A Library Manager was the project that introduced me to complex relational db architectures. " +
+            "A Library Manager was the project that introduced me to complex relational DB architectures. " +
             "Since then I designed several systems for personal and work projects, mostly with Postgres and MySQL, " +
             "as well as MongoDB and Firestore in the NoSQL world.",
         show: false,
