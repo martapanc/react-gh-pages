@@ -37,7 +37,6 @@ import pierogi_2 from "../../assets/images/recipes/pierogi_2.webp";
 import potato_croissants from "../../assets/images/recipes/potato_croissants.webp";
 import raclette from "../../assets/images/recipes/raclette.webp";
 import risotto from "../../assets/images/recipes/risotto.webp";
-import bliny from "../../assets/images/recipes/bliny.webp";
 import spaetzle from "../../assets/images/recipes/spaetzle.webp";
 import strudel from "../../assets/images/recipes/strudel.webp";
 import sushi_3 from "../../assets/images/recipes/sushi_3.webp";
@@ -66,6 +65,15 @@ import spring_rolls from "../../assets/images/recipes/spring_rolls.webp";
 import sushi_6 from "../../assets/images/recipes/sushi_6.webp";
 import veg_soup from "../../assets/images/recipes/veg_soup.webp";
 import zucchini from "../../assets/images/recipes/zucchini.webp";
+import couscous from "../../assets/images/recipes/couscous.webp";
+import croque_monsieur_2 from "../../assets/images/recipes/croque_monsieur_2.webp";
+import curry_rice from "../../assets/images/recipes/curry_rice.webp";
+import farfalle from "../../assets/images/recipes/farfalle.webp";
+import mozzarella_in_carrozza_2 from "../../assets/images/recipes/mozzarella_in_carrozza_2.webp";
+import nigiri from "../../assets/images/recipes/nigiri.webp";
+import sushi_1 from "../../assets/images/recipes/sushi_1.webp";
+import tagliatelle from "../../assets/images/recipes/tagliatelle.webp";
+import wraps from "../../assets/images/recipes/wraps.webp";
 
 const pic_width = 4
 const pic_height = 3
@@ -85,7 +93,7 @@ export const photos = [
     },
     {
         src: biscuits,
-        width: pic_width,
+        width: 3.6,
         height: pic_height,
         alt: "Ginger biscuits with sugarpaste decorations"
     },
@@ -117,7 +125,7 @@ export const photos = [
         src: cheesecake,
         width: pic_width,
         height: pic_height,
-        alt: "Mini cheesecakes"
+        alt: "Mini cheesecakes 🇺🇸"
     },
     {
         src: baguette_1,
@@ -133,7 +141,7 @@ export const photos = [
     },
     {
         src: baguette_2,
-        width: pic_width,
+        width: 3.8,
         height: pic_height,
         alt: "Baguette pieces for cheese fondue"
     },
@@ -177,13 +185,13 @@ export const photos = [
         src: nut_tarte,
         width: pic_width,
         height: pic_height,
-        alt: "Nut tarte"
+        alt: "Nut tart"
     },
     {
         src: halloumi,
         width: pic_width,
         height: pic_height,
-        alt: "Fried halloumi, puff pastry rolls and salad"
+        alt: "Fried halloumi, puff pastry rolls and salad 🇨🇾"
     },
     {
         src: toast_salad,
@@ -207,7 +215,7 @@ export const photos = [
         src: nachos,
         width: pic_width,
         height: pic_height,
-        alt: "(attempt at) Nachos"
+        alt: "(attempt at) Nachos 🇲🇽"
     },
     {
         src: pancakes,
@@ -478,5 +486,58 @@ export const photos = [
         width: pic_width,
         height: pic_height,
         alt: "Zucchini al forno"
+    },
+    {
+        src: couscous,
+        width: 3,
+        height: 2.6,
+        alt: "Couscous 🇲🇦"
+    },
+    {
+        src: croque_monsieur_2,
+        width: pic_width,
+        height: pic_height,
+        alt: "Croque monsieur #2"
+    },
+    {
+        src: curry_rice,
+        width: 3,
+        height: 2.5,
+        alt: "Curry rice 🇮🇳"
+    },
+    {
+        src: farfalle,
+        width: 3,
+        height: 2.5,
+        alt: "Colourful farfalle 🦋"
+    },
+    {
+        src: mozzarella_in_carrozza_2,
+        width: 2.9,
+        height: 2.5,
+        alt: "More mozzarella in carrozza 😋"
+    },
+    {
+        src: nigiri,
+        width: pic_width,
+        height: pic_height,
+        alt: "Salmon nigiri 🍣"
+    },
+    {
+        src: sushi_1,
+        width: pic_width,
+        height: pic_height,
+        alt: "Never enough sushi 🇯🇵"
+    },
+    {
+        src: tagliatelle,
+        width: pic_width,
+        height: pic_height,
+        alt: "Homemade tagliatelle"
+    },{
+        src: wraps,
+        width: pic_width,
+        height: pic_height,
+        alt: "Veg wraps 🇬🇷"
     },
 ];
