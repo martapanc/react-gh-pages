@@ -27,6 +27,11 @@ export const CoolFactsData = [
         text: "I have a brown belt in karate, which I practised for 6 years 🥋 &nbsp;I took part in a few local competitions, including the" +
             "<a href=\"http://www.fondazionesport.it/Sezione.jsp?idSezione=50&visscadute=1\" target=\"_blank\">\"Tricolore Youth Olympic Games\"</a>" +
             " in Reggio Emilia... so be careful when you're around me 😉"
+    },
+    {
+        title: "Covid",
+        text: "At the time of writing this - October 2022 - I haven't caught Covid-19. If I manage not to ever catch it, " +
+            "I'll consider it a Platinum Trophy™ 🏆"
     }
 ];
 

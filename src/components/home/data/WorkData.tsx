@@ -14,7 +14,7 @@ export const WorkData = {
             "Europe's #1 platform for intelligent and sustainable waste and recyclables management",
             "Started as part of the Recycler API / Platform Core team",
             "Recently involved in building the new accounting platform for the internal use of the company and its partners",
-            "Most of the work involves Spring Boot and Angular"
+            "Most of the work involves Spring Boot and Angular with TypeScript"
         ],
         icon: resourcify,
     },
@@ -25,8 +25,8 @@ export const WorkData = {
         end: "2022",
         items: [
             "Technology consultancy company",
-            "All the work is project-based, providing opportunities to work with various clients and programming languages and stacks " +
-            "– mainly PHP, Java, Javascript, Angular and Vue, Docker, Jenkins and Azure",
+            "All the work is project-based, providing opportunities to work with various clients and programming languages " +
+            "and stacks – mainly PHP, Java, JavaScript, Angular and Vue, Docker, Jenkins and Azure",
             "Main developer responsible for implementing an updated Cookie & Privacy policy on a client's EU-based websites",
             "Support engineer/tester for the Platform team to create a containerised version of the client's web-app"
         ],
@@ -67,7 +67,7 @@ export const WorkData = {
         items: [
             "Summer internship followed by a 5-month remote collaboration contract",
             "Development of a HRMS, a customisable web portal for the request and management of the employees' holidays.",
-            "Main technologies: HTML, CSS, Javascript, AngularJS, JQuery, NodeJS, Java, MongoDB, Wildfly",
+            "Main technologies: HTML, CSS, JavaScript, AngularJS, JQuery, Node, Java, MongoDB, Wildfly",
         ],
         icon: ict,
     },
