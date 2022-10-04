@@ -4,9 +4,8 @@ import "./styles.scss";
 import Markdown from "markdown-to-jsx";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faNewspaper} from "@fortawesome/free-regular-svg-icons";
-import {faEllipsisV, faFileAlt, faImages} from "@fortawesome/free-solid-svg-icons";
-import {faYoutube, faGooglePlay, faGithub} from "@fortawesome/free-brands-svg-icons";
-import {faCode} from "@fortawesome/fontawesome-free-solid";
+import {faEllipsisV, faFileAlt, faImages, faCode} from "@fortawesome/free-solid-svg-icons";
+import {faYoutube, faGooglePlay, faGithub, } from "@fortawesome/free-brands-svg-icons";
 
 class ProjectCard extends Component {
     constructor(props) {
