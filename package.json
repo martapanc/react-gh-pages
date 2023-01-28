@@ -44,7 +44,7 @@
     "lightgallery": "^2.6.1",
     "markdown-to-jsx": "^7.1.7",
     "materialize-css": "^1.0.0",
-    "netlify-cli": "^12.0.5",
+    "netlify-cli": "^12.10.0",
     "normalize-url": "^7.2.0",
     "popper.js": "^1.16.1",
     "prettier": "^2.6.2",
