@@ -15,12 +15,12 @@ export const CoolFactsData = [
     },
     {
         title: "SF + Shanghai",
-        text: "The craziest trip of my life? That time I visited San Francisco and the major companies and schools in " +
-            "the Bay Area (Google, Facebook, Linkedin, Logitech, Stanford, Berkeley...) as part of the " +
+        text: "The craziest trip of my life? That time I visited San Francisco and the big companies and schools in " +
+            "the Bay Area (Google, Facebook, Linkedin, Logitech, Stanford University, UC Berkeley...) as part of the " +
             "<a href=\"https://www.siliconvalleystudytour.com/\" target=\"_blank\">\"Silicon Valley Study Tour\"</a> " +
-            "and immediately afterwords I flew to Shanghai to attend a Hackathon, the " +
+            ". I then immediately flew to Shanghai to participate in a Hackathon, " +
             "<a href=\"https://globalsummerschool.org/\" target=\"_blank\">GESS 2017</a>... " +
-            "all this in less than 3 weeks 🌎 "
+            "all within a span of less than 3 weeks 🌎"
     },
     {
         title: "Karate",
@@ -30,11 +30,9 @@ export const CoolFactsData = [
     },
     {
         title: "Covid",
-        text: "At the time of writing this - October 2022 - I haven't caught Covid-19. If I manage not to ever catch it, " +
+        text: "At the time of writing this - February 2023 - I haven't caught Covid-19. If I manage not to ever catch it, " +
             "I'll consider it a Platinum Trophy™ 🏆"
     }
 ];
 
 export const ComingSoon = "That was the last cool fact I could think of... come back in some time for more :)";
-
-export default CoolFactsData;
