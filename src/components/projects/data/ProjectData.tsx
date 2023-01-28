@@ -315,8 +315,8 @@ export const ProjectData = [
         repo: "https://github.com/martapanc/Advent-Of-Code",
         tags: ["java", "kotlin", "self"],
         text:
-            "After taking part to the Advent of Code 2020 challenges, I decided to go back and solve all puzzles from the " +
-            "past years. I succeeded in a few weeks, and now I'm quite proud of my shiny 300 stars ⭐&nbsp; — not to " +
+            "After participating in the Advent of Code 2020 challenges, I decided to go back and solve all puzzles from the " +
+            "past years. I succeeded in a few weeks, and now I'm quite proud of my shiny 350 stars ⭐&nbsp; — not to " +
             "mention the huge progress I've made with Kotlin and complex algorithms.",
     },
     {

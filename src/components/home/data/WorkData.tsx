@@ -2,18 +2,18 @@ import bookinggo from "../../../assets/images/work/booking.webp";
 import ict from "../../../assets/images/work/ict.webp";
 import unibz from "../../../assets/images/work/unibz.webp";
 import bjss from "../../../assets/images/work/bjss.webp";
-import resourcify from "../../../assets/images/work/resourcify.webp";
+import resourcify from "../../../assets/images/work/resourcify.jpeg";
 
 export const WorkData = {
     resourcify: {
         title: "Resourcify ~ Hamburg (remote)",
-        subtitle: "Software Engineer",
+        subtitle: "Full-Stack Engineer",
         begin: "2022",
         end: "present",
         items: [
             "Europe's #1 platform for intelligent and sustainable waste and recyclables management",
             "Started as part of the Recycler API / Platform Core team",
-            "Recently involved in building the new accounting platform for the internal use of the company and its partners",
+            "Development of the new accounting platform for the internal use of the company and its clients",
             "Most of the work involves Spring Boot and Angular with TypeScript"
         ],
         icon: resourcify,

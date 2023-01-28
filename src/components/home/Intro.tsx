@@ -21,12 +21,9 @@ function Intro() {
                             I'm a software engineer based in Turin (Italy), currently working at {"  "}
                             <a href="https://resourcify.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={resourcify} alt={"Resourcify"} height={"20px"}/>
-                            </a>
-                            , specialised in Java, backend and
-                            web
-                            development.
-                            <br/>I have a MSc in Advanced Computer Science from the University of
-                            Manchester and four years of experience at{" "}
+                            </a>, specialised in Java, backend and web development.
+                            <br/>I hold a MSc in Advanced Computer Science from the University of
+                            Manchester, and have four years of experience at{" "}
                             <a href="https://bjss.com/" target="_blank" rel="noopener noreferrer">
                                 <img src={bjss} alt={"BJSS"} height={"22px"}/>
                             </a>
